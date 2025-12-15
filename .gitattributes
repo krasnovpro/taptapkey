@@ -9,3 +9,17 @@
 *.svg text eol=lf
 *.txt text eol=lf
 *.yaml text eol=lf
+
+.idea                  export-ignore
+.vscode                export-ignore
+*.code-workspace       export-ignore
+*.git*                 export-ignore
+autohotkey.chm         export-ignore
+chm_config.js          export-ignore
+lib/CodeQuickTester/   export-ignore
+lib/DebugVars/         export-ignore
+lib/Debugviewpp.exe    export-ignore
+lib/kat.png            export-ignore
+lib/ttk.png            export-ignore
+readme.md              export-ignore
+
