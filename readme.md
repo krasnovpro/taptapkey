@@ -31,8 +31,11 @@ Together, we can turn creativity into kindness. ❤️
 ## Donation wallets
 
 SOL `DxYZLUMpQDB5wghE46Qd7iyYpJLFdCcHucHqv6MWCdWz`
+
 TON `UQDuOZVHOcSO9e6IlxTGiedXfsHsS3l4pj_G_UQFv5Z9iswg`
+
 ETH `0xbC8bb81a0C97D7E9d50b29849AdDd679F28D059a`
+
 BTC `bc1qyu7uuapvmmflw4zxe2kxfxa6edx5f2mt0ge2mp`
 
 ## Contacts
