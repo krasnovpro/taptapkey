@@ -1,0 +1,71 @@
+﻿# Browsers menu
+
+- text: Tab to
+  icon: '#tabs'
+
+- text: Brave
+  icon: '#brave'
+  key: b
+  action:
+    - switchBrowser
+    - '%UserProfile%\scoop\apps\brave\current\brave.exe'
+
+- text: Chrome
+  icon: '#chrome'
+  key: c
+  action:
+    - switchBrowser
+    - '%UserProfile%\scoop\apps\googlechrome-dev\current\chrome.exe'
+
+- text: Comet
+  icon: '#comet'
+  key: t
+  action:
+    - switchBrowser
+    - '%LocalAppData%\Perplexity\Comet\Application\comet.exe'
+
+- text: Edge
+  icon: '#edge'
+  key: e
+  action:
+    - switchBrowser
+    - '%ProgramFiles(x86)%\Microsoft\Edge\Application\msedge.exe'
+
+- text: Firefox
+  icon: '#firefox'
+  key: f
+  action:
+    - switchBrowser
+    - '%UserProfile%\scoop\apps\firefox\current\firefox.exe'
+
+# - column: break
+
+# - text:
+
+# - text: Opera
+#   icon: '#opera'
+#   key: q
+#   action:
+#     - switchBrowser
+#     - '%UserProfile%\scoop\apps\opera\current\opera.exe'
+
+# - text: Tor
+#   icon: '#tor'
+#   key: t
+#   action:
+#     - switchBrowser
+#     - '%UserProfile%\scoop\apps\tor-browser\current\firefox.exe'
+
+# - text: Vivaldi
+#   icon: '#vivaldi'
+#   key: v
+#   action:
+#     - switchBrowser
+#     - '%UserProfile%\scoop\apps\vivaldi\current\Application\vivaldi.exe'
+
+- text: Yandex
+  icon: '#yandex'
+  key: y
+  action:
+    - switchBrowser
+    - '%LocalAppData%\Yandex\YandexBrowser\Application\browser.exe'

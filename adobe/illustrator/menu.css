@@ -1,0 +1,98 @@
+html {
+  --prefix-color: #0006;
+}
+
+.menu {
+  .text {
+    p {
+      background-color: var(--prefix-color);
+      border-radius: calc(var(--corner) / 3);
+      color: var(--bg-color);
+      font-size: calc(var(--u) * 2);
+      font-weight: bold;
+      margin-right: calc(var(--margin) / 1.5);
+      padding: calc(var(--margin) / 2) var(--margin) calc(var(--margin) / 2.8) var(--margin);
+      position: relative;
+
+      &::after {
+        background: var(--toggle-color);
+        border-radius: calc(var(--corner) / 3);
+        color: var(--bg-color);
+        content: "Plugin required";
+        font-size: calc(var(--u) * 2.5);
+        font-weight: normal;
+        left: 50%;
+        opacity: 0;
+        padding: var(--u) calc(var(--u) * 2);
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, -120%);
+        transition: opacity 0 ease 0, transform 0 ease 0;
+        white-space: nowrap;
+      }
+
+      &:hover::after {
+        opacity: 1;
+        transform: translate(-50%, -140%);
+        transition: opacity 0.1s ease .6s, transform 0.1s ease .6s;
+      }
+    }
+  }
+
+  .item:is(
+    [data-action*="aiRunAction"],
+    [data-action*="aiTap"],
+    [data-action*="aiRunMenu"],
+    [data-action*="aiClickHome"],
+    [data-action*="aiPasteApng"],
+    [data-action*="aiRunMenu"],
+    [data-action*="aiRunScript"],
+    [data-action*="aiRunCode"],
+    [data-action*="aiSetUnits"],
+    [data-action*="aiSelectTool"]
+  ) .text::before {
+    content: "";
+    margin-right: var(--margin);
+    width: calc(var(--u) * 2);
+    height: calc(var(--u) * 2);
+  }
+
+  /* action */
+  .item[data-action*="aiRunAction"] .text::before {
+    background: no-repeat center/contain url('data:image/svg+xml,<svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" fill-rule="evenodd" clip-rule="evenodd" d="M8 4L1 7.5V0.5L8 4Z"/></svg>');
+  }
+
+  /* key */
+  .item[data-action*="aiTap"] .text::before {
+    background: no-repeat center/contain url('data:image/svg+xml,<svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M8 7L1 7L1 1L8 1L4.5 4L8 7Z"/></svg>');
+  }
+
+  /* menu */
+  .item[data-action*="aiRunMenu"] .text::before {
+    background: no-repeat center/contain url('data:image/svg+xml,<svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M7 0V7H1V0L4 3.5L7 0Z"/></svg>');
+  }
+
+  /* panel */
+  .item:is(
+    [data-action*="aiClickHome"],
+    [data-action*="aiRunMenu"][data-action*="Window > "]
+  ) .text::before {
+    background: no-repeat center/contain url('data:image/svg+xml,<svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" fill-rule="evenodd" clip-rule="evenodd" d="M3 5V7H1V1H7V5H3Z"/></svg>');
+  }
+
+  /* script */
+  .item:is(
+    [data-action*="aiPasteApng"],
+    [data-action*="aiRunScript"],
+    [data-action*="aiRunCode"],
+    [data-action*="aiSetUnits"]
+  ) .text::before {
+    background: no-repeat center/contain url('data:image/svg+xml,<svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M6 7H1V4H3L2 1H7V4H5L6 7Z"/></svg>');
+  }
+
+  /* tool */
+  .item[data-action*="aiSelectTool"] .text::before {
+    background: no-repeat center/contain url('data:image/svg+xml,<svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M7 4H5V7H3V4H1V1H7V4Z"/></svg>');
+  }
+}

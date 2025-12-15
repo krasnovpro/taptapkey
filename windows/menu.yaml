@@ -1,0 +1,16 @@
+﻿#Windows menu
+
+- text: Windows
+  icon: '#windows'
+
+- text: Dropbox direct link
+  icon: '#dropbox'
+  key: d
+  action:
+    - winDropbox
+
+- text: Password generator
+  key: q
+  action:
+    - winPwGen
+    - 16

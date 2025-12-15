@@ -1,0 +1,1326 @@
+/version 3
+/name [ 17
+	7461707461706b657920706c7567696e73
+]
+/isOpen 0
+/actionCount 29
+/action-1 {
+	/name [ 24
+		636f726e6572202d20616720636c65617220726164697573
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_dcconverttodynamic)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 31
+		}
+		/parameter-3 {
+			/key 1937011299
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_dcremovecorners)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 19
+		}
+	}
+}
+/action-2 {
+	/name [ 26
+		636f726e6572202d2061672064796e616d69632072656d6f7665
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_psremovecorner)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 49
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_dcremovedynamic)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 20
+		}
+	}
+}
+/action-3 {
+	/name [ 24
+		636f726e6572202d20616720736d6172742072656d6f7665
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_psremovepoint)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 48
+		}
+		/parameter-3 {
+			/key 1936552564
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-4 {
+	/name [ 22
+		636f726e6572202d20616720746f2064796e616d6963
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_dcconverttodynamic)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 31
+		}
+		/parameter-3 {
+			/key 1937011299
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-5 {
+	/name [ 15
+		70617468202d20616720636c6f7365
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_psclosepath)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 26
+		}
+		/parameter-3 {
+			/key 1768383848
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-6 {
+	/name [ 22
+		70617468202d20616720636c6f736520736d6f6f7468
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_psclosepathsmoothcurve)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 41
+		}
+	}
+}
+/action-7 {
+	/name [ 24
+		70617468202d20616720636c6f7365207374726169676874
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_psclosepath)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 26
+		}
+		/parameter-3 {
+			/key 1768383848
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-8 {
+	/name [ 39
+		70617468202d206167206d6f766520616c6c20706f696e747320746f2074616e
+		67656e63696573
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_psmoveptstotangencies)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 39
+		}
+		/parameter-3 {
+			/key 1752457582
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1987338606
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-9 {
+	/name [ 51
+		70617468202d206167206d6f76652073656c656374656420706f696e74732074
+		6f206e6561726573742074616e676563696573
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_psmoveselectedptstotangencies)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 40
+		}
+	}
+}
+/action-10 {
+	/name [ 16
+		70617468202d2061672072656a6f696e
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_rejoinpaths)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 16
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (unit real)
+			/value 0.5
+			/unit 592476268
+		}
+		/parameter-4 {
+			/key 1685288044
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-5 {
+			/key 1684302194
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-6 {
+			/key 1786147703
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-11 {
+	/name [ 23
+		70617468202d2061672072656a6f696e20737472696374
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_rejoinpaths)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 16
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (unit real)
+			/value 0.1
+			/unit 592476268
+		}
+		/parameter-4 {
+			/key 1685288044
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-5 {
+			/key 1684302194
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-6 {
+			/key 1786147703
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-12 {
+	/name [ 32
+		70617468202d2061672072656d6f7665207573656c6573732068616e646c6573
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_removeunnecessaryhandles)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 30
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (unit real)
+			/value 0.1000000028
+			/unit 591490663
+		}
+	}
+}
+/action-13 {
+	/name [ 32
+		70617468202d206167207265747261637420616e63686f722068616e646c6573
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_psretracthandles)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 42
+		}
+	}
+}
+/action-14 {
+	/name [ 33
+		70617468202d2061672072657472616374207365676d656e742068616e646c65
+		73
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vectorscribe_psretracthandlesselsegs)
+		/localizedName [ 12
+			566563746f72536372696265
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 44
+		}
+	}
+}
+/action-15 {
+	/name [ 26
+		70617468202d20616720736d6172742072656d6f7665202d2033
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 3.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-16 {
+	/name [ 26
+		70617468202d20616720736d6172742072656d6f7665202d2035
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 5.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-17 {
+	/name [ 27
+		70617468202d20616720736d6172742072656d6f7665202d203130
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 10.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-18 {
+	/name [ 27
+		70617468202d20616720736d6172742072656d6f7665202d203230
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 4.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-19 {
+	/name [ 27
+		70617468202d20616720736d6172742072656d6f7665202d203430
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 40.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-20 {
+	/name [ 27
+		70617468202d20616720736d6172742072656d6f7665202d203630
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 60.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-21 {
+	/name [ 32
+		70617468202d20616720736d6172742072656d6f7665202d2033207368617270
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 3.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-22 {
+	/name [ 32
+		70617468202d20616720736d6172742072656d6f7665202d2035207368617270
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 5.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-23 {
+	/name [ 33
+		70617468202d20616720736d6172742072656d6f7665202d2031302073686172
+		70
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 10.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-24 {
+	/name [ 33
+		70617468202d20616720736d6172742072656d6f7665202d2032302073686172
+		70
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 20.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-25 {
+	/name [ 33
+		70617468202d20616720736d6172742072656d6f7665202d2034302073686172
+		70
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 40.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-26 {
+	/name [ 33
+		70617468202d20616720736d6172742072656d6f7665202d2036302073686172
+		70
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_supersmartremove)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 22
+		}
+		/parameter-3 {
+			/key 1953459314
+			/showInPalette -1
+			/type (real)
+			/value 60.0
+		}
+		/parameter-4 {
+			/key 1886548835
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-27 {
+	/name [ 26
+		74797065202d20616720627265616b20696e746f206c696e6573
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_breaktext)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 28
+		}
+		/parameter-3 {
+			/key 1651665780
+			/showInPalette -1
+			/type (ustring)
+			/value [ 5
+				4c696e6573
+			]
+		}
+		/parameter-4 {
+			/key 1651665763
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+}
+/action-28 {
+	/name [ 26
+		74797065202d20616720627265616b20696e746f20776f726473
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_breaktext)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 28
+		}
+		/parameter-3 {
+			/key 1651665780
+			/showInPalette -1
+			/type (ustring)
+			/value [ 5
+				576f726473
+			]
+		}
+		/parameter-4 {
+			/key 1651665763
+			/showInPalette -1
+			/type (integer)
+			/value 1
+		}
+	}
+}
+/action-29 {
+	/name [ 17
+		74797065202d20616720636f6d62696e65
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (astute_vfa_combinepointtext)
+		/localizedName [ 14
+			566563746f724669727374416964
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1668116068
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668244581
+			/showInPalette -1
+			/type (integer)
+			/value 21
+		}
+		/parameter-3 {
+			/key 1920168035
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}

@@ -1,0 +1,501 @@
+# Adobe Illustrator funcs
+
+- tab: nudge
+  text: Nudge • Color • Select
+  hint: Nudge • Color • Select
+  icon: '#tabs/nudge'
+  key: 1
+  items:
+
+    - hint: Nudge horizontal ×1
+      icon: '#nudge_horizontal_1'
+      key: q
+      action:
+        up:
+          - aiNudge
+          - 1
+          - Left
+        down:
+          - aiNudge
+          - 1
+          - Right
+
+    - hint: Nudge horizontal ×0.1
+      icon: '#nudge_horizontal_0.1'
+      key: w
+      action:
+        up:
+          - aiNudge
+          - '0.1'
+          - Left
+        down:
+          - aiNudge
+          - '0.1'
+          - Right
+
+    - hint: Nudge horizontal ×0.01
+      icon: '#nudge_horizontal_0.01'
+      key: e
+      action:
+        up:
+          - aiNudge
+          - '0.01'
+          - Left
+        down:
+          - aiNudge
+          - '0.01'
+          - Right
+
+    - hint: ↑ Bring forward&#10;↓ Send backward
+      text: '↑O↓'
+      key: r
+      action:
+        up:
+          - aiRunMenu
+          - Object > Arrange > Bring Forward
+        down:
+          - aiRunMenu
+          - Object > Arrange > Send Backward
+
+    - hint: Adjacent horizontal move
+      icon: '#adjacent_horizontal_move'
+      key: t
+      action:
+        up:
+          - aiRunScript
+          - transform > adjacent > move > left
+        down:
+          - aiRunScript
+          - transform > adjacent > move > right
+
+    - hint: Adjacent horizontal copy
+      icon: '#adjacent_horizontal_copy'
+      key: y
+      action:
+        up:
+          - aiRunScript
+          - transform > adjacent > copy > left
+        down:
+          - aiRunScript
+          - transform > adjacent > copy > right
+
+    - hint: Nudge vertical ×1
+      icon: '#nudge_vertical_1'
+      key: a
+      action:
+        up:
+          - aiNudge
+          - 1
+          - Up
+        down:
+          - aiNudge
+          - 1
+          - Down
+
+    - hint: Nudge vertical ×0.1
+      icon: '#nudge_vertical_0.1'
+      key: s
+      action:
+        up:
+          - aiNudge
+          - '0.1'
+          - Up
+        down:
+          - aiNudge
+          - '0.1'
+          - Down
+
+    - hint: Nudge vertical ×0.01
+      icon: '#nudge_vertical_0.01'
+      key: d
+      action:
+        up:
+          - aiNudge
+          - '0.01'
+          - Up
+        down:
+          - aiNudge
+          - '0.01'
+          - Down
+
+    - hint: ↑ Bring in front of&#10;↓ Send behind&#10;(select several objects)
+      text: ↑S↓
+      key: f
+      action:
+        up:
+          - aiRunScript
+          - object > arrange > bring in front of
+        down:
+          - aiRunScript
+          - object > arrange > send behind
+
+    - hint: Adjacent vertical move
+      icon: '#adjacent_vertical_move'
+      key: g
+      action:
+        up:
+          - aiRunScript
+          - transform > adjacent > move > up
+        down:
+          - aiRunScript
+          - transform > adjacent > move > down
+
+    - hint: Adjacent vertical copy
+      icon: '#adjacent_vertical_copy'
+      key: h
+      action:
+        up:
+          - aiRunScript
+          - transform > adjacent > copy > up
+        down:
+          - aiRunScript
+          - transform > adjacent > copy > down
+
+    - hint: ↑ Random stroke color&#10;↓ Random fill color
+      icon: '#random_stroke_fill_color'
+      key: z
+      action:
+        up:
+          - aiRunScript
+          - color > random > stroke
+        down:
+          - aiRunScript
+          - color > random > fill
+
+    - hint: ↑ Gradient to color&#10;↓ Color to gradient
+      icon: '#g2c_c2g'
+      key: x
+      action:
+        up:
+          - aiRunScript
+          - color > gradient > gradient to color noui
+        down:
+          - aiRunScript
+          - color > gradient > color to gradient noui
+
+    - hint: Random layer color
+      icon: '#random_layer_color'
+      key: c
+      action:
+        up:
+          - aiRunScript
+          - color > random > layer
+        down:
+          - aiRunScript
+          - color > random > layer
+
+    - hint: Strokes width
+      icon: '#strokes_up_down'
+      key: v
+      action:
+        up:
+          - aiRunScript
+          - path > stroke > weight > up
+        down:
+          - aiRunScript
+          - path > stroke > weight > down
+
+    - hint: Adjacent settings
+      icon: '#adjacent_settings'
+      key: b
+      action:
+        up:
+          - aiRunScript
+          - transform > adjacent > settings
+        down:
+          - aiRunScript
+          - transform > adjacent > settings
+
+    - hint: ↑ Locate object&#10;(in Layers panel)&#10;↓ Zoom selected
+      icon: '#zoom_selected'
+      key: Space
+      action:
+        up:
+          - aiRunAction
+          - select - locate object
+          -
+          - 1
+        down:
+          - aiRunScript
+          - object > zoom > selected
+
+    # - hint: Font size
+    #   text: '↑F↓'
+    #   key: 1
+    #   action:
+    #     up:
+    #       - aiRunMenu
+    #       - Other Text > Font Size Step Up
+    #       - 1
+    #     down:
+    #       - aiRunMenu
+    #       - Other Text > Font Size Step Down
+    #       - 1
+
+    # - hint: Point size
+    #   text: '↑P↓'
+    #   key: 1
+    #   action:
+    #     up:
+    #       - aiRunMenu
+    #       - Other Text > Font Size Step Up
+    #       - 1
+    #     down:
+    #       - aiRunMenu
+    #       - Other Text > Font Size Step Down
+    #       - 1
+
+    # - hint:
+    # - hint:
+    # - hint:
+    # - hint:
+
+- tab: rotate
+  text: Rotate • Flip • Scale • Align
+  hint: Rotate • Flip • Scale • Align
+  icon: '#tabs/rotate'
+  key: 2
+  items:
+
+    - hint: Rotate 15°
+      text: ↻ 15°
+      key: q
+      action:
+        up:
+          - aiRunAction
+          - rotate - +15
+          -
+          - 1
+        down:
+          - aiRunAction
+          - rotate - -15
+          -
+          - 1
+
+    - hint: Rotate 45°
+      text: ↻ 45°
+      key: w
+      action:
+        up:
+          - aiRunAction
+          - rotate - +45
+          -
+          - 1
+        down:
+          - aiRunAction
+          - rotate - -45
+          -
+          - 1
+
+    - hint: Rotate 90°
+      text: ↻ 90°
+      key: e
+      action:
+        up:
+          - aiRunAction
+          - rotate - +90
+          -
+          - 1
+        down:
+          - aiRunAction
+          - rotate - -90
+          -
+          - 1
+
+    - hint: Align horizontal center
+      icon: '#align_h_center'
+      key: r
+      action:
+        up:
+          - aiRunMenu
+          - Object > Align > Horizontal Align Center
+        down:
+          - aiRunMenu
+          - Object > Align > Horizontal Align Center
+
+    - hint: Align vertical center
+      icon: '#align_v_center'
+      key: t
+      action:
+        up:
+          - aiRunMenu
+          - Object > Align > Vertical Align Center
+        down:
+          - aiRunMenu
+          - Object > Align > Vertical Align Center
+
+    - hint: Flip vertical
+      icon: '#flip_vertical'
+      key: y
+      action:
+        up:
+          - aiRunAction
+          - flip - vertical
+        down:
+          - aiRunAction
+          - flip - vertical
+
+    - hint: Rotate 5°
+      text: ↻ 5°
+      key: a
+      action:
+        up:
+          - aiRunAction
+          - rotate - +5
+          -
+          - 1
+        down:
+          - aiRunAction
+          - rotate - -5
+          -
+          - 1
+
+    - hint: Rotate 1°
+      text: ↻ 1°
+      key: s
+      action:
+        up:
+          - aiRunAction
+          - rotate - +1
+          -
+          - 1
+        down:
+          - aiRunAction
+          - rotate - -1
+          -
+          - 1
+
+    - hint: Scale isometric:&#10;-18.33% / +22.45%
+      text: '&#177;ISO'
+      key: d
+      action:
+        up:
+          - aiRunAction
+          - scale - -18.33% (iso)
+          -
+          - 1
+        down:
+          - aiRunAction
+          - scale - +22.45% (iso)
+          -
+          - 1
+
+    - hint: ↑ Align left&#10;↓ Align right
+      icon: '#align_left_right'
+      key: f
+      action:
+        up:
+          - aiRunMenu
+          - Object > Align > Horizontal Align Left
+        down:
+          - aiRunMenu
+          - Object > Align > Horizontal Align Right
+
+    - hint: ↑ Align top&#10;↓ Align bottom
+      icon: '#align_top_bottom'
+      key: g
+      action:
+        up:
+          - aiRunMenu
+          - Object > Align > Vertical Align Top
+        down:
+          - aiRunMenu
+          - Object > Align > Vertical Align Bottom
+
+    - hint: Flip horizontal
+      icon: '#flip_horizontal'
+      key: h
+      action:
+        up:
+          - aiRunAction
+          - flip - horizontal
+        down:
+          - aiRunAction
+          - flip - horizontal
+
+    - hint: Scale 20%
+      text: ±20%
+      key: z
+      action:
+        up:
+          - aiRunAction
+          - scale - -20%
+          -
+          - 1
+        down:
+          - aiRunAction
+          - scale - +20%
+          -
+          - 1
+
+    - hint: Scale 10%
+      text: ±10%
+      key: x
+      action:
+        up:
+          - aiRunAction
+          - scale - -10%
+          -
+          - 1
+        down:
+          - aiRunAction
+          - scale - +10%
+          -
+          - 1
+
+    - hint: Scale 5%
+      text: ±5%
+      key: c
+      action:
+        up:
+          - aiRunAction
+          - scale - -5%
+          -
+          - 1
+        down:
+          - aiRunAction
+          - scale - +5%
+          -
+          - 1
+
+    - hint: ↑ Select object above&#10;↓ Select object below
+      icon: '#next_object_above_below'
+      key: v
+      action:
+        up:
+          - aiRunMenu
+          - Select > Next Object Above
+        down:
+          - aiRunMenu
+          - Select > Next Object Below
+
+    - hint: ↑ Prev artboard&#10;↓ Next artboard
+      icon: '#prev_next_artboard'
+      key: b
+      action:
+        up:
+          - aiRunScript
+          - artboard > prev
+        down:
+          - aiRunScript
+          - artboard > next
+      # action:
+      #   up:
+      #     - aiTap
+      #     - '+{PgUp}'
+      #     - prev artboard
+      #   down:
+      #     - aiTap
+      #     - '+{PgDn}'
+      #     - next artboard
+
+    - hint: Flip diagonal
+      icon: '#flip_diagonal'
+      key: n
+      action:
+        up:
+          - aiRunAction
+          - flip - diagonal
+        down:
+          - aiRunAction
+          - flip - diagonal

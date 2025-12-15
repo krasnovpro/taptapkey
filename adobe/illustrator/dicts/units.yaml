@@ -1,0 +1,83 @@
+﻿# Profiles for widget menu:
+# Preferences > Set All Units
+
+px:
+  stroke: px
+  type:   pt
+  # eatype: pt # for east asian type
+  grid:   10px
+  subdiv: 10
+  inc:    1px
+  corner: 5px
+
+pt:
+  stroke: pt
+  type:   pt
+  grid:   10pt
+  subdiv: 10
+  inc:    1pt
+  corner: 5pt
+
+p:
+  stroke: pt
+  type:   pt
+  grid:   10p
+  subdiv: 10
+  inc:    1p
+  corner: 5p
+
+in:
+  stroke: pt
+  type:   pt
+  grid:   1in
+  subdiv: 6
+  inc:    1/12in
+  corner: 1/2in
+
+ft:
+  stroke: pt
+  type:   pt
+  grid:   1ft
+  subdiv: 6
+  inc:    1/12ft
+  corner: 1/2ft
+
+ft_in:
+  stroke: pt
+  type:   pt
+  grid:   1ft
+  subdiv: 6
+  inc:    1/12ft
+  corner: 1/2ft
+
+yd:
+  stroke: pt
+  type:   pt
+  grid:   1/3yd
+  subdiv: 6
+  inc:    1/12yd
+  corner: 1/2yd
+
+mm:
+  stroke: pt
+  type:   pt
+  grid:   10mm
+  subdiv: 10
+  inc:    1mm
+  corner: 5mm
+
+cm:
+  stroke: pt
+  type:   pt
+  grid:   10cm
+  subdiv: 10
+  inc:    1cm
+  corner: 5cm
+
+m:
+  stroke: pt
+  type:   pt
+  grid:   1/10m
+  subdiv: 10
+  inc:    25/100m
+  corner: 25/100m

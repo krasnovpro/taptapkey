@@ -1,0 +1,19 @@
+﻿Thanks to:
+
+Steve Gray          github.com/Lexikos
+
+thqby               github.com/thqby
+Philip Taylor       github.com/G33kDude
+Ryan Dingman        github.com/The-CoDingman
+Descolada           github.com/Descolada
+Artem Shvedov       @tema104
+
+moodyallen          github.com/moody4
+Sergey Osokin       github.com/creold
+Egor Chistyakov     x.com/tchegr
+
+Elfy                github.com/Elfy
+SilverEzhik         github.com/SilverEzhik
+
+And thanks to all other programmers and designers
+whose scripts are used in this build.

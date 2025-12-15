@@ -1,0 +1,354 @@
+﻿<style>
+  html {
+    --key-size: 7.5vmin;
+    --icon-size: 2.02vmin;
+    --key-font-size: 1vmin;
+    --text-font-size: calc(var(--key-font-size) * .9);
+
+    --key-color: #aab;
+    --hover-color: #e8e8ee;
+    --border-color: #e8e8ee;
+    --key-border-color: #0002;
+  }
+
+  #keyboard {
+    background-color: var(--bg-color);
+    border-radius: var(--corner);
+    box-shadow: var(--box-shadow);
+    color: var(--text-color);
+    outline: 1px solid var(--border-color);
+    overflow: hidden;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+
+    .handle {
+      width: calc(14.5 * var(--key-size));
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: calc(-1.1 * var(--icon-size));
+      z-index: 2;
+
+      &, #text-frame {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: var(--margin);
+      }
+
+      #text-frame {
+        font-size: var(--text-font-size);
+        text-align: right;
+        cursor: pointer;
+
+        &.active {
+          font-weight: bold;
+        }
+
+        svg {
+          fill: var(--icon-color);
+          width: var(--icon-size);
+          height: var(--icon-size);
+        }
+      }
+    }
+
+    .row {
+      width: calc(14.5 * var(--key-size));
+      display: flex;
+      flex-direction: row;
+      margin: -1px 0 0 -1px;
+
+      [data-key] {
+        border-left: 1px solid var(--border-color);
+        border-top: 1px solid var(--border-color);
+        height: var(--key-size);
+        width: var(--key-size);
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        cursor: pointer;
+
+        &.pressed {
+          background-color: var(--hover-color);
+        }
+
+        .key-content {
+          padding: var(--margin);
+          font-size: var(--text-font-size);
+          flex: 1 1 100%;
+          overflow: hidden;
+
+          .hotkey {
+            padding: 0;
+            font-size: var(--key-font-size);
+            font-weight: 400;
+            color: var(--key-color);
+          }
+
+          .title {
+            margin-top: var(--margin);
+            text-wrap: balance;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+          }
+
+          &:hover {
+            block-size: fit-content;
+            background-color: var(--hover-color);
+            overflow: visible;
+            border: 1px solid var(--hover-color);
+            border-radius: 0 0 var(--margin) var(--margin);
+            margin: -1px;
+            z-index: 2;
+
+            .title {
+              overflow: visible;
+              display: inherit;
+              -webkit-box-orient: initial;
+              -webkit-line-clamp: initial;
+            }
+          }
+
+          svg {
+            position: absolute;
+            top: 0;
+            left: calc(var(--margin) * 5);
+
+            width: var(--icon-size);
+            height: var(--icon-size);
+            fill: var(--icon-color);
+          }
+        }
+      }
+
+      [data-key="Backspace"],
+      [data-key="Tab"],
+      [data-key="\\"],
+      [data-key="CapsLock"],
+      [data-key="Enter"],
+      [data-key="Shift"],
+      [data-key=".Shift"],
+      [data-key="Control"],
+      [data-key=".Control"] {
+        flex-grow: 1;
+      }
+
+      [data-key="&blank;"] {
+        flex-grow: 13;
+      }
+
+      [data-key="Escape"] {
+        flex-shrink: 13;
+      }
+
+      :is(
+        [data-key="Backspace"],
+        [data-key="Enter"],
+        [data-key=".Shift"],
+        [data-key=".Alt"],
+        [data-key=".Control"],
+        [data-key="&equiv;"]
+      ) .hotkey {
+        text-align: right;
+      }
+    }
+  }
+</style>
+<script>
+  function createKeyboard(keyboard) {
+    `Escape F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 F13 F14
+    \` 1 2 3 4 5 6 7 8 9 0 - = Backspace
+    Tab Q W E R T Y U I O P [ ] \\
+    CapsLock A S D F G H J K L ; ' Enter
+    Shift Z X C V B N M , . / .Shift
+    Control Win Alt &blank; .Alt &equiv; .Control`
+    .split('\n').map(row => row.trim().split(/\s+/)).forEach(rowKeys => {
+      const row = document.createElement("div");
+      row.className = "row";
+      rowKeys.forEach(key => {
+        const keyDiv = document.createElement("div");
+        keyDiv.setAttribute("data-key", key);
+        row.appendChild(keyDiv);
+      });
+      keyboard.appendChild(row);
+    });
+  }
+
+  let keyMap = {};
+  let currentMods = [];
+  const modsOrder = ["Alt", "Control", "Shift"];
+  let currentContext = "main";
+
+  function getModsString() {
+    return modsOrder.filter(m => currentMods.includes(m)).join("") || "";
+  }
+
+  function getKeyName(e) {
+    const modMap = {
+      "AltLeft":      "Alt",
+      "ShiftLeft":    "Shift",
+      "ControlLeft":  "Control",
+      "AltRight":     ".Alt",
+      "ShiftRight":   ".Shift",
+      "ControlRight": ".Control",
+      "Space":        "&blank;",
+    };
+    return modMap[e.code] ?? codeToKey(e.code);
+  }
+
+  function updateKeys() {
+    const mods = getModsString();
+    document.querySelectorAll("#keyboard [data-key]").forEach(element => {
+      const hotkey = element.getAttribute("data-key");
+      const index = /^[A-Z]$/.test(hotkey) ? hotkey.toLowerCase() : hotkey;
+      let title = "", icon = "", action = false;
+      let key = undefined;
+      if (keyMap[currentContext] && keyMap[currentContext][mods]) {
+        key = keyMap[currentContext][mods][index];
+      }
+      if (key) {
+        title = key.title;
+        icon = key.icon;
+        action = key.action;
+      };
+
+      element.innerHTML = `
+        <div class="key-content">
+          <div class="hotkey">${hotkey}</div>
+          <div class="title">${title
+            .replace(/ \> /g, "&nbsp;&#x25B8;<br>")
+            .replace(/ -/g, "&nbsp;-")
+          }</div>
+          <svg><use href="${icon}"></use></svg>
+        </div>
+      `;
+      if (action) {
+        element.dataset.action = JSON.stringify(action);
+      } else {
+        delete element.dataset.action;
+      }
+    });
+  }
+
+  async function setIcons() {
+    const mapFile = "/adobe/illustrator/keyboard.json"
+    const rawData = await fetch(mapFile).then((r) => r.text());
+    keyMap = JSON.parse(rawData);
+    updateKeys();
+  }
+
+  window.addEventListener("keydown", (e) => {
+    e.preventDefault();
+    let changed = false;
+    const keyName = getKeyName(e);
+
+    if (modsOrder.includes(e.key)) {
+      if (!currentMods.includes(e.key)) {
+        currentMods.push(e.key);
+        changed = true;
+      }
+    }
+    if (changed) updateKeys();
+
+    const keyElement = document.querySelector(`[data-key="${keyName}" i]`);
+    if (keyElement) {
+      keyElement.classList.add("pressed");
+      keyElement.click();
+    }
+  });
+
+  window.addEventListener("keyup", (e) => {
+    e.preventDefault();
+    const keyName = getKeyName(e);
+
+    if (modsOrder.includes(e.key)) {
+      const idx = currentMods.indexOf(e.key);
+      if (idx !== -1) {
+        currentMods.splice(idx, 1);
+        updateKeys();
+      }
+    }
+
+    const keyElement = document.querySelector(`[data-key="${keyName}" i]`);
+    if (keyElement) {
+      keyElement.classList.remove("pressed");
+    }
+  });
+  window.addEventListener("blur", () => {
+    if (currentMods.length) {
+      currentMods = [];
+      updateKeys();
+    }
+    document.querySelectorAll("#keyboard .pressed").forEach(element => {
+      element.classList.remove("pressed");
+    });
+  });
+
+  function attachKeyboardHandler() {
+    const keyboard = document.getElementById("keyboard");
+    if (keyboard) {
+      keyboard.addEventListener("click", function(e) {
+
+        const keyDiv = e.target.closest("[data-key]");
+        if (!keyDiv) return;
+        const action = keyDiv.dataset.action;
+        if (action) {
+          ahk.hide();
+          ahk.fun(JSON.parse(action));
+        }
+      });
+    }
+  }
+
+  function attachContextCheckboxHandler() {
+    const toggle = document.getElementById("text-frame");
+    if (toggle) {
+      if (currentContext === "texts") {
+        toggle.classList.add("active");
+      } else {
+        toggle.classList.remove("active");
+      }
+      toggle.addEventListener("click", function() {
+        if (currentContext === "texts") {
+          currentContext = "main";
+          toggle.classList.remove("active");
+        } else {
+          currentContext = "texts";
+          toggle.classList.add("active");
+        }
+        updateKeys();
+      });
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", () => {
+      attachKeyboardHandler();
+      attachContextCheckboxHandler();
+    });
+  } else {
+    attachKeyboardHandler();
+    attachContextCheckboxHandler();
+  }
+
+  createKeyboard(document.getElementById("keyboard"));
+  setIcons();
+</script>
+<div id="keyboard">
+  <div class="handle">
+    <div id="text-frame"
+     title="Click, then press&#10;Alt, Control, Shift">
+      text<br>frame
+      <svg><use href="#texts"></use></svg>
+    </div>
+  </div>
+</div>

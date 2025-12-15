@@ -1,0 +1,86 @@
+﻿# COM registry key set for the latest versions of Illustrator
+
+30.0.0.0:           #2026
+  progid:           Illustrator.Application.30
+  clsid:            9A4BA740-BEBF-4409-B787-AC7A610771A6
+  typelib:          38E4E28D-F058-4D11-A6F0-9F70ABF345DC
+
+  # beta:
+  #   progid:         Illustrator.PrintCoordinateOptions.30
+  #   clsid:          0082A2B0-4E88-4134-AFF8-2AE8943F3AF9
+  #   typelib:        774DB2F5-CD02-4CF5-8BF6-193FA5BB611B
+
+29.0.0.0:           #2025
+  progid:           Illustrator.Application.29
+  clsid:            303D549B-3B36-47B4-8657-1B0374E2F553
+  typelib:          D241A9A6-1393-4270-80C1-F47212F7C9B7
+
+28.0.0.0:           #2024
+  progid:           Illustrator.Application.28
+  clsid:            4A6A01D0-B9A2-41AF-80F2-E7AE77C6DCF0
+  typelib:          D6752E03-199E-4FDC-973A-97E87D674E90
+
+27.0.0.0:           #2023
+  progid:           Illustrator.Application.27
+  clsid:            7CC274AA-81CB-4506-BDA4-B48388C89172
+  typelib:          A301DACD-F6B7-46D6-9DF7-AAD4AD828A0F
+
+26.0.0.0:           #2022
+  progid:           Illustrator.Application.26
+  clsid:            97EA3D0B-44B4-4208-B19A-FC9C9001DACF
+  typelib:          11C6EAB4-152A-4829-9DDB-5DE14E87A5DD
+
+25.4.1.0:           #2021
+  progid:           Illustrator.Application.25
+  clsid:            2C9A5EAC-FFE2-4AC7-B962-7D7A1D3CB858
+  typelib:          ACCB7B24-8908-4D40-9B69-33866EC4FEE6
+
+25.0.0.0:           #2021
+  progid:           Illustrator.Application.25
+  clsid:            7CACE1D4-C629-4A43-8E45-800FB2B00015
+  typelib:          32307797-1F1D-4501-8F73-163F0AB321E0
+
+24.0.0.0:           #2020
+  progid:           Illustrator.Application.24
+  clsid:            74356B35-AF38-4EA4-A0B8-36A163E4BEE6
+  typelib:          4342E6A9-F5E0-4580-9F31-5149C20DE298
+
+23.0.0.0:           #CC 2019
+  progid:           Illustrator.Application.CC.2019
+  clsid:            0DC1BAC6-5A43-480A-84C3-301582B1EB02
+  typelib:          55AE536C-1482-4D8C-9D66-42D4753B2B3A
+
+22.0.0.0:           #CC 2018
+  progid:           Illustrator.Application.CC.2018
+  clsid:            F66C7D88-4EEB-4A9B-BBF2-D229C9C46870
+  typelib:          B034BABE-6480-4410-9527-7D0BCC9E0A40
+
+21.0.0.0:           #CC 2017
+  progid:           Illustrator.Application.CC.2017
+  clsid:            0FA36670-F0BC-48C0-AD25-6CF62CAD3A31
+  typelib:          3271C7D8-D207-4C7C-B2B4-7F3DA9D1A8F9
+
+20.0.0.0:           #CC 2015.3
+  progid:           Illustrator.Application.CC.2015.3
+  clsid:            9EC281C1-6C2A-4991-94DE-8A5951436D7D
+  typelib:          32887FA2-4B81-4BED-8392-15515233164D
+
+19.0.0.0:           #CC 2015
+  progid:           Illustrator.Application.CC.2015
+  clsid:            B0D0A647-983E-485B-9A69-45F0382F0D9C
+  typelib:          F954AE0F-F6A8-4E55-BCAD-CE0B5A3876F0
+
+18.0.0.0:           #CC 2014
+  progid:           Illustrator.Application.CS5
+  clsid:            30A9EFA1-9976-4BA2-BA68-E3798157E8EB
+  typelib:          CFA1E796-1AC0-4B42-8CD9-3693A46BBEF5
+
+17.0.0.0:           #CC
+  progid:           Illustrator.Application.CS5
+  clsid:            71F3D706-6820-4529-B23A-9B07DE0EE56F
+  typelib:          B0E48058-9B52-48F1-A80E-A9798E6931A0
+
+16.0.0.0:           #CS6
+  progid:           Illustrator.Application.CS5
+  clsid:            63755935-C25A-42DF-87A1-51F144A0C216
+  typelib:          6302455F-E28B-4425-B2A1-B7A34F025651

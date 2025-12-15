@@ -1,0 +1,1 @@
+﻿#target illustratorapp.preferences.setBooleanPreference('ShowExternalJSXWarning', false);// copyright 2018 @onthehead | Seiji Miyazawavar point = 7;var pre = "plugin/Transform/AnchorPoint";app.preferences.setIntegerPreference(pre, point);var cmd = "AdobeTransformObjects1";app.executeMenuCommand(cmd);app.executeMenuCommand(cmd);
