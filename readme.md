@@ -11,7 +11,7 @@ Taptapkey is a set of hotkeys, widgets, and menus that streamline everyday task
 - Download and unpack the [latest version](https://github.com/krasnovpro/taptapkey/release).
 - Run taptapkey.exe.
 - From the tray menu, click "Edit Settings" to adjust your preferences. Edit, save file, then choose "Reload Script" from the tray menu.
-- Discover what Taptapkey does [here](taptapkey.pdf).
+- Discover what Taptapkey does [here](https://raw.githubusercontent.com/krasnovpro/taptapkey/main/taptapkey.pdf).
 
 ## Important
 
