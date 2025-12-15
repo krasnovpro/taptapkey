@@ -1,0 +1,227 @@
+<style>
+  @import url("/lib/widgets/vars.css");
+  #calculator {
+    --font-family: "Segoe UI", sans-serif;
+    --input-font-size: calc(var(--u) * 8);
+    --result-font-size: calc(var(--u) * 5);
+    --action-color: #fff6;
+    --width: calc(var(--u) * 100);
+
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    background-color: var(--bg-color);
+    border-radius: calc(var(--margin) * 2);
+    width: fit-content;
+
+    outline: 1px solid var(--border-color);
+    box-shadow: var(--box-shadow);
+    padding: var(--margin) calc(var(--margin) * 2);
+    transition: background-color 500ms ease;
+
+    * {
+      font-family: var(--font-family);
+    }
+
+    &.copy, &.delete {
+      background-color: var(--action-color);
+    }
+
+    .handle {
+      height: calc(var(--margin) * 2);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+
+    #input {
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      font-size: var(--input-font-size);
+      outline: none;
+      overflow: auto;
+      padding: 0;
+      width: var(--width);
+      height: 1.5em;
+      min-height: 1.5em;
+      min-width: calc(var(--u) * 25);
+      resize: both;
+
+      &::placeholder {
+        filter: brightness(1.5);
+      }
+    }
+
+    #result {
+      font-size: var(--result-font-size);
+    }
+  }
+</style>
+<div id="calculator">
+  <div class="handle"></div>
+  <textarea id="input" rows="1" placeholder="calculator"
+    title="Enter: copy result to the сlipboard
+Up/Down: navigate history
+Shift-Delete: clear history"></textarea>
+  <div id="result"></div>
+</div>
+<script>
+  let history = [];
+  let historyIndex = -1;
+  let tempInput = "";
+
+  const calc = document.getElementById('calculator');
+  const input = document.getElementById("input");
+  const result = document.getElementById("result");
+
+  input.addEventListener("input", updateResult);
+  document.addEventListener("keydown", handleKeyboard);
+  input.focus();
+  loadHistory();
+
+  function updateResult() {
+    try {
+      const content = new Function("return " + input.value)();
+      result.textContent = content; // ?? "";
+      result.style.display = "flex";
+    } catch {
+      result.textContent = "";
+      result.style.display = "none";
+    }
+  }
+
+  function showNotification(text, className, duration = 500) {
+    input.value = text;
+    calc.classList.add(className);
+    setTimeout(() => {
+      calc.classList.remove(className);
+      input.value = "";
+    }, duration);
+  }
+
+  function loadHistory() {
+    try {
+      const storedHistory = localStorage.getItem("calcHistory");
+      if (storedHistory) {
+        history = JSON.parse(storedHistory);
+        historyIndex = history.length;
+      }
+    } catch (e) {
+      console.error("History loading error:", e);
+    }
+  }
+
+  function saveHistory() {
+    try {
+      localStorage.setItem("calcHistory", JSON.stringify(history));
+    } catch (e) {
+      console.error("History saving error: ", e);
+    }
+  }
+
+  function addToHistory(expression) {
+    history = history.filter(expr => expr !== expression);
+    history.push(expression);
+    if (history.length > 20) {
+      history.shift();
+    }
+    historyIndex = history.length;
+    tempInput = "";
+    saveHistory();
+  }
+
+  function clearHistory() {
+    history = [];
+    historyIndex = -1;
+    tempInput = "";
+    try {
+      localStorage.removeItem("calcHistory");
+    } catch (e) {
+      console.error("History clearing error: ", e);
+    }
+    input.value = "";
+    updateResult();
+    showNotification("history cleared", "delete");
+  }
+
+  function navigateHistory(direction) {
+    if (direction === 'up') {
+      if (historyIndex === history.length) {
+        tempInput = input.value;
+      }
+      if (historyIndex > 0) {
+        historyIndex--;
+        input.value = history[historyIndex];
+        input.setSelectionRange(input.value.length, input.value.length);
+        updateResult();
+      }
+    } else if (direction === 'down') {
+      if (historyIndex < history.length - 1) {
+        historyIndex++;
+        input.value = history[historyIndex];
+        input.setSelectionRange(input.value.length, input.value.length);
+        updateResult();
+      } else if (historyIndex === history.length - 1) {
+        historyIndex++;
+        input.value = tempInput;
+        updateResult();
+      }
+    }
+  }
+
+  function copyResult() {
+    const resultText = result.textContent;
+    if (resultText && resultText !== "") {
+      navigator.clipboard
+        .writeText(resultText)
+        .then(() => showNotification("copied", "copy"))
+        .catch((err) => console.error("Failed to copy text: ", err));
+    }
+  }
+
+  function handleEnter() {
+    const expression = input.value.trim();
+    if (expression) {
+      copyResult();
+      addToHistory(expression);
+      input.value = "";
+      updateResult();
+    }
+  }
+
+  function handleKeyboard(event) {
+    input.focus();
+
+    switch (event.code) {
+      case "Escape":
+        ahk.hide();
+        break;
+
+      case "Delete":
+        if (event.shiftKey) {
+          event.preventDefault();
+          clearHistory();
+        }
+        break;
+
+        case "Enter":
+        if (!event.shiftKey) {
+          event.preventDefault();
+          handleEnter();
+        }
+        break;
+
+      case "ArrowUp":
+        event.preventDefault();
+        navigateHistory('up');
+        break;
+
+      case "ArrowDown":
+        event.preventDefault();
+        navigateHistory('down');
+        break;
+    }
+  }
+</script>

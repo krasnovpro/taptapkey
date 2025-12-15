@@ -1,0 +1,7483 @@
+/version 3
+/name [ 9
+	7461707461706b6579
+]
+/isOpen 0
+/actionCount 163
+/action-1 {
+	/name [ 5
+		656d707479
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_commandManager)
+		/localizedName [ 16
+			416363657373204d656e75204974656d
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1769238125
+			/showInPalette -1
+			/type (ustring)
+			/value [ 4
+				65646765
+			]
+		}
+		/parameter-2 {
+			/key 1818455661
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				53686f77204564676573
+			]
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_commandManager)
+		/localizedName [ 16
+			416363657373204d656e75204974656d
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1769238125
+			/showInPalette -1
+			/type (ustring)
+			/value [ 4
+				65646765
+			]
+		}
+		/parameter-2 {
+			/key 1818455661
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				53686f77204564676573
+			]
+		}
+	}
+}
+/action-2 {
+	/name [ 11
+		616c69676e202d20746f70
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 18
+				566572746963616c20416c69676e20546f70
+			]
+			/value 4
+		}
+	}
+}
+/action-3 {
+	/name [ 14
+		616c69676e202d20626f74746f6d
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 21
+				566572746963616c20416c69676e20426f74746f6d
+			]
+			/value 6
+		}
+	}
+}
+/action-4 {
+	/name [ 12
+		616c69676e202d206c656674
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 21
+				486f72697a6f6e74616c20416c69676e204c656674
+			]
+			/value 1
+		}
+	}
+}
+/action-5 {
+	/name [ 13
+		616c69676e202d207269676874
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 22
+				486f72697a6f6e74616c20416c69676e205269676874
+			]
+			/value 3
+		}
+	}
+}
+/action-6 {
+	/name [ 18
+		616c69676e202d20686f72697a6f6e74616c
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 23
+				486f72697a6f6e74616c20416c69676e2043656e746572
+			]
+			/value 2
+		}
+	}
+}
+/action-7 {
+	/name [ 16
+		616c69676e202d20766572746963616c
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 21
+				566572746963616c20416c69676e2043656e746572
+			]
+			/value 5
+		}
+	}
+}
+/action-8 {
+	/name [ 18
+		617070656172616e6365202d20636c656172
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_appearance)
+		/localizedName [ 10
+			417070656172616e6365
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 16
+				436c65617220417070656172616e6365
+			]
+			/value 6
+		}
+	}
+}
+/action-9 {
+	/name [ 20
+		617070656172616e6365202d2064656661756c74
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 23
+				44656661756c742066696c6c20616e64207374726f6b65
+			]
+			/value 6
+		}
+	}
+}
+/action-10 {
+	/name [ 19
+		617070656172616e6365202d20657870616e64
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_commandManager)
+		/localizedName [ 16
+			416363657373204d656e75204974656d
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1769238125
+			/showInPalette -1
+			/type (ustring)
+			/value [ 11
+				657870616e645374796c65
+			]
+		}
+		/parameter-2 {
+			/key 1818455661
+			/showInPalette -1
+			/type (ustring)
+			/value [ 17
+				457870616e6420417070656172616e6365
+			]
+		}
+	}
+}
+/action-11 {
+	/name [ 17
+		617272616e6765202d20666f7277617264
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_sendForward)
+		/localizedName [ 13
+			4272696e6720466f7277617264
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-12 {
+	/name [ 18
+		617272616e6765202d206261636b77617264
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_sendBackward)
+		/localizedName [ 13
+			53656e64204261636b77617264
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-13 {
+	/name [ 15
+		617272616e6765202d2066726f6e74
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_sendToFront)
+		/localizedName [ 14
+			4272696e6720746f2046726f6e74
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-14 {
+	/name [ 14
+		617272616e6765202d206261636b
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_sendToBack)
+		/localizedName [ 12
+			53656e6420746f204261636b
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-15 {
+	/name [ 17
+		626c656e64696e67202d206e6f726d616c
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				4e6f726d616c
+			]
+			/value 0
+		}
+	}
+}
+/action-16 {
+	/name [ 17
+		626c656e64696e67202d206461726b656e
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				4461726b656e
+			]
+			/value 8
+		}
+	}
+}
+/action-17 {
+	/name [ 19
+		626c656e64696e67202d206d756c7469706c79
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 8
+				4d756c7469706c79
+			]
+			/value 1
+		}
+	}
+}
+/action-18 {
+	/name [ 21
+		626c656e64696e67202d20636f6c6f72206275726e
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				436f6c6f72204275726e
+			]
+			/value 7
+		}
+	}
+}
+/action-19 {
+	/name [ 18
+		626c656e64696e67202d206c69676874656e
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 7
+				4c69676874656e
+			]
+			/value 9
+		}
+	}
+}
+/action-20 {
+	/name [ 17
+		626c656e64696e67202d2073637265656e
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				53637265656e
+			]
+			/value 2
+		}
+	}
+}
+/action-21 {
+	/name [ 22
+		626c656e64696e67202d20636f6c6f7220646f646765
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 11
+				436f6c6f7220446f646765
+			]
+			/value 6
+		}
+	}
+}
+/action-22 {
+	/name [ 18
+		626c656e64696e67202d206f7665726c6179
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 7
+				4f7665726c6179
+			]
+			/value 3
+		}
+	}
+}
+/action-23 {
+	/name [ 21
+		626c656e64696e67202d20736f6674206c69676874
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				536f6674204c69676874
+			]
+			/value 4
+		}
+	}
+}
+/action-24 {
+	/name [ 21
+		626c656e64696e67202d2068617264206c69676874
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				48617264204c69676874
+			]
+			/value 5
+		}
+	}
+}
+/action-25 {
+	/name [ 21
+		626c656e64696e67202d20646966666572656e6365
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				446966666572656e6365
+			]
+			/value 10
+		}
+	}
+}
+/action-26 {
+	/name [ 20
+		626c656e64696e67202d206578636c7573696f6e
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				4578636c7573696f6e
+			]
+			/value 11
+		}
+	}
+}
+/action-27 {
+	/name [ 14
+		626c656e64696e67202d20687565
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 3
+				487565
+			]
+			/value 12
+		}
+	}
+}
+/action-28 {
+	/name [ 21
+		626c656e64696e67202d2073617475726174696f6e
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				53617475726174696f6e
+			]
+			/value 13
+		}
+	}
+}
+/action-29 {
+	/name [ 16
+		626c656e64696e67202d20636f6c6f72
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 5
+				436f6c6f72
+			]
+			/value 14
+		}
+	}
+}
+/action-30 {
+	/name [ 21
+		626c656e64696e67202d206c756d696e6f73697479
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836016741
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				4c756d696e6f73697479
+			]
+			/value 15
+		}
+	}
+}
+/action-31 {
+	/name [ 12
+		636f6c6f72202d20636d796b
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				434d594b20636f6c6f72
+			]
+			/value 3
+		}
+	}
+}
+/action-32 {
+	/name [ 17
+		636f6c6f72202d20677261797363616c65
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				4772617920636f6c6f72
+			]
+			/value 0
+		}
+	}
+}
+/action-33 {
+	/name [ 11
+		636f6c6f72202d20687362
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				48534220636f6c6f72
+			]
+			/value 2
+		}
+	}
+}
+/action-34 {
+	/name [ 11
+		636f6c6f72202d20726762
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				52474220636f6c6f72
+			]
+			/value 1
+		}
+	}
+}
+/action-35 {
+	/name [ 19
+		636f6d706f756e642070617468202d20616464
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_compound_shape)
+		/localizedName [ 14
+			436f6d706f756e64205368617065
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 3
+				416464
+			]
+			/value 0
+		}
+		/parameter-2 {
+			/key 1836016741
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_expand_compound_shape)
+		/localizedName [ 21
+			457870616e6420436f6d706f756e64205368617065
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 2020634212
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+}
+/action-36 {
+	/name [ 22
+		636f6d706f756e642070617468202d20657870616e64
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 3
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_group)
+		/localizedName [ 5
+			47726f7570
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 3
+				416464
+			]
+			/value 0
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_ungroup)
+		/localizedName [ 7
+			556e67726f7570
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-37 {
+	/name [ 20
+		636f6d706f756e64207368617065202d20616464
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_compound_shape)
+		/localizedName [ 14
+			436f6d706f756e64205368617065
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 3
+				416464
+			]
+			/value 0
+		}
+		/parameter-2 {
+			/key 1836016741
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+}
+/action-38 {
+	/name [ 25
+		636f6d706f756e64207368617065202d207375627472616374
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_compound_shape)
+		/localizedName [ 14
+			436f6d706f756e64205368617065
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 8
+				5375627472616374
+			]
+			/value 3
+		}
+		/parameter-2 {
+			/key 1836016741
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+}
+/action-39 {
+	/name [ 26
+		636f6d706f756e64207368617065202d20696e74657273656374
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_compound_shape)
+		/localizedName [ 14
+			436f6d706f756e64205368617065
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				496e74657273656374
+			]
+			/value 1
+		}
+		/parameter-2 {
+			/key 1836016741
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+}
+/action-40 {
+	/name [ 24
+		636f6d706f756e64207368617065202d206578636c756465
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_compound_shape)
+		/localizedName [ 14
+			436f6d706f756e64205368617065
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 7
+				4578636c756465
+			]
+			/value 2
+		}
+		/parameter-2 {
+			/key 1836016741
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+}
+/action-41 {
+	/name [ 21
+		636f6d706f756e64207368617065202d206d616b65
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_make_compound_shape)
+		/localizedName [ 19
+			4d616b6520436f6d706f756e64205368617065
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835101029
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+}
+/action-42 {
+	/name [ 23
+		636f6d706f756e64207368617065202d20657870616e64
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_expand_compound_shape)
+		/localizedName [ 21
+			457870616e6420436f6d706f756e64205368617065
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 2020634212
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+}
+/action-43 {
+	/name [ 24
+		636f6d706f756e64207368617065202d2072656c65617365
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_release_compound_shape)
+		/localizedName [ 22
+			52656c6561736520436f6d706f756e64205368617065
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1919710053
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+}
+/action-44 {
+	/name [ 17
+		64656c657465202d2073656c6563746564
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_clear)
+		/localizedName [ 5
+			436c656172
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-45 {
+	/name [ 15
+		64656c657465202d20756e75736564
+	]
+	/keyIndex 0
+	/colorIndex 7
+	/isOpen 0
+	/eventCount 12
+	/event-1 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_symbol_palette)
+		/localizedName [ 7
+			53796d626f6c73
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 17
+				53656c65637420416c6c20556e75736564
+			]
+			/value 12
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_symbol_palette)
+		/localizedName [ 7
+			53796d626f6c73
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 13
+				44656c6574652053796d626f6c
+			]
+			/value 5
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_stop)
+		/localizedName [ 4
+			53746f70
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 1
+		/parameterCount 2
+		/parameter-1 {
+			/key 1952807028
+			/showInPalette 0
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668247156
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_styles)
+		/localizedName [ 14
+			47726170686963205374796c6573
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette 1
+			/type (enumerated)
+			/name [ 17
+				53656c65637420416c6c20556e75736564
+			]
+			/value 14
+		}
+	}
+	/event-5 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_styles)
+		/localizedName [ 14
+			47726170686963205374796c6573
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette 1
+			/type (enumerated)
+			/name [ 12
+				44656c657465205374796c65
+			]
+			/value 3
+		}
+	}
+	/event-6 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_stop)
+		/localizedName [ 4
+			53746f70
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 1
+		/parameterCount 2
+		/parameter-1 {
+			/key 1952807028
+			/showInPalette 0
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668247156
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-7 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_brush)
+		/localizedName [ 5
+			4272757368
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette 1
+			/type (enumerated)
+			/name [ 17
+				53656c65637420416c6c20556e75736564
+			]
+			/value 8
+		}
+	}
+	/event-8 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_brush)
+		/localizedName [ 5
+			4272757368
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette 1
+			/type (enumerated)
+			/name [ 12
+				44656c657465204272757368
+			]
+			/value 3
+		}
+	}
+	/event-9 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_stop)
+		/localizedName [ 4
+			53746f70
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 1
+		/parameterCount 2
+		/parameter-1 {
+			/key 1952807028
+			/showInPalette 0
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668247156
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-10 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_swatches)
+		/localizedName [ 8
+			5377617463686573
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette 1
+			/type (enumerated)
+			/name [ 17
+				53656c65637420416c6c20556e75736564
+			]
+			/value 11
+		}
+	}
+	/event-11 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_swatches)
+		/localizedName [ 8
+			5377617463686573
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette 1
+			/type (enumerated)
+			/name [ 13
+				44656c65746520537761746368
+			]
+			/value 3
+		}
+	}
+	/event-12 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_stop)
+		/localizedName [ 4
+			53746f70
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 1
+		/parameterCount 2
+		/parameter-1 {
+			/key 1952807028
+			/showInPalette 0
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+		/parameter-2 {
+			/key 1668247156
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-46 {
+	/name [ 16
+		64697374726962757465202d20746f70
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 23
+				566572746963616c204469737472696275746520546f70
+			]
+			/value 7
+		}
+	}
+}
+/action-47 {
+	/name [ 19
+		64697374726962757465202d20626f74746f6d
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 26
+				566572746963616c204469737472696275746520426f74746f6d
+			]
+			/value 9
+		}
+	}
+}
+/action-48 {
+	/name [ 17
+		64697374726962757465202d206c656674
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 26
+				486f72697a6f6e74616c2044697374726962757465204c656674
+			]
+			/value 10
+		}
+	}
+}
+/action-49 {
+	/name [ 18
+		64697374726962757465202d207269676874
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 27
+				486f72697a6f6e74616c2044697374726962757465205269676874
+			]
+			/value 12
+		}
+	}
+}
+/action-50 {
+	/name [ 30
+		64697374726962757465202d20686f72697a6f6e74616c2063656e746572
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 28
+				486f72697a6f6e74616c20446973747269627574652043656e746572
+			]
+			/value 11
+		}
+	}
+}
+/action-51 {
+	/name [ 29
+		64697374726962757465202d20686f72697a6f6e74616c207370616365
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 27
+				486f72697a6f6e74616c2044697374726962757465205370616365
+			]
+			/value 14
+		}
+	}
+}
+/action-52 {
+	/name [ 28
+		64697374726962757465202d20766572746963616c2063656e746572
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 26
+				566572746963616c20446973747269627574652043656e746572
+			]
+			/value 8
+		}
+	}
+}
+/action-53 {
+	/name [ 27
+		64697374726962757465202d20766572746963616c207370616365
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_alignPalette)
+		/localizedName [ 9
+			416c69676e6d656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 25
+				566572746963616c2044697374726962757465205370616365
+			]
+			/value 13
+		}
+	}
+}
+/action-54 {
+	/name [ 15
+		66696c6c202d206163746976617465
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				46696c6c20636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-55 {
+	/name [ 27
+		66696c6c202d20626c61636b3b207374726f6b65202d206e6f6e65
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 4
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_appearance)
+		/localizedName [ 10
+			417070656172616e6365
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 16
+				436c65617220417070656172616e6365
+			]
+			/value 6
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 23
+				44656661756c742066696c6c20616e64207374726f6b65
+			]
+			/value 6
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 12
+				5374726f6b6520636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 4
+				4e6f6e65
+			]
+			/value -1
+		}
+		/parameter-4 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 0
+
+			]
+			/value -1
+		}
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				46696c6c20636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				52474220636f6c6f72
+			]
+			/value 2
+		}
+		/parameter-4 {
+			/key 1919247406
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-5 {
+			/key 1735550318
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-6 {
+			/key 1651275109
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+	}
+}
+/action-56 {
+	/name [ 27
+		66696c6c202d2077686974653b207374726f6b65202d206e6f6e65
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 4
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_appearance)
+		/localizedName [ 10
+			417070656172616e6365
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 16
+				436c65617220417070656172616e6365
+			]
+			/value 6
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 23
+				44656661756c742066696c6c20616e64207374726f6b65
+			]
+			/value 6
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 12
+				5374726f6b6520636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 4
+				4e6f6e65
+			]
+			/value -1
+		}
+		/parameter-4 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 0
+
+			]
+			/value -1
+		}
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				46696c6c20636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				52474220636f6c6f72
+			]
+			/value 2
+		}
+		/parameter-4 {
+			/key 1919247406
+			/showInPalette -1
+			/type (real)
+			/value 255.0
+		}
+		/parameter-5 {
+			/key 1735550318
+			/showInPalette -1
+			/type (real)
+			/value 255.0
+		}
+		/parameter-6 {
+			/key 1651275109
+			/showInPalette -1
+			/type (real)
+			/value 255.0
+		}
+	}
+}
+/action-57 {
+	/name [ 11
+		66696c6c202d206e6f6e65
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				46696c6c20636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 4
+				4e6f6e65
+			]
+			/value -1
+		}
+		/parameter-4 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 0
+
+			]
+			/value -1
+		}
+	}
+}
+/action-58 {
+	/name [ 31
+		66696c6c202d206e6f6e653b207374726f6b65202d20626c61636b20302e31
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 3
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				46696c6c20636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 4
+				4e6f6e65
+			]
+			/value -1
+		}
+		/parameter-4 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 0
+
+			]
+			/value -1
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 12
+				5374726f6b6520636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				52474220636f6c6f72
+			]
+			/value 2
+		}
+		/parameter-4 {
+			/key 1919247406
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-5 {
+			/key 1735550318
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-6 {
+			/key 1651275109
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setStroke)
+		/localizedName [ 10
+			536574205374726f6b65
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 2003072104
+			/showInPalette -1
+			/type (unit real)
+			/value 0.1000000015
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1667330094
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				526f756e6420436170
+			]
+			/value 1
+		}
+		/parameter-3 {
+			/key 1785686382
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				526f756e64204a6f696e
+			]
+			/value 1
+		}
+		/parameter-4 {
+			/key 1684825454
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+		/parameter-5 {
+			/key 1684104298
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-6 {
+			/key 1634494318
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				43656e746572
+			]
+			/value 0
+		}
+	}
+}
+/action-59 {
+	/name [ 32
+		66696c6c202d2077686974653b207374726f6b65202d20626c61636b20302e31
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 3
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 12
+				5374726f6b6520636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				52474220636f6c6f72
+			]
+			/value 2
+		}
+		/parameter-4 {
+			/key 1919247406
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-5 {
+			/key 1735550318
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-6 {
+			/key 1651275109
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				46696c6c20636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				52474220636f6c6f72
+			]
+			/value 2
+		}
+		/parameter-4 {
+			/key 1919247406
+			/showInPalette -1
+			/type (real)
+			/value 255.0
+		}
+		/parameter-5 {
+			/key 1735550318
+			/showInPalette -1
+			/type (real)
+			/value 255.0
+		}
+		/parameter-6 {
+			/key 1651275109
+			/showInPalette -1
+			/type (real)
+			/value 255.0
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setStroke)
+		/localizedName [ 10
+			536574205374726f6b65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 2003072104
+			/showInPalette -1
+			/type (unit real)
+			/value 0.1000000015
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1667330094
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				526f756e6420436170
+			]
+			/value 1
+		}
+		/parameter-3 {
+			/key 1785686382
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				526f756e64204a6f696e
+			]
+			/value 1
+		}
+		/parameter-4 {
+			/key 1684825454
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+		/parameter-5 {
+			/key 1684104298
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-6 {
+			/key 1634494318
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				43656e746572
+			]
+			/value 0
+		}
+	}
+}
+/action-60 {
+	/name [ 15
+		666c6970202d20646961676f6e616c
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 3
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 24
+				536574205265666572656e636520506f696e7420546f3a20
+			]
+			/value 8
+		}
+		/parameter-2 {
+			/key 1919247984
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				43656e746572
+			]
+			/value 4
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 13
+				466c697020766572746963616c
+			]
+			/value 103
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 15
+				466c697020686f72697a6f6e74616c
+			]
+			/value 102
+		}
+	}
+}
+/action-61 {
+	/name [ 17
+		666c6970202d20686f72697a6f6e74616c
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 24
+				536574205265666572656e636520506f696e7420546f3a20
+			]
+			/value 8
+		}
+		/parameter-2 {
+			/key 1919247984
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				43656e746572
+			]
+			/value 4
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 15
+				466c697020686f72697a6f6e74616c
+			]
+			/value 102
+		}
+	}
+}
+/action-62 {
+	/name [ 15
+		666c6970202d20766572746963616c
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 24
+				536574205265666572656e636520506f696e7420546f3a20
+			]
+			/value 8
+		}
+		/parameter-2 {
+			/key 1919247984
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				43656e746572
+			]
+			/value 4
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 13
+				466c697020766572746963616c
+			]
+			/value 103
+		}
+	}
+}
+/action-63 {
+	/name [ 15
+		6772616469656e74202d202d313530
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -150.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-64 {
+	/name [ 15
+		6772616469656e74202d202d313335
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -135.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-65 {
+	/name [ 15
+		6772616469656e74202d202d313230
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -120.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-66 {
+	/name [ 14
+		6772616469656e74202d202d3930
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -90.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-67 {
+	/name [ 14
+		6772616469656e74202d202d3630
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -60.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-68 {
+	/name [ 14
+		6772616469656e74202d202d3435
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -45.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-69 {
+	/name [ 14
+		6772616469656e74202d202d3330
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -30.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-70 {
+	/name [ 12
+		6772616469656e74202d2030
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 0.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-71 {
+	/name [ 13
+		6772616469656e74202d203330
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 30.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-72 {
+	/name [ 13
+		6772616469656e74202d203435
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 45.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-73 {
+	/name [ 13
+		6772616469656e74202d203630
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 60.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-74 {
+	/name [ 13
+		6772616469656e74202d203930
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 90.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-75 {
+	/name [ 14
+		6772616469656e74202d20313230
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 120.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-76 {
+	/name [ 14
+		6772616469656e74202d20313335
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 135.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-77 {
+	/name [ 14
+		6772616469656e74202d20313530
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 150.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-78 {
+	/name [ 14
+		6772616469656e74202d20313830
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setGradient)
+		/localizedName [ 12
+			536574204772616469656e74
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 180.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1735995441
+			/showInPalette -1
+			/type (real)
+			/value 1.0
+		}
+	}
+}
+/action-79 {
+	/name [ 15
+		69736f6c617465202d20656d707479
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 4
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_createPath)
+		/localizedName [ 13
+			53657420576f726b2050617468
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 10
+		/parameter-1 {
+			/key 1931685936
+			/showInPalette -1
+			/type (integer)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1882206256
+			/showInPalette -1
+			/type (real)
+			/value 2000.0
+		}
+		/parameter-3 {
+			/key 1345335344
+			/showInPalette -1
+			/type (real)
+			/value -2000.0
+		}
+		/parameter-4 {
+			/key 1764765744
+			/showInPalette -1
+			/type (real)
+			/value 2000.0
+		}
+		/parameter-5 {
+			/key 1227894832
+			/showInPalette -1
+			/type (real)
+			/value -2000.0
+		}
+		/parameter-6 {
+			/key 1865429040
+			/showInPalette -1
+			/type (real)
+			/value 2000.0
+		}
+		/parameter-7 {
+			/key 1328558128
+			/showInPalette -1
+			/type (real)
+			/value -2000.0
+		}
+		/parameter-8 {
+			/key 1664102448
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-9 {
+			/key 1668034608
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-10 {
+			/key 1886677027
+			/showInPalette -1
+			/type (integer)
+			/value 1
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_Layer)
+		/localizedName [ 5
+			4c61796572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1836411236
+			/showInPalette -1
+			/type (integer)
+			/value 19
+		}
+		/parameter-2 {
+			/key 1851878757
+			/showInPalette -1
+			/type (ustring)
+			/value [ 13
+				4c6f63617465204f626a656374
+			]
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_Layer)
+		/localizedName [ 5
+			4c61796572
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836411236
+			/showInPalette -1
+			/type (integer)
+			/value 24
+		}
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_clear)
+		/localizedName [ 5
+			436c656172
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-80 {
+	/name [ 18
+		6c697665207061696e74202d20636f6d626f
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 18
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 23
+				44656661756c742066696c6c20616e64207374726f6b65
+			]
+			/value 6
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				46696c6c20636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 4
+				4e6f6e65
+			]
+			/value -1
+		}
+		/parameter-4 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 0
+
+			]
+			/value -1
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setStroke)
+		/localizedName [ 10
+			536574205374726f6b65
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 2003072104
+			/showInPalette -1
+			/type (unit real)
+			/value 0.1
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1667330094
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				526f756e6420436170
+			]
+			/value 1
+		}
+		/parameter-3 {
+			/key 1785686382
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				526f756e64204a6f696e
+			]
+			/value 1
+		}
+		/parameter-4 {
+			/key 1684825454
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+		/parameter-5 {
+			/key 1684104298
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-6 {
+			/key 1634494318
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				43656e746572
+			]
+			/value 0
+		}
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_planetx)
+		/localizedName [ 10
+			4c697665205061696e74
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 4
+				4d616b65
+			]
+			/value 1
+		}
+	}
+	/event-5 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				46696c6c20636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				52474220636f6c6f72
+			]
+			/value 2
+		}
+		/parameter-4 {
+			/key 1919247406
+			/showInPalette -1
+			/type (real)
+			/value 255.0
+		}
+		/parameter-5 {
+			/key 1735550318
+			/showInPalette -1
+			/type (real)
+			/value 255.0
+		}
+		/parameter-6 {
+			/key 1651275109
+			/showInPalette -1
+			/type (real)
+			/value 255.0
+		}
+	}
+	/event-6 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_planetx)
+		/localizedName [ 10
+			4c697665205061696e74
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1835363957
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				457870616e64
+			]
+			/value 3
+		}
+	}
+	/event-7 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_ungroup)
+		/localizedName [ 7
+			556e67726f7570
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-8 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_createPath)
+		/localizedName [ 13
+			53657420576f726b2050617468
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 10
+		/parameter-1 {
+			/key 1931685936
+			/showInPalette -1
+			/type (integer)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1882206256
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-3 {
+			/key 1345335344
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-4 {
+			/key 1764765744
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-5 {
+			/key 1227894832
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-6 {
+			/key 1865429040
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-7 {
+			/key 1328558128
+			/showInPalette -1
+			/type (real)
+			/value 0.0
+		}
+		/parameter-8 {
+			/key 1664102448
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-9 {
+			/key 1668034608
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-10 {
+			/key 1886677027
+			/showInPalette -1
+			/type (integer)
+			/value 1
+		}
+	}
+	/event-9 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_sendBackward)
+		/localizedName [ 13
+			53656e64204261636b77617264
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-10 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_sendBackward)
+		/localizedName [ 13
+			53656e64204261636b77617264
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-11 {
+		/useRulersIn1stQuadrant 0
+		/internalName (SelHat NextObjAbove Event)
+		/localizedName [ 24
+			53656c656374204e657874204f626a6563742041626f7665
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-12 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_ungroup)
+		/localizedName [ 7
+			556e67726f7570
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-13 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 23
+				44656661756c742066696c6c20616e64207374726f6b65
+			]
+			/value 6
+		}
+	}
+	/event-14 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				46696c6c20636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				48534220636f6c6f72
+			]
+			/value 3
+		}
+		/parameter-4 {
+			/key 1752524078
+			/showInPalette -1
+			/type (unit real)
+			/value 0.0
+			/unit 591490663
+		}
+		/parameter-5 {
+			/key 1935766645
+			/showInPalette -1
+			/type (unit real)
+			/value 0.0
+			/unit 592474723
+		}
+		/parameter-6 {
+			/key 1651665268
+			/showInPalette -1
+			/type (unit real)
+			/value 90.1960784314
+			/unit 592474723
+		}
+	}
+	/event-15 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setStroke)
+		/localizedName [ 10
+			536574205374726f6b65
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 2003072104
+			/showInPalette -1
+			/type (unit real)
+			/value 0.25
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1667330094
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				526f756e6420436170
+			]
+			/value 1
+		}
+		/parameter-3 {
+			/key 1785686382
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				526f756e64204a6f696e
+			]
+			/value 1
+		}
+		/parameter-4 {
+			/key 1684825454
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+		/parameter-5 {
+			/key 1684104298
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-6 {
+			/key 1634494318
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				43656e746572
+			]
+			/value 0
+		}
+	}
+	/event-16 {
+		/useRulersIn1stQuadrant 0
+		/internalName (SelHat NextObjAbove Event)
+		/localizedName [ 24
+			53656c656374204e657874204f626a6563742041626f7665
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-17 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_clear)
+		/localizedName [ 5
+			436c656172
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-18 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_commandManager)
+		/localizedName [ 16
+			416363657373204d656e75204974656d
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1769238125
+			/showInPalette -1
+			/type (ustring)
+			/value [ 17
+				636c65616e7570206d656e75206974656d
+			]
+		}
+		/parameter-2 {
+			/key 1818455661
+			/showInPalette -1
+			/type (ustring)
+			/value [ 8
+				436c65616e205570
+			]
+		}
+	}
+}
+/action-81 {
+	/name [ 15
+		6d65746162616c6c202d202d323025
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 5
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 18
+				5363616c65206c696e65207765696768743a
+			]
+			/value 105
+		}
+		/parameter-2 {
+			/key 1718378855
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_liveshapes)
+		/localizedName [ 6
+			536861706573
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1933800046
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 80.0
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 18
+				5363616c65206c696e65207765696768743a
+			]
+			/value 105
+		}
+		/parameter-2 {
+			/key 1718378855
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+	/event-5 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 125.0
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-82 {
+	/name [ 14
+		6d65746162616c6c202d202d3525
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 5
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 18
+				5363616c65206c696e65207765696768743a
+			]
+			/value 105
+		}
+		/parameter-2 {
+			/key 1718378855
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_liveshapes)
+		/localizedName [ 6
+			536861706573
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1933800046
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 95.238
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 18
+				5363616c65206c696e65207765696768743a
+			]
+			/value 105
+		}
+		/parameter-2 {
+			/key 1718378855
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+	/event-5 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 105.0
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-83 {
+	/name [ 14
+		6d65746162616c6c202d202b3525
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 5
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 18
+				5363616c65206c696e65207765696768743a
+			]
+			/value 105
+		}
+		/parameter-2 {
+			/key 1718378855
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_liveshapes)
+		/localizedName [ 6
+			536861706573
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1933800046
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 105.0
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 18
+				5363616c65206c696e65207765696768743a
+			]
+			/value 105
+		}
+		/parameter-2 {
+			/key 1718378855
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+	/event-5 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 95.238
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-84 {
+	/name [ 15
+		6d65746162616c6c202d202b323025
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 5
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 18
+				5363616c65206c696e65207765696768743a
+			]
+			/value 105
+		}
+		/parameter-2 {
+			/key 1718378855
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_liveshapes)
+		/localizedName [ 6
+			536861706573
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1933800046
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 125.0
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 18
+				5363616c65206c696e65207765696768743a
+			]
+			/value 105
+		}
+		/parameter-2 {
+			/key 1718378855
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+	/event-5 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 80.0
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-85 {
+	/name [ 20
+		6e6f7465202d20736574207461707461706b6579
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_attributePalette)
+		/localizedName [ 17
+			4174747269627574652053657474696e67
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1852798053
+			/showInPalette -1
+			/type (ustring)
+			/value [ 9
+				7461707461706b6579
+			]
+		}
+	}
+}
+/action-86 {
+	/name [ 12
+		6e6f7465202d20636c656172
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_attributePalette)
+		/localizedName [ 17
+			4174747269627574652053657474696e67
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1852798053
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+	}
+}
+/action-87 {
+	/name [ 11
+		6f706163697479202d2030
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 0.0
+			/unit 592474723
+		}
+	}
+}
+/action-88 {
+	/name [ 12
+		6f706163697479202d203130
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 10.0
+			/unit 592474723
+		}
+	}
+}
+/action-89 {
+	/name [ 12
+		6f706163697479202d203230
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 20.0
+			/unit 592474723
+		}
+	}
+}
+/action-90 {
+	/name [ 12
+		6f706163697479202d203330
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 30.0
+			/unit 592474723
+		}
+	}
+}
+/action-91 {
+	/name [ 12
+		6f706163697479202d203430
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 40.0
+			/unit 592474723
+		}
+	}
+}
+/action-92 {
+	/name [ 12
+		6f706163697479202d203530
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 50.0
+			/unit 592474723
+		}
+	}
+}
+/action-93 {
+	/name [ 12
+		6f706163697479202d203630
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 60.0
+			/unit 592474723
+		}
+	}
+}
+/action-94 {
+	/name [ 12
+		6f706163697479202d203730
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 70.0
+			/unit 592474723
+		}
+	}
+}
+/action-95 {
+	/name [ 12
+		6f706163697479202d203830
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 80.0
+			/unit 592474723
+		}
+	}
+}
+/action-96 {
+	/name [ 12
+		6f706163697479202d203930
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 90.0
+			/unit 592474723
+		}
+	}
+}
+/action-97 {
+	/name [ 13
+		6f706163697479202d20313030
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transparency)
+		/localizedName [ 12
+			5472616e73706172656e6379
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1869635939
+			/showInPalette -1
+			/type (unit real)
+			/value 99.9999955297
+			/unit 592474723
+		}
+	}
+}
+/action-98 {
+	/name [ 27
+		70617468202d20636c6f6e6520706172747320616e64206a6f696e
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 5
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_copy)
+		/localizedName [ 4
+			436f7079
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_deselectAll)
+		/localizedName [ 12
+			446573656c65637420416c6c
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_pasteInFront)
+		/localizedName [ 14
+			506173746520696e2046726f6e74
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_commandManager)
+		/localizedName [ 16
+			416363657373204d656e75204974656d
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1769238125
+			/showInPalette -1
+			/type (ustring)
+			/value [ 4
+				6a6f696e
+			]
+		}
+		/parameter-2 {
+			/key 1818455661
+			/showInPalette -1
+			/type (ustring)
+			/value [ 4
+				4a6f696e
+			]
+		}
+	}
+	/event-5 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_commandManager)
+		/localizedName [ 16
+			416363657373204d656e75204974656d
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1769238125
+			/showInPalette -1
+			/type (ustring)
+			/value [ 4
+				6a6f696e
+			]
+		}
+		/parameter-2 {
+			/key 1818455661
+			/showInPalette -1
+			/type (ustring)
+			/value [ 4
+				4a6f696e
+			]
+		}
+	}
+}
+/action-99 {
+	/name [ 16
+		7061746866696e646572202d20616464
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette 1
+			/type (enumerated)
+			/name [ 6
+				20556e697465
+			]
+			/value 0
+		}
+	}
+}
+/action-100 {
+	/name [ 21
+		7061746866696e646572202d207375627472616374
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette 1
+			/type (enumerated)
+			/name [ 11
+				4d696e75732046726f6e74
+			]
+			/value 3
+		}
+	}
+}
+/action-101 {
+	/name [ 22
+		7061746866696e646572202d20696e74657273656374
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette 1
+			/type (enumerated)
+			/name [ 9
+				496e74657273656374
+			]
+			/value 1
+		}
+	}
+}
+/action-102 {
+	/name [ 20
+		7061746866696e646572202d206578636c756465
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 1
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette 1
+			/type (enumerated)
+			/name [ 7
+				4578636c756465
+			]
+			/value 2
+		}
+	}
+}
+/action-103 {
+	/name [ 19
+		7061746866696e646572202d20646976696465
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				446976696465
+			]
+			/value 5
+		}
+	}
+}
+/action-104 {
+	/name [ 17
+		7061746866696e646572202d207472696d
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 4
+				5472696d
+			]
+			/value 7
+		}
+	}
+}
+/action-105 {
+	/name [ 18
+		7061746866696e646572202d206d65726765
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 5
+				4d65726765
+			]
+			/value 8
+		}
+	}
+}
+/action-106 {
+	/name [ 17
+		7061746866696e646572202d2063726f70
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 4
+				43726f70
+			]
+			/value 9
+		}
+	}
+}
+/action-107 {
+	/name [ 20
+		7061746866696e646572202d206f75746c696e65
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 7
+				4f75746c696e65
+			]
+			/value 6
+		}
+	}
+}
+/action-108 {
+	/name [ 23
+		7061746866696e646572202d206d696e7573206261636b
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_pathfinder)
+		/localizedName [ 10
+			5061746866696e646572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				4d696e7573204261636b
+			]
+			/value 4
+		}
+	}
+}
+/action-109 {
+	/name [ 18
+		7265666c656374202d20646961676f6e616c
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 180.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-110 {
+	/name [ 20
+		7265666c656374202d20686f72697a6f6e74616c
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_reflect)
+		/localizedName [ 7
+			5265666c656374
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 90.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-111 {
+	/name [ 18
+		7265666c656374202d20766572746963616c
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_reflect)
+		/localizedName [ 7
+			5265666c656374
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 0.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-112 {
+	/name [ 12
+		726f74617465202d202d3930
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -90.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-113 {
+	/name [ 12
+		726f74617465202d202d3435
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -45.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-114 {
+	/name [ 12
+		726f74617465202d202d3330
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -30.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-115 {
+	/name [ 12
+		726f74617465202d202d3135
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -15.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-116 {
+	/name [ 12
+		726f74617465202d202d3130
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 6
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -10.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-5 {
+			/key 1684370520
+			/showInPalette -1
+			/type (unit real)
+			/value -0.6101755664
+			/unit 592476268
+		}
+		/parameter-6 {
+			/key 1684370521
+			/showInPalette -1
+			/type (unit real)
+			/value -2.1568048155
+			/unit 592476268
+		}
+	}
+}
+/action-117 {
+	/name [ 11
+		726f74617465202d202d35
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -5.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-118 {
+	/name [ 11
+		726f74617465202d202d31
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value -1.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-119 {
+	/name [ 11
+		726f74617465202d203d30
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_transformPalette)
+		/localizedName [ 15
+			5472616e73666f726d2050616e656c
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 7
+				526f746174653a
+			]
+			/value 5
+		}
+		/parameter-2 {
+			/key 1986096245
+			/showInPalette -1
+			/type (unit real)
+			/value 0.0
+			/unit 591490663
+		}
+	}
+}
+/action-120 {
+	/name [ 11
+		726f74617465202d202b31
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 1.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-121 {
+	/name [ 11
+		726f74617465202d202b35
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 5.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-122 {
+	/name [ 12
+		726f74617465202d202b3130
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 10.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-123 {
+	/name [ 12
+		726f74617465202d202b3135
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 15.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-124 {
+	/name [ 12
+		726f74617465202d202b3330
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 30.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-125 {
+	/name [ 12
+		726f74617465202d202b3435
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 45.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-126 {
+	/name [ 12
+		726f74617465202d202b3930
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_rotate)
+		/localizedName [ 6
+			526f74617465
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1634625388
+			/showInPalette -1
+			/type (unit real)
+			/value 90.0
+			/unit 591490663
+		}
+		/parameter-2 {
+			/key 1868720756
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-3 {
+			/key 1885434990
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-127 {
+	/name [ 12
+		7363616c65202d202d323025
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 83.333
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-128 {
+	/name [ 21
+		7363616c65202d202d31382e333325202869736f29
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 81.66598
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-129 {
+	/name [ 12
+		7363616c65202d202d313025
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 90.909
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-130 {
+	/name [ 11
+		7363616c65202d202d3525
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 95.2381
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-131 {
+	/name [ 23
+		7363616c65202d202d302e30312520766572746963616c
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 5
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1752136302
+			/showInPalette -1
+			/type (unit real)
+			/value 100.0
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1987339116
+			/showInPalette -1
+			/type (unit real)
+			/value 99.99
+			/unit 592474723
+		}
+		/parameter-5 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-132 {
+	/name [ 11
+		7363616c65202d202b3525
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 105.0
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-133 {
+	/name [ 12
+		7363616c65202d202b313025
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 110.0
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-134 {
+	/name [ 21
+		7363616c65202d202b32322e343525202869736f29
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 122.45
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-135 {
+	/name [ 12
+		7363616c65202d202b323025
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_scale)
+		/localizedName [ 5
+			5363616c65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1970169453
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+		/parameter-2 {
+			/key 1818848869
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1935895653
+			/showInPalette -1
+			/type (unit real)
+			/value 120.0
+			/unit 592474723
+		}
+		/parameter-4 {
+			/key 1668247673
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-136 {
+	/name [ 14
+		73656c656374202d2061626f7665
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (SelHat NextObjAbove Event)
+		/localizedName [ 24
+			53656c656374204e657874204f626a6563742041626f7665
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-137 {
+	/name [ 25
+		73656c656374202d20616464206f626a6563742062656c6f77
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 5
+	/event-1 {
+		/useRulersIn1stQuadrant 1
+		/internalName (adobe_attributePalette)
+		/localizedName [ 17
+			4174747269627574652053657474696e67
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1852798053
+			/showInPalette -1
+			/type (ustring)
+			/value [ 1
+				20
+			]
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (SelHat NextObjBelow Event)
+		/localizedName [ 24
+			53656c656374204e657874204f626a6563742042656c6f77
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 1
+		/internalName (adobe_attributePalette)
+		/localizedName [ 17
+			4174747269627574652053657474696e67
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1852798053
+			/showInPalette -1
+			/type (ustring)
+			/value [ 1
+				20
+			]
+		}
+	}
+	/event-4 {
+		/useRulersIn1stQuadrant 1
+		/internalName (adobe_setSelection)
+		/localizedName [ 13
+			5365742053656c656374696f6e
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1952807028
+			/showInPalette -1
+			/type (ustring)
+			/value [ 1
+				20
+			]
+		}
+		/parameter-2 {
+			/key 2003792484
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1667330917
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+	/event-5 {
+		/useRulersIn1stQuadrant 1
+		/internalName (adobe_attributePalette)
+		/localizedName [ 17
+			4174747269627574652053657474696e67
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1852798053
+			/showInPalette -1
+			/type (ustring)
+			/value [ 0
+
+			]
+		}
+	}
+}
+/action-138 {
+	/name [ 14
+		73656c656374202d2062656c6f77
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (SelHat NextObjBelow Event)
+		/localizedName [ 24
+			53656c656374204e657874204f626a6563742042656c6f77
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-139 {
+	/name [ 24
+		73656c656374202d20696e766572736520696e7665727365
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_inverse)
+		/localizedName [ 8
+			53656c6563743a20
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (ustring)
+			/value [ 7
+				496e7665727365
+			]
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_inverse)
+		/localizedName [ 8
+			53656c6563743a20
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (ustring)
+			/value [ 7
+				496e7665727365
+			]
+		}
+	}
+}
+/action-140 {
+	/name [ 22
+		73656c656374202d206c6f63617465206f626a656374
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_Layer)
+		/localizedName [ 5
+			4c61796572
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1836411236
+			/showInPalette -1
+			/type (integer)
+			/value 19
+		}
+		/parameter-2 {
+			/key 1851878757
+			/showInPalette -1
+			/type (ustring)
+			/value [ 13
+				4c6f63617465204f626a656374
+			]
+		}
+	}
+}
+/action-141 {
+	/name [ 13
+		73656c656374202d206e6f6e65
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_deselectAll)
+		/localizedName [ 12
+			446573656c65637420416c6c
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-142 {
+	/name [ 23
+		73656c656374202d206e6f7465207461707461706b6579
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_setSelection)
+		/localizedName [ 13
+			5365742053656c656374696f6e
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1952807028
+			/showInPalette -1
+			/type (ustring)
+			/value [ 9
+				7461707461706b6579
+			]
+		}
+		/parameter-2 {
+			/key 2003792484
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1667330917
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-143 {
+	/name [ 22
+		73656c656374202d20756e68696465206f7468657273
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_showAll)
+		/localizedName [ 8
+			53686f7720416c6c
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_inverse)
+		/localizedName [ 8
+			53656c6563743a20
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1851878757
+			/showInPalette -1
+			/type (ustring)
+			/value [ 7
+				496e7665727365
+			]
+		}
+	}
+}
+/action-144 {
+	/name [ 17
+		7374726f6b65202d206163746976617465
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 12
+				5374726f6b6520636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-145 {
+	/name [ 13
+		7374726f6b65202d206e6f6e65
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 4
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 12
+				5374726f6b6520636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-3 {
+			/key 1836349808
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 4
+				4e6f6e65
+			]
+			/value -1
+		}
+		/parameter-4 {
+			/key 1954115685
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 0
+
+			]
+			/value -1
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setColor)
+		/localizedName [ 9
+			53657420636f6c6f72
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1768186740
+			/showInPalette -1
+			/type (ustring)
+			/value [ 10
+				46696c6c20636f6c6f72
+			]
+		}
+		/parameter-2 {
+			/key 1718185068
+			/showInPalette -1
+			/type (boolean)
+			/value 1
+		}
+	}
+}
+/action-146 {
+	/name [ 15
+		7374726f6b65202d2063656e746572
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setStroke)
+		/localizedName [ 10
+			536574205374726f6b65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1634494318
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				43656e746572
+			]
+			/value 0
+		}
+	}
+}
+/action-147 {
+	/name [ 15
+		7374726f6b65202d20696e73696465
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setStroke)
+		/localizedName [ 10
+			536574205374726f6b65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1634494318
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				496e73696465
+			]
+			/value 1
+		}
+	}
+}
+/action-148 {
+	/name [ 16
+		7374726f6b65202d206f757473696465
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setStroke)
+		/localizedName [ 10
+			536574205374726f6b65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1634494318
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 7
+				4f757473696465
+			]
+			/value 2
+		}
+	}
+}
+/action-149 {
+	/name [ 13
+		7374726f6b65202d2062757474
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setStroke)
+		/localizedName [ 10
+			536574205374726f6b65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1667330094
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 8
+				4275747420436170
+			]
+			/value 0
+		}
+		/parameter-2 {
+			/key 1836344690
+			/showInPalette -1
+			/type (real)
+			/value 10.0
+		}
+		/parameter-3 {
+			/key 1785686382
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				4d69746572204a6f696e
+			]
+			/value 0
+		}
+	}
+}
+/action-150 {
+	/name [ 14
+		7374726f6b65202d20726f756e64
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setStroke)
+		/localizedName [ 10
+			536574205374726f6b65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1667330094
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 9
+				526f756e6420436170
+			]
+			/value 1
+		}
+		/parameter-2 {
+			/key 1785686382
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				526f756e64204a6f696e
+			]
+			/value 1
+		}
+	}
+}
+/action-151 {
+	/name [ 19
+		7374726f6b65202d2070726f6a656374696e67
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_setStroke)
+		/localizedName [ 10
+			536574205374726f6b65
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1667330094
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 14
+				50726f6a656374696e6720436170
+			]
+			/value 2
+		}
+		/parameter-2 {
+			/key 1785686382
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				426576656c204a6f696e
+			]
+			/value 2
+		}
+	}
+}
+/action-152 {
+	/name [ 16
+		74797065202d206175746f2073697a65
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_SLOAreaTextDialog)
+		/localizedName [ 17
+			417265612054797065204f7074696f6e73
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1952539754
+			/showInPalette -1
+			/type (integer)
+			/value 1
+		}
+	}
+}
+/action-153 {
+	/name [ 25
+		74797065202d20657870616e6420746f20636f6d706f756e64
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 3
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_createOutline)
+		/localizedName [ 15
+			437265617465204f75746c696e6573
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_ungroup)
+		/localizedName [ 7
+			556e67726f7570
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_makeCompound)
+		/localizedName [ 18
+			4d616b6520436f6d706f756e642050617468
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-154 {
+	/name [ 20
+		74797065202d20706f696e74206f722061726561
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_typeConversion)
+		/localizedName [ 21
+			4170706c79205479706520436f6e76657273696f6e
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 0
+	}
+}
+/action-155 {
+	/name [ 19
+		74797065202d20616c69676e202d206c656674
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_SLOParagraphPalette)
+		/localizedName [ 17
+			5061726167726170682053657474696e67
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1634494830
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 10
+				416c69676e206c656674
+			]
+			/value 0
+		}
+	}
+}
+/action-156 {
+	/name [ 21
+		74797065202d20616c69676e202d2063656e746572
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_SLOParagraphPalette)
+		/localizedName [ 17
+			5061726167726170682053657474696e67
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1634494830
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 12
+				416c69676e2063656e746572
+			]
+			/value 2
+		}
+	}
+}
+/action-157 {
+	/name [ 20
+		74797065202d20616c69676e202d207269676874
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_SLOParagraphPalette)
+		/localizedName [ 17
+			5061726167726170682053657474696e67
+		]
+		/isOpen 1
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1634494830
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 11
+				416c69676e207269676874
+			]
+			/value 1
+		}
+	}
+}
+/action-158 {
+	/name [ 21
+		74797065202d206a757374696679202d206c656674
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_SLOParagraphPalette)
+		/localizedName [ 17
+			5061726167726170682053657474696e67
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1634494830
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 35
+				4a7573746966792077697468206c617374206c696e6520616c69676e6564206c
+				656674
+			]
+			/value 3
+		}
+	}
+}
+/action-159 {
+	/name [ 26
+		74797065202d206a757374696679202d20616c6c206c696e6573
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_SLOParagraphPalette)
+		/localizedName [ 17
+			5061726167726170682053657474696e67
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1634494830
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 17
+				4a75737469667920616c6c206c696e6573
+			]
+			/value 6
+		}
+	}
+}
+/action-160 {
+	/name [ 27
+		74797065202d20766572746963616c20616c69676e202d20746f70
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_frameAlignment)
+		/localizedName [ 0
+
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1717660782
+			/showInPalette -1
+			/type (integer)
+			/value 0
+		}
+	}
+}
+/action-161 {
+	/name [ 30
+		74797065202d20766572746963616c20616c69676e202d2063656e746572
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_frameAlignment)
+		/localizedName [ 0
+
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1717660782
+			/showInPalette -1
+			/type (integer)
+			/value 1
+		}
+	}
+}
+/action-162 {
+	/name [ 30
+		74797065202d20766572746963616c20616c69676e202d20626f74746f6d
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_frameAlignment)
+		/localizedName [ 0
+
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1717660782
+			/showInPalette -1
+			/type (integer)
+			/value 2
+		}
+	}
+}
+/action-163 {
+	/name [ 31
+		74797065202d20766572746963616c20616c69676e202d206a757374696679
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_frameAlignment)
+		/localizedName [ 0
+
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 1
+		/parameter-1 {
+			/key 1717660782
+			/showInPalette -1
+			/type (integer)
+			/value 3
+		}
+	}
+}

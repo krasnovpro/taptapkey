@@ -1,0 +1,341 @@
+﻿# Illustrator 2026, 30.0
+# tool commands
+
+# aiTool("item") => app.selectTool('command')
+
+items:
+  # item: command
+
+  Add Anchor Point: Adobe Add Anchor Point Tool
+  Anchor Point: Adobe Anchor Point Tool
+  Arc: Adobe Arc Tool
+  Area Graph: Adobe Area Graph Tool
+  Area Type: Adobe Area Type Tool
+  Artboard: Adobe Crop Tool
+  Bar Graph: Adobe Bar Graph Tool
+  Blend: Adobe Blend Tool
+  Bloat: Adobe Bloat Tool
+  Blob Brush: Adobe Blob Brush Tool
+  Column Graph: Adobe Column Graph Tool
+  Crystallize: Adobe Cyrstallize Tool
+  Curvature: Adobe Curvature Tool
+  Delete Anchor Point: Adobe Delete Anchor Point Tool
+  Direct Selection: Adobe Direct Select Tool
+  Dimension: Adobe Dimension Tool
+  Ellipse: Adobe Ellipse Shape Tool
+  Eraser: Adobe Eraser Tool
+  Eyedropper: Adobe Eyedropper Tool
+  Flare: Adobe Flare Tool
+  Free Transform: Adobe Free Transform Tool
+  Gradient: Adobe Gradient Vector Tool
+  Group Selection: Adobe Direct Object Select Tool
+  Intertwine: Adobe Intertwine Zone Marker Tool
+  Hand: Adobe Scroll Tool
+  Join: Adobe Corner Join Tool
+  Knife: Adobe Knife Tool
+  Lasso: Adobe Direct Lasso Tool
+  Line Graph: Adobe Line Graph Tool
+  Line Segment: Adobe Line Tool
+  Live Paint Bucket: Adobe Planar Paintbucket Tool
+  Live Paint Selection: Adobe Planar Face Select Tool
+  Magic Wand: Adobe Magic Wand Tool
+  Measure: Adobe Measure Tool
+  Mesh: Adobe Mesh Editing Tool
+  Objects on Path: Adobe Constraints Tool
+  Paintbrush: Adobe Brush Tool
+  Path Eraser: Adobe Freehand Erase Tool
+  Pattern Tile: Adobe Pattern Tile Tool
+  Pen: Adobe Pen Tool
+  Pencil: Adobe Freehand Tool
+  Perspective Grid: Perspective Grid Tool
+  Perspective Selection: Perspective Selection Tool
+  Pie Graph: Adobe Pie Graph Tool
+  Place: Adobe Place Gun Tool
+  Polar Grid: Adobe Polar Grid Tool
+  Polygon: Adobe Shape Construction Regular Polygon Tool
+  Print Tiling: Adobe Page Tool
+  Pucker: Adobe Pucker Tool
+  Puppet Warp: Adobe Puppet Warp Tool
+  Radar Graph: Adobe Radar Graph Tool
+  Rectangle: Adobe Rectangle Shape Tool
+  Rectangular Grid: Adobe Rectangular Grid Tool
+  Reflect: Adobe Reflect Tool
+  Reshape: Adobe Reshape Tool
+  Rotate: Adobe Rotate Tool
+  Rotate View: Adobe Rotate Canvas Tool
+  Rounded Rectangle: Adobe Rounded Rectangle Tool
+  Scale: Adobe Scale Tool
+  Scallop: Adobe Scallop Tool
+  Scatter Graph: Adobe Scatter Graph Tool
+  Scissors: Adobe Scissors Tool
+  Selection: Adobe Select Tool
+  Shape Builder: Adobe Shape Builder Tool
+  Shaper: Adobe Shaper Tool
+  Shear: Adobe Shear Tool
+  Slice: Adobe Slice Tool
+  Slice Selection: Adobe Slice Select Tool
+  Smooth: Adobe Freehand Smooth Tool
+  Spiral: Adobe Shape Construction Spiral Tool
+  Stacked Bar Graph: Adobe Stacked Bar Graph Tool
+  Stacked Column Graph: Adobe Stacked Column Graph Tool
+  Star: Adobe Shape Construction Star Tool
+  Stencil: Adobe Stencil Tool
+  Symbol Screener: Adobe Symbol Screener Tool
+  Symbol Scruncher: Adobe Symbol Scruncher Tool
+  Symbol Shifter: Adobe Symbol Shifter Tool
+  Symbol Sizer: Adobe Symbol Sizer Tool
+  Symbol Spinner: Adobe Symbol Spinner Tool
+  Symbol Sprayer: Adobe Symbol Sprayer Tool
+  Symbol Stainer: Adobe Symbol Stainer Tool
+  Symbol Styler: Adobe Symbol Styler Tool
+  Touch Type: Adobe Touch Type Tool
+  Twirl: Adobe New Twirl Tool
+  Type: Adobe Type Tool
+  Type on a Path: Adobe Path Type Tool
+  Vertical Area Type: Adobe Vertical Area Type Tool
+  Vertical Type: Adobe Vertical Type Tool
+  Vertical Type on a Path: Adobe Vertical Path Type Tool
+  Warp: Adobe Warp Tool
+  Width: Adobe Width Tool
+  Wrinkle: Adobe Wrinkle Tool
+  Zoom: Adobe Zoom Tool
+
+  # Tool functions (not tools)
+
+  Blend Mode - Normal: Adobe Blend Mode Normal
+  Blend Mode - Darken: Adobe Blend Mode Darken
+  Blend Mode - Multiply: Adobe Blend Mode Multiply
+  Blend Mode - Color Burn: Adobe Blend Mode Color Burn
+  Blend Mode - Lighten: Adobe Blend Mode Lighten
+  Blend Mode - Screen: Adobe Blend Mode Screen
+  Blend Mode - Color Dodge: Adobe Blend Mode Color Dodge
+  Blend Mode - Overlay: Adobe Blend Mode Overlay
+  Blend Mode - Soft Light: Adobe Blend Mode Soft Light
+  Blend Mode - Hard Light: Adobe Blend Mode Hard Light
+  Blend Mode - Difference: Adobe Blend Mode Difference
+  Blend Mode - Exclusion: Adobe Blend Mode Exclusion
+  Blend Mode - Hue: Adobe Blend Mode Hue
+  Blend Mode - Saturation: Adobe Blend Mode Saturation
+  Blend Mode - Color: Adobe Blend Mode Color
+  Blend Mode - Luminosity: Adobe Blend Mode Luminosity
+  Blend Mode - Next Mode: Adobe Blend Mode Next Mode
+  Blend Mode - Previous Mode: Adobe Blend Mode Prev Mode
+
+  Decrease Diameter: Adobe Tool Dec Diameter
+  Increase Diameter: Adobe Tool Inc Diameter
+
+  Opacity - 0%: Adobe Opacity 0
+  Opacity - 10%: Adobe Opacity 10
+  Opacity - 20%: Adobe Opacity 20
+  Opacity - 30%: Adobe Opacity 30
+  Opacity - 40%: Adobe Opacity 40
+  Opacity - 50%: Adobe Opacity 50
+  Opacity - 60%: Adobe Opacity 60
+  Opacity - 70%: Adobe Opacity 70
+  Opacity - 80%: Adobe Opacity 80
+  Opacity - 90%: Adobe Opacity 90
+  Opacity - 100%: Adobe Opacity 100
+
+  Presentation Mode: Adobe Presentation Mode
+
+  Set Color: Adobe Paint Color
+  Set Default: Adobe Default Fill Stroke
+  Set Gradient: Adobe Paint Gradient
+  Set None: Adobe Paint None
+
+  Show-Hide All But Toolbox: Adobe Toggle Closing Palettes
+  Show-Hide All Palettes: Adobe Toggle Palettes
+
+  Swap Fill-Stroke: Adobe Swap Fill Stroke
+
+  Symbolisms - Decrease Intensity: Adobe Symbolism Dec Intensity
+  Symbolisms - Increase Intensity: Adobe Symbolism Inc Intensity
+
+  Toggle Drawing Mode: Adobe Toggle Drawing Mode
+  Toggle Fill-Stroke: Adobe Toggle Fill Stroke
+  Toggle Screen Mode: Adobe Toggle Screen Mode
+
+
+  # PLUGINS:
+
+  # Astute Graphics Bundle
+  # https://astutegraphics.com
+
+  AG Arc by Points: Arc by Points Tool
+  AG Block Shadow: AG Block Shadow Tool
+  AG Circle by Points: Circle by Points Tool
+  AG Color Select: AG Color Select Tool
+  AG Connect: Connect Tool
+  AG Crop Image: Crop Image Tool
+  AG Curvature Circle: Curvature Circle Tool
+  AG Dynamic Corners: Dynamic Corners Tool
+  AG Dynamic Measure: Dynamic Measure Tool
+  AG Dynamic Shapes: Dynamic Shapes Tool
+  AG Dynamic Sketch: Dynamic Sketch Tool
+  AG Extend Path: Extend Path Tool
+  AG Gradient From Art: Gradient From Art Tool
+  AG Inflate Deflate: Inflate Deflate Tool
+  AG InkFlow: InkFlow Tool
+  AG InkScribe: InkScribe Tool
+  AG Lock Unlock: Lock Unlock Tool
+  AG MirrorMe: MirrorMe Tool
+  AG Offset: AG Offset Tool
+  AG Opacity Brush: OpacityBrushTool
+  AG Orient: Orient Tool
+  AG Orient Transform: Orient Transform Tool
+  AG PathScribe: PathScribe Tool
+  AG Perpendicular Line: Perpendicular Line Tool
+  AG Quick Orient: Quick Orient Tool
+  AG Randomini: RandominiTool
+  AG Randomino Start Point: Reference Point Setter Tool
+  AG Reform: Reform Tool
+  AG Reform Text: Reform Text Tool
+  AG Reprofile: Reprofile Tool
+  AG Reposition Point: Reposition Point Tool
+  AG Rotate At Collision: Rotate At Collision Tool
+  AG Rotate To Collision: Rotate To Collision Tool
+  AG Smart Remove Brush: Smart Remove Brush Tool
+  AG Snap To Collisions: Snap To Collisions Tool
+  AG Straighten: Straighten Tool
+  AG Stylism: Stylism Tool
+  AG Super Marquee: Super Marquee Tool
+  AG Tangent Circle: Tangent Circle Tool
+  AG Tangent Line: Tangent Line Tool
+  AG Texture: TextureTool
+  AG Texture Brush: TextureBrushTool
+  AG Trim and Join: AG Trim and Join Tool
+  AG Width Brush: Width Brush Tool
+  AG Width Eraser: Width Eraser Tool
+  AG Width Gradient: Width Gradient Tool
+  AG Width Selector: Width Selector Tool
+
+  # Cool Seilection
+  # https://cool-selection.com
+
+  CS Box: CoolSelection Plugin Tool Selection Box
+  CS Box A: CoolSelection Plugin Tool Selection Box (A)
+  CS Brush: CoolSelection Plugin Tool Selection Brush
+
+  # CValley FILTERiT
+  # https://cvalley.com
+
+  CV Broom: "FILTERiT5: Broom Tool"
+  CV Craft: "FILTERiT5: Craft Tool"
+  CV Lens: "FILTERiT5: Lens Tool"
+  CV Live3D Rotate: "FILTERiT5: Live3D Rotate Tool"
+  CV Roughening: "FILTERiT5: Roughening Tool"
+  CV Warp: "FILTERiT5: Warp Tool"
+  CV Wave: "FILTERiT5: Wave Tool"
+
+  # N8ive Studio Bundle
+  # https://n8ivestudio.com
+
+  NS Unlocker: Unlocker Tool
+
+  # Pixelology Spiro Spline
+  # https://pixeology.com
+
+  PX Spiro Spline: Spiro
+
+  # RJ-Graffix AxoTools
+  # https://rj-graffix.com/downloads/plugins/#axotools
+
+  RJ Auxiliary Axis: AxoTools Tool AuxAxisTool
+  RJ Axo: AxoTools Tool AxoTool
+  RJ Axo Arc: AxoTools Tool AxoArcTool
+  RJ Axo Line: AxoTools Tool AxoLineTool
+  RJ Axo Extrude: AxoTools Tool AxoExtrudeTool
+  RJ Axo Ellipse: AxoTools Tool AxoEllipseTool
+  RJ Axo Fastener: AxoTools Tool AxoFastenerTool
+  RJ Axo Measure: AxoTools Tool AxoMeasureTool
+  RJ Axo Rectangle: AxoTools Tool AxoRectTool
+  RJ Axo Rotate: AxoTools Tool AxoRotateTool
+  RJ Axo Scale: AxoTools Tool AxoScaleTool
+  RJ Axo Shear: AxoTools Tool AxoShearTool
+  RJ Axo Tangent Line: AxoTools Tool AxoTangentTool
+  RJ Axo Zone: AxoTools Tool AxoZoneTool
+
+  # RJ-Graffix Cleanup
+  # https://rj-graffix.com/downloads/plugins/#cleanup
+
+  RJ Cleanup: CleanupTool Tool Cleanup Tool
+
+  # RJ-Graffix Cutting Tools
+  # https://rj-graffix.com/downloads/plugins/#cuttingtools
+
+  RJ Hatchet: CuttingTools Tool Hatchet Tool
+  RJ Saber Saw: CuttingTools Tool Saber Saw Tool
+  RJ Table Saw: CuttingTools Tool Table Saw Tool
+  RJ Trimmer: CuttingTools Tool Trimmer Tool
+  RJ Vector Vac: CuttingTools Tool Vector Vac Tool
+
+  # RJ-Graffix Nudge
+  # https://rj-graffix.com/downloads/plugins/#nudgepalette
+
+  RJ Nudge: Nudge Tool NudgeTool
+
+  # RJ-Graffix ToolShed
+  # https://rj-graffix.com/downloads/plugins/#toolshed
+
+  RJ Bracket: ToolShed Tool Bracket
+  RJ Open Path Offset: ToolShed Tool Open Path Offset
+  RJ Stabilized Pencil: ToolShed Tool Stabilized Pencil
+  RJ Tangent Arc: ToolShed Tool Tangent Arc
+  RJ Transform: ToolShed Tool Transform Tool
+
+
+bugs:
+  # The commands below produces PARM error and may cause a crash
+
+  - Adobe Blend Mode Normal
+  - Adobe Blend Mode Darken
+  - Adobe Blend Mode Multiply
+  - Adobe Blend Mode Color Burn
+  - Adobe Blend Mode Lighten
+  - Adobe Blend Mode Screen
+  - Adobe Blend Mode Color Dodge
+  - Adobe Blend Mode Overlay
+  - Adobe Blend Mode Soft Light
+  - Adobe Blend Mode Hard Light
+  - Adobe Blend Mode Difference
+  - Adobe Blend Mode Exclusion
+  - Adobe Blend Mode Hue
+  - Adobe Blend Mode Saturation
+  - Adobe Blend Mode Color
+  - Adobe Blend Mode Luminosity
+  - Adobe Blend Mode Next Mode
+  - Adobe Blend Mode Prev Mode
+
+  - Adobe Tool Dec Diameter
+  - Adobe Tool Inc Diameter
+
+  - Adobe Opacity 0
+  - Adobe Opacity 10
+  - Adobe Opacity 20
+  - Adobe Opacity 30
+  - Adobe Opacity 40
+  - Adobe Opacity 50
+  - Adobe Opacity 60
+  - Adobe Opacity 70
+  - Adobe Opacity 80
+  - Adobe Opacity 90
+  - Adobe Opacity 100
+
+  - Adobe Presentation Mode
+
+  - Adobe Paint Color
+  - Adobe Default Fill Stroke
+  - Adobe Paint Gradient
+  - Adobe Paint None
+
+  - Adobe Toggle Closing Palettes
+  - Adobe Toggle Palettes
+
+  - Adobe Swap Fill Stroke
+
+  - Adobe Symbolism Dec Intensity
+  - Adobe Symbolism Inc Intensity
+
+  - Adobe Toggle Drawing Mode
+  - Adobe Toggle Fill Stroke
+  - Adobe Toggle Screen Mode

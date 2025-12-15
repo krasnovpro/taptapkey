@@ -1,0 +1,73 @@
+﻿- title: Adobe Indesign
+  icon: '#adobe_indesign'
+
+- title: Reference Point
+
+- column: break
+
+- title: '&#x2196;'
+  icon: '#refpoint/top_left'
+  key: e
+  action:
+    - idRunScript
+    - prefs > reference point > top left
+
+- title: '&#x2190;'
+  icon: '#refpoint/middle_left'
+  key: d
+  action:
+    - idRunScript
+    - prefs > reference point > middle left
+
+- title: '&#x2199;'
+  icon: '#refpoint/bottom_left'
+  key: c
+  action:
+    - idRunScript
+    - prefs > reference point > bottom left
+
+- column: break
+
+- title: '&nbsp;&#x2191;'
+  icon: '#refpoint/top_middle'
+  key: r
+  action:
+    - idRunScript
+    - prefs > reference point > top middle
+
+- title: '&#x25A2;'
+  icon: '#refpoint/center'
+  key: f
+  action:
+    - idRunScript
+    - prefs > reference point > center
+
+- title: '&nbsp;&#x2193;'
+  icon: '#refpoint/bottom_middle'
+  key: v
+  action:
+    - idRunScript
+    - prefs > reference point > bottom middle
+
+- column: break
+
+- title: '&#x2197;'
+  icon: '#refpoint/top_right'
+  key: t
+  action:
+    - idRunScript
+    - prefs > reference point > top right
+
+- title: '&#x2192;'
+  icon: '#refpoint/middle_right'
+  key: g
+  action:
+    - idRunScript
+    - prefs > reference point > middle right
+
+- title: '&#x2198;'
+  icon: '#refpoint/bottom_right'
+  key: b
+  action:
+    - idRunScript
+    - prefs > reference point > bottom right

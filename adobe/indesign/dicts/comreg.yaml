@@ -1,0 +1,16 @@
+# set of com reg keys for recent indesign versions
+
+21.0.0.0:  #2026
+  progid:  InDesign.Application.2026
+  clsid:   45112D7C-822C-400A-BA8C-D682F7FD0B8E
+  typelib: 268860D4-B7CB-4DEF-A5D6-F7F9F9261D11
+
+20.0.0.0:  #2025
+  progid:  InDesign.Application.2025
+  clsid:   5BA07E5C-59D9-4683-8C51-930058017311
+  typelib: 0C03C278-47A1-46F7-AA5A-D36503A3E301
+
+19.0.0.0:  #2024
+  progid:  InDesign.Application.2024
+  clsid:   CED3B02D-77EF-478F-85CE-FC7C5023DB35
+  typelib: 526905B8-9008-4086-99A8-67D3ED1B4A17

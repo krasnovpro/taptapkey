@@ -1,0 +1,1636 @@
+﻿# Illustrator 2026, 30.0.0.123
+# menu commands
+
+# https://community.adobe.com/t5/illustrator-discussions/executemenucommand-command-list/m-p/13295893
+
+# aiRunMenu("item") => app.executeMenuCommand("cmd")
+
+### Notes
+# - The state of the list may be outdated. Let me know if you find any errors
+
+items:
+  # item: cmd
+
+  # File
+  File > New...: new
+  File > New from Template...: newFromTemplate
+  File > Open...: open
+  File > Browse in Bridge...: Adobe Bridge Browse
+  File > Close: close
+  File > Close All: closeAll
+  File > Save: save
+  File > Save As...: saveas
+  File > Save a Copy...: saveacopy
+  File > Save Selected Slices...: Adobe AI Save Selected Slices
+  File > Save as Template...: saveastemplate
+  File > Revert: revert
+  File > Search Adobe Stock...: Search Adobe Stock
+  File > Place...: AI Place
+  File > Export > Export for Screens...: exportForScreens
+  File > Export > Export As...: export
+  File > Export > Save for Web (Legacy)...: Adobe AI Save For Web
+  File > Export Selection...: exportSelection
+  File > Package...: Package Menu Item
+  File > Scripts > Other Script...: ai_browse_for_script
+  File > Document Setup...: document
+  File > Document Color Mode > CMYK Color: doc-color-cmyk
+  File > Document Color Mode > RGB Color: doc-color-rgb
+  File > File Info...: File Info
+  File > Print...: Print
+  File > Exit: quit
+
+  # Edit
+  Edit > Undo: undo
+  Edit > Redo: redo
+  Edit > Cut: cut
+  Edit > Copy: copy
+  Edit > Paste: paste
+  Edit > Paste in Front: pasteFront
+  Edit > Paste in Back: pasteBack
+  Edit > Paste in Place: pasteInPlace
+  Edit > Paste on All Artboards: pasteInAllArtboard
+  Edit > Paste without Formatting: pasteWithoutFormatting
+  Edit > Clear: clear
+  Edit > Find and Replace...: Find and Replace
+  Edit > Find Next: Find Next
+  Edit > Spelling > Auto Spell Check: Auto Spell Check
+  Edit > Spelling > Check Spelling...: Check Spelling
+  Edit > Edit Custom Dictionary...: Edit Custom Dictionary...
+  Edit > Edit Colors > Recolor Artwork...: Recolor Art Dialog
+  Edit > Edit Colors > Generative Recolor: Generative Recolor Art Dialog
+  Edit > Edit Colors > Adjust Color Balance...: Adjust3
+  Edit > Edit Colors > Blend Front to Back: Colors3
+  Edit > Edit Colors > Blend Horizontally: Colors4
+  Edit > Edit Colors > Blend Vertically: Colors5
+  Edit > Edit Colors > Convert to CMYK: Colors8
+  Edit > Edit Colors > Convert to Grayscale: Colors7
+  Edit > Edit Colors > Convert to RGB: Colors9
+  Edit > Edit Colors > Invert Colors: Colors6
+  Edit > Edit Colors > Overprint Black...: Overprint2
+  Edit > Edit Colors > Saturate...: Saturate3
+  Edit > Edit Original: EditOriginal Menu Item
+  Edit > Transparency Flattener Presets...: Transparency Presets
+  Edit > Print Presets...: Print Presets
+  Edit > Adobe PDF Presets...: PDF Presets
+  Edit > SWF Presets...: SWFPresets # legacy
+  Edit > Perspective Grid Presets...: PerspectiveGridPresets
+  Edit > Color Settings...: color
+  Edit > Assign Profile...: assignprofile
+  Edit > Keyboard Shortcuts...: KBSC Menu Item
+  Edit > My Settings > Export Settings...: ExportSettings
+  Edit > My Settings > Import Settings...: ImportSettings
+  Edit > Preferences > General...: preference
+  Edit > Preferences > Selection & Anchor Display...: selectPref
+  Edit > Preferences > Type...: keyboardPref
+  Edit > Preferences > Units...: unitundoPref
+  Edit > Preferences > Guides & Grid...: guidegridPref
+  Edit > Preferences > Smart Guides...: snapPref
+  Edit > Preferences > Slices...: slicePref
+  Edit > Preferences > Hyphenation...: hyphenPref
+  Edit > Preferences > Plug-ins & Scratch Disks...: pluginPref
+  Edit > Preferences > User Interface...: UIPref
+  Edit > Preferences > Performance...: GPUPerformancePref
+  Edit > Preferences > File Handling...: FilePref
+  Edit > Preferences > File Handling & Clipboard...: FileClipboardPref # legacy
+  Edit > Preferences > Clipboard Handling...: ClipboardPref
+  Edit > Preferences > Appearance of Black...: BlackPref
+  Edit > Preferences > Devices...: DevicesPref
+
+  # Object
+  Object > Transform > Transform Again: transformagain
+  Object > Transform > Move...: transformmove
+  Object > Transform > Rotate...: transformrotate
+  Object > Transform > Reflect...: transformreflect
+  Object > Transform > Scale...: transformscale
+  Object > Transform > Shear...: transformshear
+  Object > Transform > Transform Each...: Transform v23
+  Object > Transform > Reset Bounding Box: AI Reset Bounding Box
+  Object > Arrange > Bring to Front: sendToFront
+  Object > Arrange > Bring Forward: sendForward
+  Object > Arrange > Send Backward: sendBackward
+  Object > Arrange > Send to Back: sendToBack
+  Object > Arrange > Send to Current Layer: Selection Hat 2
+  Object > Align > Horizontal Align Left: Horizontal Align Left
+  Object > Align > Horizontal Align Center: Horizontal Align Center
+  Object > Align > Horizontal Align Right: Horizontal Align Right
+  Object > Align > Vertical Align Top: Vertical Align Top
+  Object > Align > Vertical Align Center: Vertical Align Center
+  Object > Align > Vertical Align Bottom: Vertical Align Bottom
+  Object > Distribute > Horizontal Distribute Left: Horizontal Distribute Left
+  Object > Distribute > Horizontal Distribute Center: Horizontal Distribute Center
+  Object > Distribute > Horizontal Distribute Right: Horizontal Distribute Right
+  Object > Distribute > Vertical Distribute Top: Vertical Distribute Top
+  Object > Distribute > Vertical Distribute Center: Vertical Distribute Center
+  Object > Distribute > Vertical Distribute Bottom: Vertical Distribute Bottom
+  Object > Group: group
+  Object > Ungroup: ungroup
+  Object > Ungroup All: ungroup all
+  Object > Lock > Selection: lock
+  Object > Lock > All Artwork Above: Selection Hat 5
+  Object > Lock > Other Layers: Selection Hat 7
+  Object > Unlock All: unlockAll
+  Object > Hide > Selection: hide
+  Object > Hide > All Artwork Above: Selection Hat 4
+  Object > Hide > Other Layers: Selection Hat 6
+  Object > Show All: showAll
+  Object > Filters > Apply Last Filter: Apply Last Filter
+  Object > Filters > Last Filter: Last Filter
+  Object > Expand Appearance: expandStyle
+  Object > Crop Image: Crop Image
+  Object > Rasterize...: Rasterize 8 menu item
+  Object > Create Gradient Mesh...: make mesh
+  Object > Create Object Mosaic...: AI Object Mosaic Plug-in4
+  Object > Create Trim Marks: TrimMark v25
+  Object > Flatten Transparency...: Flatten Transparency
+  Object > Make Pixel Perfect: Make Pixel Perfect
+  Object > Generative > Generative Vectors...: GenAIConsolidatedGenerateVectors
+  Object > Generative > Gen Shape Fill...: GenAIConsolidatedShapeFill
+  Object > Generative > Generative Expand > Make: Gen Expand Object Make
+  Object > Generative > Generative Expand > Combine: Gen Expand Object Combine
+  Object > Generative > Print Bleed: GenAIConsolidatedBleed
+  Object > Generative > Generative Recolor: GenAIConsolidatedRecolor
+  Object > Generative > Generate Patterns: GenAIConsolidatedPatterns
+  Object > Generative > Generation History: GenAIConsolidatedVariations
+  Object > Slice > Make: AISlice Make Slice
+  Object > Slice > Release: AISlice Release Slice
+  Object > Slice > Create from Guides: AISlice Create from Guides
+  Object > Slice > Create from Selection: AISlice Create from Selection
+  Object > Slice > Duplicate Slice: AISlice Duplicate
+  Object > Slice > Combine Slices: AISlice Combine
+  Object > Slice > Divide Slices...: AISlice Divide
+  Object > Slice > Delete All: AISlice Delete All Slices
+  Object > Slice > Slice Options...: AISlice Slice Options
+  Object > Slice > Clip to Artboard: AISlice Clip to Artboard
+  Object > Expand...: Expand3
+  Object > Path > Join: join
+  Object > Path > Average...: average
+  Object > Path > Outline Stroke: OffsetPath v22
+  Object > Path > Offset Path...: OffsetPath v23
+  Object > Path > Reverse Path Direction: Reverse Path Direction
+  Object > Path > Simplify...: simplify menu item
+  Object > Path > Smooth...: smooth menu item
+  Object > Path > Add Anchor Points: Add Anchor Points2
+  Object > Path > Remove Anchor Points: Remove Anchor Points menu
+  Object > Path > Divide Objects Below: Knife Tool2
+  Object > Path > Split Into Grid...: Rows and Columns....
+  Object > Path > Clean Up...: cleanup menu item
+  Object > Shape > Convert to Shape: Convert to Shape
+  Object > Shape > Expand Shape: Expand Shape
+  Object > Gen Shape Fill: Shape Fill Object Menu
+  Object > Pattern > Make: Adobe Make Pattern
+  Object > Pattern > Edit Pattern: Adobe Edit Pattern
+  Object > Pattern > Tile Edge Color...: Adobe Pattern Tile Color
+  Object > Intertwine > Make: Partial Rearrange Make
+  Object > Intertwine > Release: Partial Rearrange Release
+  Object > Intertwine > Edit: Partial Rearrange Edit
+  Object > Objects on Path > Attach...: Attach Objects on Path
+  Object > Objects on Path > Options...: Options Objects on Path
+  Object > Objects on Path > Expand: Expand Objects on Path
+  Object > Repeat > Radial: Make Radial Repeat
+  Object > Repeat > Grid: Make Grid Repeat
+  Object > Repeat > Mirror: Make Symmetry Repeat
+  Object > Repeat > Release: Release Repeat Art
+  Object > Repeat > Options...: Repeat Art Options
+  Object > Blend > Make: Path Blend Make
+  Object > Blend > Release: Path Blend Release
+  Object > Blend > Blend Options...: Path Blend Options
+  Object > Blend > Expand: Path Blend Expand
+  Object > Blend > Replace Spine: Path Blend Replace Spine
+  Object > Blend > Reverse Spine: Path Blend Reverse Spine
+  Object > Blend > Reverse Front to Back: Path Blend Reverse Stack
+  Object > Envelope Distort > Make with Warp...: Make Warp
+  Object > Envelope Distort > Make with Mesh...: Create Envelope Grid
+  Object > Envelope Distort > Make with Top Object: Make Envelope
+  Object > Envelope Distort > Release: Release Envelope
+  Object > Envelope Distort > Envelope Options...: Envelope Options
+  Object > Envelope Distort > Expand: Expand Envelope
+  Object > Envelope Distort > Edit Contents: Edit Envelope Contents
+  Object > Perspective > Attach to Active Plane: Attach to Active Plane
+  Object > Perspective > Release with Perspective: Release with Perspective
+  Object > Perspective > Move Plane to Match Object: Show Object Grid Plane
+  Object > Perspective > Edit Text: Edit Original Object
+  Object > Live Paint > Make: Make Planet X
+  Object > Live Paint > Merge: Marge Planet X
+  Object > Live Paint > Release: Release Planet X
+  Object > Live Paint > Gap Options...: Planet X Options
+  Object > Live Paint > Expand: Expand Planet X
+  Object > Mockup > Make: Make Vector Edge
+  Object > Mockup > Release: Release Vector Edge
+  Object > Mockup > Edit: Edit Vector Edge
+  Object > Image Trace > Create: Make Image Tracing
+  Object > Image Trace > Create and Expand: Make and Expand Image Tracing
+  Object > Image Trace > Expand: Expand Image Tracing
+  Object > Image Trace > Revert To Original: Release Image Tracing
+  Object > Image Trace > More Options...: More Options Image Tracing
+  Object > Text Wrap > Make: Make Text Wrap
+  Object > Text Wrap > Release: Release Text Wrap
+  Object > Text Wrap > Text Wrap Options...: Text Wrap Options...
+  Object > Clipping Mask > Make: makeMask
+  Object > Clipping Mask > Release: releaseMask
+  Object > Clipping Mask > Edit Mask-Contents: editMask
+  Object > Compound Path > Make: compoundPath
+  Object > Compound Path > Release: noCompoundPath
+  Object > Artboards > Convert to Artboards: setCropMarks
+  Object > Artboards > Rearrange Artboards: ReArrange Artboards
+  Object > Artboards > Fit to Artwork Bounds: Fit Artboard to artwork bounds
+  Object > Artboards > Switch Orientation: Switch Orientation
+  Object > Artboards > Fit to Selected Art: Fit Artboard to selected Art
+  Object > Graph > Type...: setGraphStyle
+  Object > Graph > Data...: editGraphData
+  Object > Graph > Design...: graphDesigns
+  Object > Graph > Column...: setBarDesign
+  Object > Graph > Marker...: setIconDesign
+  Object > Collect For Export > As Single Asset: collectForExportSingleAsset
+  Object > Collect For Export > As Multiple Assets: collectForExportMultipleAsset
+
+  # Type
+  Type > More from Adobe Fonts...: Browse Typekit Fonts Menu IllustratorUI
+  Type > Glyphs: alternate glyph palette plugin
+  Type > Convert To Point-Area Type: point-area
+  Type > Area Type Options...: area-type-options
+  Type > Type on a Path > Rainbow: Rainbow
+  Type > Type on a Path > Skew: Skew
+  Type > Type on a Path > 3D Ribbon: 3D ribbon
+  Type > Type on a Path > Stair Step: Stair Step
+  Type > Type on a Path > Gravity: Gravity
+  Type > Type on a Path > Type on a Path Options...: typeOnPathOptions
+  Type > Type on a Path > Update Legacy Type on a Path: updateLegacyTOP
+  Type > Threaded Text > Create: threadTextCreate
+  Type > Threaded Text > Release Selection: releaseThreadedTextSelection
+  Type > Threaded Text > Remove Threading: removeThreading
+  Type > Fit Headline: fitHeadline
+  Type > Bust Up Paragraphs: Type Utilities Bust Up Paragraphs
+  Type > Resolve Missing Fonts...: Adobe IllustratorUI Resolve Missing Font
+  Type > Find/Replace Font...: Adobe Illustrator Find Font Menu Item
+  Type > Change Case > UPPERCASE: UpperCase Change Case Item
+  Type > Change Case > lowercase: LowerCase Change Case Item
+  Type > Change Case > Title Case: Title Case Change Case Item
+  Type > Change Case > Sentence case: Sentence case Change Case Item
+  Type > Smart Punctuation...: Adobe Illustrator Smart Punctuation Menu Item
+  Type > Create Outlines: outline
+  Type > Optical Margin Alignment: Adobe Optical Alignment Item
+  # Type > Retype: ReTypeWindowMenu # duplicated with 'Window > Retype'
+  Type > Bullets and Numbering > Convert to Text: convert list style to text
+  Type > Insert Special Character > Symbols > Bullet: ~bullet
+  Type > Insert Special Character > Symbols > Copyright Symbol: ~copyright
+  Type > Insert Special Character > Symbols > Ellipsis: ~ellipsis
+  Type > Insert Special Character > Symbols > Paragraph Symbol: ~paragraphSymbol
+  Type > Insert Special Character > Symbols > Registered Trademark Symbol: ~registeredTrademark
+  Type > Insert Special Character > Symbols > Section Symbol: ~sectionSymbol
+  Type > Insert Special Character > Symbols > Trademark Symbol: ~trademarkSymbol
+  Type > Insert Special Character > Hyphens And Dashes > Em Dash: ~emDash
+  Type > Insert Special Character > Hyphens And Dashes > En Dash: ~enDash
+  Type > Insert Special Character > Hyphens And Dashes > Discretionary Hyphen: ~discretionaryHyphen
+  Type > Insert Special Character > Quotation Marks > Double Left Quotation Marks: ~doubleLeftQuote
+  Type > Insert Special Character > Quotation Marks > Double Right Quotation Marks: ~doubleRightQuote
+  Type > Insert Special Character > Quotation Marks > Single Left Quotation Marks: ~singleLeftQuote
+  Type > Insert Special Character > Quotation Marks > Single Right Quotation Marks: ~singleRightQuote
+  Type > Insert WhiteSpace Character > Em Space: ~emSpace
+  Type > Insert WhiteSpace Character > En Space: ~enSpace
+  Type > Insert WhiteSpace Character > Nonbreaking Space: ~nonBreakingSpace
+  Type > Insert WhiteSpace Character > Hair Space: ~hairSpace
+  Type > Insert WhiteSpace Character > Thin Space: ~thinSpace
+  Type > Insert Break Character > Forced Line Break: ~forcedLineBreak
+  Type > Fill With PlaceHolder Text: ~placeHolderText
+  Type > Show Hidden Characters: showHiddenChar
+  Type > Type Orientation > Horizontal: type-horizontal
+  Type > Type Orientation > Vertical: type-vertical
+  Type > Legacy Text > Update All Legacy Text: convertlegacyText
+  Type > Legacy Text > Update Selected Legacy Text: convertlegacyText1
+  Type > Legacy Text > Hide Copies: convertlegacyText2
+  Type > Legacy Text > Delete Copies: convertlegacyText3
+  Type > Legacy Text > Select Copies: convertlegacyText4
+
+  # Select
+  Select > All: selectall
+  Select > All on Active Artboard: selectallinartboard
+  Select > Deselect: deselectall
+  Select > Reselect: Find Reselect menu item
+  Select > Inverse: Inverse menu item
+  Select > Next Object Above: Selection Hat 8
+  Select > Next Object Below: Selection Hat 9
+  Select > Same > Appearance: Find Appearance menu item
+  Select > Same > Appearance Attribute: Find Appearance Attributes menu item
+  Select > Same > Blending Mode: Find Blending Mode menu item
+  Select > Same > Fill & Stroke: Find Fill & Stroke menu item
+  Select > Same > Fill Color: Find Fill Color menu item
+  Select > Same > Opacity: Find Opacity menu item
+  Select > Same > Stroke Color: Find Stroke Color menu item
+  Select > Same > Stroke Weight: Find Stroke Weight menu item
+  Select > Same > Graphic Style: Find Style menu item
+  Select > Same > Shape: Find Live Shape menu item
+  Select > Same > Symbol Instance: Find Symbol Instance menu item
+  Select > Same > Link Block Series: Find Link Block Series menu item
+  Select > Same > Font Family: Find Text Font Family menu item
+  Select > Same > Font Family & Style: Find Text Font Family Style menu item
+  Select > Same > Font Family, Style & Size: Find Text Font Family Style Size menu item
+  Select > Same > Font Size: Find Text Font Size menu item
+  Select > Same > Text Fill Color: Find Text Fill Color menu item
+  Select > Same > Text Stroke Color: Find Text Stroke Color menu item
+  Select > Same > Text Fill & Stroke Color: Find Text Fill Stroke Color menu item
+  Select > Object > All on Same Layers: Selection Hat 3
+  Select > Object > Direction Handles: Selection Hat 1
+  Select > Object > Bristle Brush Strokes: Bristle Brush Strokes menu item
+  Select > Object > Brush Strokes: Brush Strokes menu item
+  Select > Object > Clipping Masks: Clipping Masks menu item
+  Select > Object > Stray Points: Stray Points menu item
+  Select > Object > All Text Objects: Text Objects menu item
+  Select > Object > Point Type Objects: Point Text Objects menu item
+  Select > Object > Area Type Objects: Area Text Objects menu item
+  Select > Start-Stop Global Edit: SmartEdit Menu Item
+  Select > Save Selection...: Selection Hat 10
+  Select > Edit Selection...: Selection Hat 11
+  Select > Update Selection: Selection Hat 14
+
+  # Effect
+  Effect > Apply Last Effect: Adobe Apply Last Effect
+  Effect > Last Effect: Adobe Last Effect
+  Effect > Document Raster Effects Settings...: Live Rasterize Effect Setting
+  Effect > 3D and Materials > Extrude & Bevel...: Live Adobe Geometry3D Extrude
+  Effect > 3D and Materials > Revolve...: Live Adobe Geometry3D Revolve
+  Effect > 3D and Materials > Inflate...: Live Adobe Geometry3D Inflate
+  Effect > 3D and Materials > Rotate...: Live Adobe Geometry3D Rotate
+  Effect > 3D and Materials > Materials...: Live Adobe Geometry3D Materials
+  Effect > 3D and Materials > 3D (Classic) > Extrude & Bevel (Classic)...: Live 3DExtrude
+  Effect > 3D and Materials > 3D (Classic) > Revolve (Classic)...: Live 3DRevolve
+  Effect > 3D and Materials > 3D (Classic) > Rotate (Classic)...: Live 3DRotate
+  Effect > Convert to Shape > Rectangle...: Live Rectangle
+  Effect > Convert to Shape > Rounded Rectangle...: Live Rounded Rectangle
+  Effect > Convert to Shape > Ellipse...: Live Ellipse
+  Effect > Crop Marks: Live Trim Marks
+  Effect > Distort & Transform > Free Distort...: Live Free Distort
+  Effect > Distort & Transform > Pucker & Bloat...: Live Pucker & Bloat
+  Effect > Distort & Transform > Roughen...: Live Roughen
+  Effect > Distort & Transform > Transform...: Live Transform
+  Effect > Distort & Transform > Tweak...: Live Scribble and Tweak
+  Effect > Distort & Transform > Twist...: Live Twist
+  Effect > Distort & Transform > Zig Zag...: Live Zig Zag
+  Effect > Path > Offset Path...: Live Offset Path
+  Effect > Path > Outline Object: Live Outline Object
+  Effect > Path > Outline Stroke: Live Outline Stroke
+  Effect > Pathfinder > Add: Live Pathfinder Add
+  Effect > Pathfinder > Intersect: Live Pathfinder Intersect
+  Effect > Pathfinder > Exclude: Live Pathfinder Exclude
+  Effect > Pathfinder > Subtract: Live Pathfinder Subtract
+  Effect > Pathfinder > Minus Back: Live Pathfinder Minus Back
+  Effect > Pathfinder > Divide: Live Pathfinder Divide
+  Effect > Pathfinder > Trim: Live Pathfinder Trim
+  Effect > Pathfinder > Merge: Live Pathfinder Merge
+  Effect > Pathfinder > Crop: Live Pathfinder Crop
+  Effect > Pathfinder > Outline: Live Pathfinder Outline
+  Effect > Pathfinder > Hard Mix: Live Pathfinder Hard Mix
+  Effect > Pathfinder > Soft Mix...: Live Pathfinder Soft Mix
+  Effect > Pathfinder > Trap...: Live Pathfinder Trap
+  Effect > Rasterize...: Live Rasterize
+  Effect > Stylize > Drop Shadow...: Live Adobe Drop Shadow
+  Effect > Stylize > Feather...: Live Feather
+  Effect > Stylize > Inner Glow...: Live Inner Glow
+  Effect > Stylize > Outer Glow...: Live Outer Glow
+  Effect > Stylize > Round Corners...: Live Adobe Round Corners
+  Effect > Stylize > Scribble...: Live Scribble Fill
+  Effect > SVG Filters > Apply SVG Filter...: Live SVG Filters
+  Effect > SVG Filters > Import SVG Filter...: SVG Filter Import
+  Effect > Warp > Arc...: Live Deform Arc
+  Effect > Warp > Arc Lower...: Live Deform Arc Lower
+  Effect > Warp > Arc Upper...: Live Deform Arc Upper
+  Effect > Warp > Arch...: Live Deform Arch
+  Effect > Warp > Bulge...: Live Deform Bulge
+  Effect > Warp > Shell Lower...: Live Deform Shell Lower
+  Effect > Warp > Shell Upper...: Live Deform Shell Upper
+  Effect > Warp > Flag...: Live Deform Flag
+  Effect > Warp > Wave...: Live Deform Wave
+  Effect > Warp > Fish...: Live Deform Fish
+  Effect > Warp > Rise...: Live Deform Rise
+  Effect > Warp > Fisheye...: Live Deform Fisheye
+  Effect > Warp > Inflate...: Live Deform Inflate
+  Effect > Warp > Squeeze...: Live Deform Squeeze
+  Effect > Warp > Twist...: Live Deform Twist
+  Effect > Effect Gallery: Live PSAdapter_plugin_GEfc
+  Effect > Artistic > Colored Pencil...: Live PSAdapter_plugin_ClrP
+  Effect > Artistic > Cutout...: Live PSAdapter_plugin_Ct
+  Effect > Artistic > Dry Brush...: Live PSAdapter_plugin_DryB
+  Effect > Artistic > Film Grain...: Live PSAdapter_plugin_FlmG
+  Effect > Artistic > Fresco...: Live PSAdapter_plugin_Frsc
+  Effect > Artistic > Neon Glow...: Live PSAdapter_plugin_NGlw
+  Effect > Artistic > Paint Daubs...: Live PSAdapter_plugin_PntD
+  Effect > Artistic > Palette Knife...: Live PSAdapter_plugin_PltK
+  Effect > Artistic > Plastic Wrap...: Live PSAdapter_plugin_PlsW
+  Effect > Artistic > Poster Edges...: Live PSAdapter_plugin_PstE
+  Effect > Artistic > Rough Pastels...: Live PSAdapter_plugin_RghP
+  Effect > Artistic > Smudge Stick...: Live PSAdapter_plugin_SmdS
+  Effect > Artistic > Sponge...: Live PSAdapter_plugin_Spng
+  Effect > Artistic > Underpainting...: Live PSAdapter_plugin_Undr
+  Effect > Artistic > Watercolor...: Live PSAdapter_plugin_Wtrc
+  Effect > Blur > Gaussian Blur...: Live Adobe PSL Gaussian Blur
+  Effect > Blur > Radial Blur...: Live PSAdapter_plugin_RdlB
+  Effect > Blur > Smart Blur...: Live PSAdapter_plugin_SmrB
+  Effect > Brush Strokes > Accented Edges...: Live PSAdapter_plugin_AccE
+  Effect > Brush Strokes > Angled Strokes...: Live PSAdapter_plugin_AngS
+  Effect > Brush Strokes > Crosshatch...: Live PSAdapter_plugin_Crsh
+  Effect > Brush Strokes > Dark Strokes...: Live PSAdapter_plugin_DrkS
+  Effect > Brush Strokes > Ink Outlines...: Live PSAdapter_plugin_InkO
+  Effect > Brush Strokes > Spatter...: Live PSAdapter_plugin_Spt
+  Effect > Brush Strokes > Sprayed Strokes...: Live PSAdapter_plugin_SprS
+  Effect > Brush Strokes > Sumi-e...: Live PSAdapter_plugin_Smie
+  Effect > Distort > Diffuse Glow...: Live PSAdapter_plugin_DfsG
+  Effect > Distort > Glass...: Live PSAdapter_plugin_Gls
+  Effect > Distort > Ocean Ripple...: Live PSAdapter_plugin_OcnR
+  Effect > Pixelate > Color Halftone...: Live PSAdapter_plugin_ClrH
+  Effect > Pixelate > Crystallize...: Live PSAdapter_plugin_Crst
+  Effect > Pixelate > Mezzotint...: Live PSAdapter_plugin_Mztn
+  Effect > Pixelate > Pointillize...: Live PSAdapter_plugin_Pntl
+  Effect > Sketch > Bas Relief...: Live PSAdapter_plugin_BsRl
+  Effect > Sketch > Chalk & Charcoal...: Live PSAdapter_plugin_ChlC
+  Effect > Sketch > Charcoal...: Live PSAdapter_plugin_Chrc
+  Effect > Sketch > Chrome...: Live PSAdapter_plugin_Chrm
+  Effect > Sketch > Conté Crayon...: Live PSAdapter_plugin_CntC
+  Effect > Sketch > Graphic Pen...: Live PSAdapter_plugin_GraP
+  Effect > Sketch > Halftone Pattern...: Live PSAdapter_plugin_HlfS
+  Effect > Sketch > Note Paper...: Live PSAdapter_plugin_NtPr
+  Effect > Sketch > Photocopy...: Live PSAdapter_plugin_Phtc
+  Effect > Sketch > Plaster...: Live PSAdapter_plugin_Plst
+  Effect > Sketch > Reticulation...: Live PSAdapter_plugin_Rtcl
+  Effect > Sketch > Stamp...: Live PSAdapter_plugin_Stmp
+  Effect > Sketch > Torn Edges...: Live PSAdapter_plugin_TrnE
+  Effect > Sketch > Water Paper...: Live PSAdapter_plugin_WtrP
+  Effect > Stylize > Glowing Edges...: Live PSAdapter_plugin_GlwE
+  Effect > Texture > Craquelure...: Live PSAdapter_plugin_Crql
+  Effect > Texture > Grain...: Live PSAdapter_plugin_Grn
+  Effect > Texture > Mosaic Tiles...: Live PSAdapter_plugin_MscT
+  Effect > Texture > Patchwork...: Live PSAdapter_plugin_Ptch
+  Effect > Texture > Stained Glass...: Live PSAdapter_plugin_StnG
+  Effect > Texture > Texturizer...: Live PSAdapter_plugin_Txtz
+  Effect > Video > De-Interlace...: Live PSAdapter_plugin_Dntr
+  Effect > Video > NTSC Colors: Live PSAdapter_plugin_NTSC
+
+  # View
+  View > Outline-Preview: preview
+  View > GPU-CPU Preview: GPU Preview
+  View > Overprint Preview: ink
+  View > Pixel Preview: raster
+  View > Trim View: TrimView
+  View > Presentation Mode: Adobe Presentation Mode
+  View > Proof Setup > Document CMYK: proof-document
+  View > Proof Setup > Legacy Macintosh RGB (Gamma 1.8): proof-mac-rgb
+  View > Proof Setup > Internet Standard RGB (sRGB): proof-win-rgb
+  View > Proof Setup > Monitor RGB: proof-monitor-rgb
+  View > Proof Setup > Color blindness - Protanopia-type: proof-colorblindp
+  View > Proof Setup > Color blindness - Deuteranopia-type: proof-colorblindd
+  View > Proof Setup > Customize...: proof-custom
+  View > Proof Colors: proofColors
+  View > Zoom In: zoomin
+  View > Zoom Out: zoomout
+  View > Fit Artboard in Window: fitin
+  View > Fit All in Window: fitall
+  View > Rotate View > 180: RotateView180
+  View > Rotate View > 150: RotateView150
+  View > Rotate View > 135: RotateView135
+  View > Rotate View > 120: RotateView120
+  View > Rotate View > 90: RotateView90
+  View > Rotate View > 60: RotateView60
+  View > Rotate View > 45: RotateView45
+  View > Rotate View > 30: RotateView30
+  View > Rotate View > 15: RotateView15
+  View > Rotate View > 0: RotateViewZero
+  View > Rotate View > -15: RotateViewNegative15
+  View > Rotate View > -30: RotateViewNegative30
+  View > Rotate View > -45: RotateViewNegative45
+  View > Rotate View > -60: RotateViewNegative60
+  View > Rotate View > -90: RotateViewNegative90
+  View > Rotate View > -120: RotateViewNegative120
+  View > Rotate View > -135: RotateViewNegative135
+  View > Rotate View > -150: RotateViewNegative150
+  View > Rotate View > -180: RotateViewNegative180
+  View > Reset Rotate View: resetRotationView
+  View > Rotate View to Selection: rotateViewToSelection
+  View > Show-Hide Slices: AISlice Feedback Menu
+  View > Lock Slices: AISlice Lock Menu
+  View > Actual Size: actualsize
+  View > Show-Hide Edges: edge
+  View > Show-Hide Artboards: artboard
+  View > Show-Hide Print Tiling: pagetiling
+  View > Show-Hide Bounding Box: AI Bounding Box Toggle
+  View > Show-Hide Transparency Grid: TransparencyGrid Menu Item
+  View > Show-Hide Template: showtemplate
+  View > Show-Hide Gradient Annotator: Gradient Feedback
+  View > Show-Hide Corner Widget: Live Corner Annotator
+  View > Show-Hide Live Paint Gaps: Show Gaps Planet X
+  View > Smart Guides: Snapomatic on-off menu item
+  View > Perspective Grid > Show-Hide Grid: Show Perspective Grid
+  View > Perspective Grid > Show-Hide Rulers: Show Ruler
+  View > Perspective Grid > Snap to Grid: Snap to Grid
+  View > Perspective Grid > Lock Grid: Lock Perspective Grid
+  View > Perspective Grid > Lock Station Point: Lock Station Point
+  View > Perspective Grid > Define Grid...: Define Perspective Grid
+  View > Perspective Grid > Save Grid as Preset...: Save Perspective Grid as Preset
+  View > Rulers > Show-Hide Rulers: ruler
+  View > Rulers > Change to Artboard-Global Rulers: rulerCoordinateSystem
+  View > Rulers > Show-Hide Video Rulers: videoruler
+  View > Show-Hide Text Threads: textthreads
+  View > Guides > Show-Hide Guides: showguide
+  View > Guides > Lock Guides: lockguide
+  View > Guides > Make Guides: makeguide
+  View > Guides > Release Guides: releaseguide
+  View > Guides > Clear Guides: clearguide
+  View > Show-Hide Grid: showgrid
+  View > Snap to Grid: snapgrid
+  View > Snap to Pixel: pixelconstraints
+  View > Snap to Point: snappoint
+  View > Snap to Glyph: glyphSnapping
+  View > New View...: newview
+  View > Edit Views...: editview
+
+  # Window
+  Window > New Window: newwindow
+  Window > Arrange > Cascade: cascade
+  Window > Arrange > Tile: tile
+  Window > Arrange > Float in Window: floatInWindow
+  Window > Arrange > Float All in Windows: floatAllInWindows
+  Window > Arrange > Consolidate All Windows: consolidateAllWindows
+  Window > Find Extensions on Exchange...: Browse Add-Ons Menu
+  Window > Workspace > Reset Workspace: Adobe Reset Workspace
+  Window > Workspace > New Workspace...: Adobe New Workspace
+  Window > Workspace > Manage Workspaces...: Adobe Manage Workspace
+  Window > Contextual Task Bar: _GenericPluginMenuItem 25
+  Window > Control: drover control palette plugin
+  Window > Toolbars > Advanced: Adobe Advanced Toolbar Menu
+  Window > Toolbars > Basic: Adobe Basic Toolbar Menu
+  Window > Toolbars > Getting Started: Adobe Quick Toolbar Menu
+  Window > Toolbars > New Toolbar...: New Tools Panel
+  Window > Toolbars > Manage Toolbars...: Manage Tools Panel
+  Window > Toolbars > Default: Default ToolBar # legacy
+  Window > 3D and Materials: Adobe 3D Panel
+  Window > Actions: Adobe Action Palette
+  Window > Align: AdobeAlignObjects2
+  Window > Appearance: Style Palette
+  Window > Artboards: Adobe Artboard Palette
+  Window > Asset Export: Adobe SmartExport Panel Menu Item
+  Window > Attributes: internal palettes posing as plug-in menus-attributes
+  Window > Brushes: Adobe BrushManager Menu Item
+  Window > Color: Adobe Color Palette
+  Window > Color Guide: Adobe Harmony Palette
+  Window > Color Themes: Adobe Illustrator Kuler Panel # legacy
+  Window > Cmments: Adobe Commenting Palette
+  Window > CSS Properties: CSS Menu Item
+  Window > Document Info: DocInfo1
+  Window > Flattener Preview: Adobe Flattening Preview
+  Window > Gradient: Adobe Gradient Palette
+  Window > Graphic Styles: Adobe Style Palette
+  Window > Image Trace: Adobe Vectorize Panel
+  Window > History: Adobe History Panel Menu Item
+  Window > Info: internal palettes posing as plug-in menus-info
+  Window > Layers: AdobeLayerPalette1
+  Window > Learn: Adobe Learn Panel Menu Item # legacy
+  Window > Libraries: Adobe CSXS Extension com.adobe.DesignLibraries.angularLibraries
+  Window > Links: Adobe LinkPalette Menu Item
+  Window > Magic Wand: AI Magic Wand
+  Window > Mockup: Adobe Vector Edge Panel
+  Window > Navigator: AdobeNavigator
+  Window > Pathfinder: Adobe PathfinderUI
+  Window > Pattern Options: Adobe Pattern Panel Toggle
+  Window > Properties: Adobe Property Palette
+  Window > Retype: ReTypeWindowMenu
+  Window > Separations Preview: Adobe Separation Preview Panel
+  Window > Stroke: Adobe Stroke Palette
+  Window > SVG Interactivity: Adobe SVG Interactivity Palette
+  Window > Swatches: Adobe Swatches Menu Item
+  Window > Symbols: Adobe Symbol Palette
+  Window > Transform: AdobeTransformObjects1
+  Window > Transparency: Adobe Transparency Palette Menu Item
+  Window > Type > Character: internal palettes posing as plug-in menus-character
+  Window > Type > Character Styles: Character Styles
+  Window > Type > Glyphs: alternate glyph palette plugin 2
+  Window > Type > OpenType: internal palettes posing as plug-in menus-opentype
+  Window > Type > Paragraph: internal palettes posing as plug-in menus-paragraph
+  Window > Type > Paragraph Styles: Adobe Paragraph Styles Palette
+  Window > Type > Reflow Viewer: ReflowWindowMenu
+  Window > Type > Tabs: internal palettes posing as plug-in menus-tab
+  Window > Variables: Adobe Variables Palette Menu Item
+  Window > Version History: Adobe Version History File Menu Item
+  Window > Brush Libraries > Arrows > Arrows_Special: _Brush Library Menu Item 1
+  Window > Brush Libraries > Arrows > Arrows_Standard: _Brush Library Menu Item 2
+  Window > Brush Libraries > Arrows > Pattern Arrows: _Brush Library Menu Item 3
+  Window > Brush Libraries > Artistic > Artistic_Calligraphic: _Brush Library Menu Item 5
+  Window > Brush Libraries > Artistic > Artistic_ChalkCharcoalPencil: _Brush Library Menu Item 6
+  Window > Brush Libraries > Artistic > Artistic_Ink: _Brush Library Menu Item 7
+  Window > Brush Libraries > Artistic > Artistic_Paintbrush: _Brush Library Menu Item 8
+  Window > Brush Libraries > Artistic > Artistic_ScrollPen: _Brush Library Menu Item 9
+  Window > Brush Libraries > Artistic > Artistic_Watercolor: _Brush Library Menu Item 10
+  Window > Brush Libraries > Borders > Borders_Dashed: _Brush Library Menu Item 12
+  Window > Brush Libraries > Borders > Borders_Decorative: _Brush Library Menu Item 13
+  Window > Brush Libraries > Borders > Borders_Frames: _Brush Library Menu Item 14
+  Window > Brush Libraries > Borders > Borders_Geometric: _Brush Library Menu Item 15
+  Window > Brush Libraries > Borders > Borders_Indigenous: _Brush Library Menu Item 16
+  Window > Brush Libraries > Borders > Borders_Lines: _Brush Library Menu Item 17
+  Window > Brush Libraries > Borders > Borders_Novelty: _Brush Library Menu Item 18
+  Window > Brush Libraries > Bristle Brush > Bristle Brush Library: _Brush Library Menu Item 20
+  Window > Brush Libraries > Decorative > Decorative_Banners and Seals: _Brush Library Menu Item 22
+  Window > Brush Libraries > Decorative > Decorative_Scatter: _Brush Library Menu Item 23
+  Window > Brush Libraries > Decorative > Decorative_Text Dividers: _Brush Library Menu Item 24
+  Window > Brush Libraries > Decorative > Elegant Curl & Floral Brush Set: _Brush Library Menu Item 25
+  Window > Brush Libraries > Image Brush > Image Brush Library: _Brush Library Menu Item 27
+  Window > Brush Libraries > Vector Packs > Grunge brushes vector pack: _Brush Library Menu Item 29
+  Window > Brush Libraries > Vector Packs > Hand Drawn brushes vector pack: _Brush Library Menu Item 30
+  Window > Brush Libraries > Wacom 6D Brushes > 6d Art Pen Brushes: _Brush Library Menu Item 32
+  Window > Brush Libraries > Other Library...: AdobeBrushMgrUI Other libraries menu item
+  Window > Graphic Style Libraries > 3D Effects: _Art Style Library Menu Item 0
+  Window > Graphic Style Libraries > Additive for Blob Brush: _Art Style Library Menu Item 1
+  Window > Graphic Style Libraries > Additive: _Art Style Library Menu Item 2
+  Window > Graphic Style Libraries > Artistic Effects: _Art Style Library Menu Item 3
+  Window > Graphic Style Libraries > Buttons and Rollovers: _Art Style Library Menu Item 4
+  Window > Graphic Style Libraries > Illuminate Styles: _Art Style Library Menu Item 5
+  Window > Graphic Style Libraries > Image Effects: _Art Style Library Menu Item 6
+  Window > Graphic Style Libraries > Neon Effects: _Art Style Library Menu Item 7
+  Window > Graphic Style Libraries > Scribble Effects: _Art Style Library Menu Item 8
+  Window > Graphic Style Libraries > Textures: _Art Style Library Menu Item 9
+  Window > Graphic Style Libraries > Type Effects: _Art Style Library Menu Item 10
+  Window > Graphic Style Libraries > Vonster Pattern Styles: _Art Style Library Menu Item 11
+  Window > Graphic Style Libraries > Other Library...: Adobe Art Style Plugin Other libraries menu item
+  Window > Swatch Libraries > Art History > Ancient: _Swatch Library Menu Item 1
+  Window > Swatch Libraries > Art History > Baroque: _Swatch Library Menu Item 2
+  Window > Swatch Libraries > Art History > Impressionism: _Swatch Library Menu Item 3
+  Window > Swatch Libraries > Art History > Middle Ages: _Swatch Library Menu Item 4
+  Window > Swatch Libraries > Art History > Pop Art: _Swatch Library Menu Item 5
+  Window > Swatch Libraries > Art History > Prehistoric: _Swatch Library Menu Item 6
+  Window > Swatch Libraries > Art History > Renaissance: _Swatch Library Menu Item 7
+  Window > Swatch Libraries > Art History > Russian Poster Art: _Swatch Library Menu Item 8
+  Window > Swatch Libraries > Celebration: _Swatch Library Menu Item 9
+  Window > Swatch Libraries > Color Books > ANPA Color: _Swatch Library Menu Item 11
+  Window > Swatch Libraries > Color Books > DIC Color Guide: _Swatch Library Menu Item 12
+  Window > Swatch Libraries > Color Books > FOCOLTONE: _Swatch Library Menu Item 13
+  Window > Swatch Libraries > Color Books > HKS E: _Swatch Library Menu Item 15
+  Window > Swatch Libraries > Color Books > HKS E Process: _Swatch Library Menu Item 14
+  Window > Swatch Libraries > Color Books > HKS K: _Swatch Library Menu Item 17
+  Window > Swatch Libraries > Color Books > HKS K Process: _Swatch Library Menu Item 16
+  Window > Swatch Libraries > Color Books > HKS N: _Swatch Library Menu Item 19
+  Window > Swatch Libraries > Color Books > HKS N Process: _Swatch Library Menu Item 18
+  Window > Swatch Libraries > Color Books > HKS Z: _Swatch Library Menu Item 21
+  Window > Swatch Libraries > Color Books > HKS Z Process: _Swatch Library Menu Item 20
+  Window > Swatch Libraries > Color Books > PANTONE+ CMYK Coated: _Swatch Library Menu Item 22
+  Window > Swatch Libraries > Color Books > PANTONE+ CMYK Uncoated: _Swatch Library Menu Item 23
+  Window > Swatch Libraries > Color Books > PANTONE+ Color Bridge Coated: _Swatch Library Menu Item 24
+  Window > Swatch Libraries > Color Books > PANTONE+ Color Bridge Uncoated: _Swatch Library Menu Item 25
+  Window > Swatch Libraries > Color Books > PANTONE+ Metallic Coated: _Swatch Library Menu Item 26
+  Window > Swatch Libraries > Color Books > PANTONE+ Pastels & Neons Coated: _Swatch Library Menu Item 27
+  Window > Swatch Libraries > Color Books > PANTONE+ Pastels & Neons Uncoated: _Swatch Library Menu Item 28
+  Window > Swatch Libraries > Color Books > PANTONE+ Premium Metallics Coated: _Swatch Library Menu Item 29
+  Window > Swatch Libraries > Color Books > PANTONE+ Solid Coated: _Swatch Library Menu Item 30
+  Window > Swatch Libraries > Color Books > PANTONE+ Solid Uncoated: _Swatch Library Menu Item 31
+  Window > Swatch Libraries > Color Books > TOYO 94 COLOR FINDER: _Swatch Library Menu Item 32
+  Window > Swatch Libraries > Color Books > TOYO COLOR FINDER: _Swatch Library Menu Item 33
+  Window > Swatch Libraries > Color Books > TRUMATCH: _Swatch Library Menu Item 34
+  Window > Swatch Libraries > Color Properties > Bright: _Swatch Library Menu Item 36
+  Window > Swatch Libraries > Color Properties > Cool: _Swatch Library Menu Item 37
+  Window > Swatch Libraries > Color Properties > Dark: _Swatch Library Menu Item 38
+  Window > Swatch Libraries > Color Properties > Desaturated: _Swatch Library Menu Item 39
+  Window > Swatch Libraries > Color Properties > Light: _Swatch Library Menu Item 40
+  Window > Swatch Libraries > Color Properties > Saturated: _Swatch Library Menu Item 41
+  Window > Swatch Libraries > Color Properties > Soft: _Swatch Library Menu Item 42
+  Window > Swatch Libraries > Color Properties > Warm: _Swatch Library Menu Item 43
+  Window > Swatch Libraries > Corporate: _Swatch Library Menu Item 44
+  Window > Swatch Libraries > Default Swatches > Art & Illustration: _Swatch Library Menu Item 46
+  Window > Swatch Libraries > Default Swatches > Mobile: _Swatch Library Menu Item 47
+  Window > Swatch Libraries > Default Swatches > Print: _Swatch Library Menu Item 48
+  Window > Swatch Libraries > Default Swatches > Video and Film: _Swatch Library Menu Item 49
+  Window > Swatch Libraries > Default Swatches > Web: _Swatch Library Menu Item 50
+  Window > Swatch Libraries > Earthtone: _Swatch Library Menu Item 51
+  Window > Swatch Libraries > Foods > Beverages: _Swatch Library Menu Item 53
+  Window > Swatch Libraries > Foods > Fruit: _Swatch Library Menu Item 54
+  Window > Swatch Libraries > Foods > Ice Cream: _Swatch Library Menu Item 55
+  Window > Swatch Libraries > Foods > Sweets: _Swatch Library Menu Item 56
+  Window > Swatch Libraries > Foods > Vegetables: _Swatch Library Menu Item 57
+  Window > Swatch Libraries > Gradients > Brights: _Swatch Library Menu Item 59
+  Window > Swatch Libraries > Gradients > Color Combinations: _Swatch Library Menu Item 60
+  Window > Swatch Libraries > Gradients > Color Harmonies: _Swatch Library Menu Item 61
+  Window > Swatch Libraries > Gradients > Earthtones: _Swatch Library Menu Item 62
+  Window > Swatch Libraries > Gradients > Fades: _Swatch Library Menu Item 63
+  Window > Swatch Libraries > Gradients > Foliage: _Swatch Library Menu Item 64
+  Window > Swatch Libraries > Gradients > Fruits and Vegetables: _Swatch Library Menu Item 65
+  Window > Swatch Libraries > Gradients > Gems and Jewels: _Swatch Library Menu Item 66
+  Window > Swatch Libraries > Gradients > Metals: _Swatch Library Menu Item 67
+  Window > Swatch Libraries > Gradients > Neutrals: _Swatch Library Menu Item 68
+  Window > Swatch Libraries > Gradients > Pastels: _Swatch Library Menu Item 69
+  Window > Swatch Libraries > Gradients > Seasons: _Swatch Library Menu Item 70
+  Window > Swatch Libraries > Gradients > Simple Radial: _Swatch Library Menu Item 71
+  Window > Swatch Libraries > Gradients > Skintones: _Swatch Library Menu Item 72
+  Window > Swatch Libraries > Gradients > Sky: _Swatch Library Menu Item 73
+  Window > Swatch Libraries > Gradients > Spectrums: _Swatch Library Menu Item 74
+  Window > Swatch Libraries > Gradients > Stone and Brick: _Swatch Library Menu Item 75
+  Window > Swatch Libraries > Gradients > Tints and Shades: _Swatch Library Menu Item 76
+  Window > Swatch Libraries > Gradients > Vignettes: _Swatch Library Menu Item 77
+  Window > Swatch Libraries > Gradients > Water: _Swatch Library Menu Item 78
+  Window > Swatch Libraries > Gradients > Wood: _Swatch Library Menu Item 79
+  Window > Swatch Libraries > Kids Stuff: _Swatch Library Menu Item 80
+  Window > Swatch Libraries > Metal: _Swatch Library Menu Item 81
+  Window > Swatch Libraries > Nature > Beach: _Swatch Library Menu Item 83
+  Window > Swatch Libraries > Nature > Flowers: _Swatch Library Menu Item 84
+  Window > Swatch Libraries > Nature > Foliage: _Swatch Library Menu Item 85
+  Window > Swatch Libraries > Nature > Landscape: _Swatch Library Menu Item 86
+  Window > Swatch Libraries > Nature > Seasons: _Swatch Library Menu Item 87
+  Window > Swatch Libraries > Nature > Stone and Brick: _Swatch Library Menu Item 88
+  Window > Swatch Libraries > Neutral: _Swatch Library Menu Item 89
+  Window > Swatch Libraries > Patterns > Basic Graphics > Basic Graphics_Dots: _Swatch Library Menu Item 92
+  Window > Swatch Libraries > Patterns > Basic Graphics > Basic Graphics_Lines: _Swatch Library Menu Item 93
+  Window > Swatch Libraries > Patterns > Basic Graphics > Basic Graphics_Textures: _Swatch Library Menu Item 94
+  Window > Swatch Libraries > Patterns > Decorative > Decorative Legacy: _Swatch Library Menu Item 96
+  Window > Swatch Libraries > Patterns > Decorative > Vonster Patterns: _Swatch Library Menu Item 97
+  Window > Swatch Libraries > Patterns > Nature > Nature_Animal Skins: _Swatch Library Menu Item 99
+  Window > Swatch Libraries > Patterns > Nature > Nature_Foliage: _Swatch Library Menu Item 100
+  Window > Swatch Libraries > Scientific > Analogous: _Swatch Library Menu Item 102
+  Window > Swatch Libraries > Scientific > Complementary: _Swatch Library Menu Item 103
+  Window > Swatch Libraries > Scientific > Split Complementary: _Swatch Library Menu Item 104
+  Window > Swatch Libraries > Scientific > Tetrad: _Swatch Library Menu Item 105
+  Window > Swatch Libraries > Scientific > Triad: _Swatch Library Menu Item 106
+  Window > Swatch Libraries > Skintones: _Swatch Library Menu Item 107
+  Window > Swatch Libraries > System (Macintosh): _Swatch Library Menu Item 108
+  Window > Swatch Libraries > System (Windows): _Swatch Library Menu Item 109
+  Window > Swatch Libraries > Textiles: _Swatch Library Menu Item 110
+  Window > Swatch Libraries > VisiBone2: _Swatch Library Menu Item 111
+  Window > Swatch Libraries > Web: _Swatch Library Menu Item 112
+  Window > Swatch Libraries > Other Library...: AdobeSwatch_ Other libraries menu item
+  Window > Symbol Libraries > 3D Symbols: _Base Library Menu Item 0
+  Window > Symbol Libraries > Arrows: _Base Library Menu Item 1
+  Window > Symbol Libraries > Artistic Textures: _Base Library Menu Item 2
+  Window > Symbol Libraries > Celebration: _Base Library Menu Item 3
+  Window > Symbol Libraries > Charts: _Base Library Menu Item 4
+  Window > Symbol Libraries > Communication: _Base Library Menu Item 5
+  Window > Symbol Libraries > Dot Pattern Vector Pack: _Base Library Menu Item 6
+  Window > Symbol Libraries > Fashion: _Base Library Menu Item 7
+  Window > Symbol Libraries > Florid Vector Pack: _Base Library Menu Item 8
+  Window > Symbol Libraries > Flowers: _Base Library Menu Item 9
+  Window > Symbol Libraries > Grime Vector Pack: _Base Library Menu Item 10
+  Window > Symbol Libraries > Hair and Fur: _Base Library Menu Item 11
+  Window > Symbol Libraries > Heirloom: _Base Library Menu Item 12
+  Window > Symbol Libraries > Illuminate Flow Charts: _Base Library Menu Item 13
+  Window > Symbol Libraries > Illuminate Org Charts: _Base Library Menu Item 14
+  Window > Symbol Libraries > Illuminate Ribbons: _Base Library Menu Item 15
+  Window > Symbol Libraries > Indigenous: _Base Library Menu Item 16
+  Window > Symbol Libraries > Logo Elements: _Base Library Menu Item 17
+  Window > Symbol Libraries > Mad Science: _Base Library Menu Item 18
+  Window > Symbol Libraries > Maps: _Base Library Menu Item 19
+  Window > Symbol Libraries > Mobile: _Base Library Menu Item 20
+  Window > Symbol Libraries > Nature: _Base Library Menu Item 21
+  Window > Symbol Libraries > Regal Vector Pack: _Base Library Menu Item 22
+  Window > Symbol Libraries > Retro: _Base Library Menu Item 23
+  Window > Symbol Libraries > Sushi: _Base Library Menu Item 24
+  Window > Symbol Libraries > Tiki: _Base Library Menu Item 25
+  Window > Symbol Libraries > Web Buttons and Bars: _Base Library Menu Item 26
+  Window > Symbol Libraries > Web Icons: _Base Library Menu Item 27
+  Window > Symbol Libraries > Other Library...: Adobe Symbol Palette Plugin Other libraries menu item
+
+  # Help
+  Help > Illustrator Help...: helpcontent
+  Help > Illustrator Tutorials...: supportContent
+  "Help > What's New...": whatsNewContent
+  Help > Beta log file: Help Menu Beta log file
+  Help > Support Community: supportCommunity
+  Help > Submit Bug/Feature Request...: wishform
+  Help > About Illustrator...: about
+  Help > System Info...: System Info
+
+  # Other Panel
+  Other panel > New Symbol: Adobe New Symbol Shortcut
+  Other panel > Show Color Panel (Secondary): Adobe Color Palette Secondary
+  Other panel > Actions Batch: Adobe Actions Batch
+  Other panel > Add New Fill: Adobe New Fill Shortcut
+  Other panel > Add New Stroke: Adobe New Stroke Shortcut
+  Other panel > New Graphic Style: Adobe New Style Shortcut
+  Other panel > New Layer: AdobeLayerPalette2
+  Other panel > New Layer with Dialog: AdobeLayerPalette3
+  Other panel > Update Link: Adobe Update Link Shortcut
+  Other panel > New Swatch: Adobe New Swatch Shortcut Menu
+  Other panel > Debug Panel: Debug Panel
+
+  # Other Select
+  Other Select > Switch Selection Tools: switchSelTool
+
+  # Other Text
+  Other Text > Point Size Up: faceSizeUp
+  Other Text > Point Size Down: faceSizeDown
+  Other Text > Font Size Step Up: sizeStepUp
+  Other Text > Font Size Step Down: sizeStepDown
+  Other Text > Set Kern Tighter: ~kernCloser
+  Other Text > Set Kern Looser: ~kernFurther
+  Other Text > Tracking: tracking
+  Other Text > Clear Tracking: clearTrack
+  Other Text > Spacing: spacing
+  Other Text > Uniform Type: clearTypeScale
+  Other Text > Highlight Font: highlightFont
+  Other Text > Highlight Font (Secondary): highlightFont2
+  Other Text > Left Align Text: leftAlign
+  Other Text > Center Text: centerAlign
+  Other Text > Right Align Text: rightAlign
+  Other Text > Justify Text Left: justify
+  Other Text > Justify Text Center: justifyCenter
+  Other Text > Justify Text Right: justifyRight
+  Other Text > Justify All Lines: justifyAll
+  Other Text > Toggle Auto Hyphenation: toggleAutoHyphen
+  Other Text > Toggle Line Composer: toggleLineComposer
+  Other Text > Subscript: ~subscript
+  Other Text > Superscript: ~superScript
+  Other Text > Bold: ~textBold
+  Other Text > Italic: ~textItalic
+  Other Text > Underline: ~textUnderline
+
+  # Other Object
+  Other Object > Lock Others: lock2
+  Other Object > Hide Others: hide2
+  Other Object > Repeat Pathfinder: repeatPathfinder
+  Other Object > Average & Join: avgAndJoin
+  Other Object > Isolate Selected Object: enterFocus
+  Other Object > Exit Isolation Mode: exitFocus
+
+  # Other Misc
+  Other Misc > Switch Units: switchUnits
+  Other Misc > New File (No Dialog): new2
+  Other Misc > Close All: closeAll2
+  Other Misc > Help (Secondary): helpcontent2
+  Other Misc > Undo (Secondary): undo2
+  Other Misc > Cut (Secondary): cut2
+  Other Misc > Copy (Secondary): copy2
+  Other Misc > Paste (Secondary): paste2
+  Other Misc > Zoom In (Secondary): zoomin2
+  Other Misc > Navigate to Next Document: navigateToNextDocument
+  Other Misc > Navigate to Previous Document: navigateToPreviousDocument
+  Other Misc > Navigate to Next Document Group: navigateToNextDocumentGroup
+  Other Misc > Navigate to Previous Document Group: navigateToPreviousDocumentGroup
+  Other Misc > Subscript (Secondary): ~subscript2
+  Other Misc > Superscript (Secondary): ~superScript2
+
+
+  # PLUGINS:
+
+  # Astute Graphics Bundle
+  # https://astutegraphics.com
+
+  File > Autosaviour Settings...: AutosaviourSettings
+
+  Object > Filters > InqQuest > Swap Challels: InkQuest Swap Channels Filter
+  Object > Filters > Phantasm > Brightness/Contrast...: Phantasm CS Brightness Contrast Filter
+  Object > Filters > Phantasm > Curves...: Phantasm CS Curves Filter
+  Object > Filters > Phantasm > Desaturate...: Phantasm CS Desaturate Filter
+  Object > Filters > Phantasm > Duotone...: Phantasm CS Duotone Filter
+  Object > Filters > Phantasm > Exposure...: Phantasm CS Exposure Filter
+  Object > Filters > Phantasm > Halftone...: Phantasm CS Halftone Filter
+  Object > Filters > Phantasm > Hue/Saturation...: Phantasm CS Hue Saturation Filter
+  Object > Filters > Phantasm > Invert...: Phantasm CS Invert Filter
+  Object > Filters > Phantasm > Levels...: Phantasm CS Levels Filter
+  Object > Filters > Phantasm > Prepress Correct...: Phantasm CS Prepress Correct Filter
+  Object > Filters > Phantasm > Shift to Color...: Phantasm CS Color Shift Filter
+  Object > Filters > Phantasm > Temperature/Tint...: Phantasm CS Temperature Tint Filter
+  Object > Create Symbol Variants...: StippleSymbolVariants
+  Object > Create Color Stamp: AGCreateColorStamp
+  Object > Pixels To Vector: AGPixelsToVector
+  Object > Create Roulette...: AGCreateRoulette
+  Object > Width Stamp > Make with Preset...: WPMakeWithPreset
+  Object > Width Stamp > Make with Top Object...: WPMakeWithTopObject
+  Object > Width Stamp > Release: WPRelease
+  Object > Width Stamp > Width Stamp Settings...: WPSettings
+  Object > Width Stamp > Expand: WPExpand
+  Object > Width Stamp > Edit Contours...: WPSwitchMode
+  Object > Path > Optimize Width Markers...: WidthScribe Optimize
+  Object > Path > Vary Width Markers...: WidthScribe Vary
+  Object > Path > Path Intersections...: VectorScribe Path Intersections
+  Object > Path > Swap Fill and Stroke: Phantasm SwapFillStroke
+  Object > Path > Swap Fill and Stroke with Effects: Phantasm SwapFillStrokeEffects
+  Object > Space Fill > Make: SFMake
+  Object > Space Fill > Release: SFRelease
+  Object > Space Fill > Expand: SFExpand
+
+  Type > Remove Line Breaks: AG VFA Remove Line Breaks
+  Type > Remove Paragraph Breaks: AG VFA Remove Paragraph Breaks
+
+  Select > Dynamic Shapes > All: DSAll Menu Item
+  Select > Dynamic Shapes > Squares & Rectangles: DSSquRec Menu Item
+  Select > Dynamic Shapes > Circles & Ellipses: DSCirEll Menu Item
+  Select > Dynamic Shapes > Squares: DSSquares Menu Item
+  Select > Dynamic Shapes > Rectangles: DSRectangles Menu Item
+  Select > Dynamic Shapes > Circles: DSCircles Menu Item
+  Select > Dynamic Shapes > Ellipses: DSEllipses Menu Item
+  Select > Dynamic Shapes > Polygons: DSPolygons Menu Item
+  Select > Dynamic Shapes > Stars: DSStars Menu Item
+  Select > Dynamic Shapes > Donuts: DSDonuts Menu Item
+  Select > Dynamic Shapes > Arrows: DSArrows Menu Item
+  Select > Dynamic Shapes > Clouds: DSClouds Menu Item
+  Select > Dynamic Shapes > Crescents: DSCrescents Menu Item
+  Select > Dynamic Shapes > Crosses: DSCrosses Menu Item
+  Select > Dynamic Shapes > Gears: DSGears Menu Item
+  Select > Dynamic Shapes > Hearts: DSHearts Menu Item
+  Select > Dynamic Shapes > Speech Bubbles: DSSpeech Bubbles Menu Item
+  Select > Texture Effects: Texturino SelectLE
+  Select > AG Architect Effects: Stylism Select Architect
+  Select > AG Block Shadow Effects > All: AGBSAll Menu Item
+  Select > AG Block Shadow Effects > Standard: AGBSStandard Menu Item
+  Select > AG Block Shadow Effects > Vanishing Point: AGBSVP Menu Item
+  Select > AG Offset Effects: Stylism Select Offset
+  Select > AG Splatter Effects: Stylism Select Splatter
+  Select > Stipplism Effects: Stipplism SelectLE
+  Select > Spot Colors: Phantasm Select Spot Colors
+  Select > RGB Images: Phantasm Select RGB Bitmaps
+  Select > CMYK Images: Phantasm Select CMYK Bitmaps
+  Select > Gray Images: Phantasm Select Gray Bitmaps
+  Select > Colorized Images: Phantasm Select Colorized Bitmaps
+  Select > NChannel Images: Phantasm Select NChannel Bitmaps
+  Select > Phantasm Effects: Phantasm Select Effects
+  Select > InkQuest Effects: InkQuest Select Effects
+  Select > Perturb Effects: Randomino Select Perturb
+
+  Effects > FILTERiT5 > Fractalize...: Live FILTERiT4
+  Effects > FILTERiT5 > Lens...: Live FILTERiT5_Lens
+  Effects > FILTERiT5 > Warp...: Live FILTERiT5_Warp
+  Effects > FILTERiT5 > Wave...: Live FILTERiT5_Wave
+  Effects > AG Utilities > Add Points...: Live ASTGVSLEAddPoints
+  Effects > AG Utilities > AG Array...: Live ASTGVSLEAGArray
+  Effects > AG Utilities > AG Shear...: Live ASTGVSLEAGShear
+  Effects > AG Utilities > AG Transform...: Live ASTGVSLEAGTransform
+  Effects > AG Utilities > Angle Cap...: Live ASTGVSLEAngleCap
+  Effects > AG Utilities > Close Path...: Live ASTGVSLEClosePath
+  Effects > AG Utilities > Convert to Smooth...: Live ASTGVSLEConvertToSmooth
+  Effects > AG Utilities > Dashify...: Live ASTGVSLEDashify
+  Effects > AG Utilities > Extend Path...: Live ASTGVSLEExtendPath
+  Effects > AG Utilities > Make Compound Path: Live ASTGVSLEMakeCompoundPath
+  Effects > AG Utilities > Make Shape...: Live ASTGVSLEMakeShape
+  Effects > AG Utilities > Path Removal...: Live ASTGVSLEPathRemoval
+  Effects > AG Utilities > Path Visualizer...: Live ASTGVSLEPathVisualizer
+  Effects > AG Utilities > Point Removal...: Live ASTGVSLEPointRemoval
+  Effects > AG Utilities > Release Compound Path: Live ASTGVSLEReleaseCompoundPath
+  Effects > AG Utilities > Retract Handles: Live ASTGVSLERetractHandles
+  Effects > AG Utilities > Reverse Path Direction: Live ASTGVSLEReversePathDirection
+  Effects > AG Utilities > Segment Removal...: Live ASTGVSLESegmentRemoval
+  Effects > AG Utilities > Smart Remove Points...: Live ASTGVSLESmartRemovePoints
+  Effects > AG Utilities > Split Path to Segments...: Live ASTGVSLESplitPathToSegments
+  Effects > AG Utilities > Stroke Attributes...: Live ASTGVSLEStrokeAttributes
+  Effects > InkQuest > Swap Channels...: Live InkQuest Swap Channels
+  Effects > Phantasm > Brightness/Contrast...: Live Phantasm CS Brightness Contrast
+  Effects > Phantasm > Curves...: Live Phantasm CS Curves
+  Effects > Phantasm > Desaturate...: Live Phantasm CS Desaturate
+  Effects > Phantasm > Duotone...: Live Phantasm CS Duotone
+  Effects > Phantasm > Exposure...: Live Phantasm CS Exposure
+  Effects > Phantasm > Halftone...: Live Phantasm CS Halftone
+  Effects > Phantasm > Hue/Saturation...: Live Phantasm CS Hue Saturation
+  Effects > Phantasm > Invert...: Live Phantasm CS Invert
+  Effects > Phantasm > Levels...: Live Phantasm CS Levels
+  Effects > Phantasm > Prepress Correct...: Live Phantasm CS Prepress Correct
+  Effects > Phantasm > Shift to Color...: Live Phantasm CS Color Shift
+  Effects > Phantasm > Temperature/Tint...: Live Phantasm CS Temperature Tint
+  Effects > Randomino > Color Randomizer...: Live ASTGRAColorRandomizer
+  Effects > Randomino > Opacity Randomizer...: Live ASTGRAOpacityRandomizer
+  Effects > Randomino > Perturb...: Live Perturb
+  Effects > Stipplism > Stipple: Live ASTGStipple
+  Effects > Stipplism > Symbol Stipple: Live ASTGSymbolStipple
+  Effects > Stylism > AG Architect...: Live AG Architect
+  Effects > Stylism > AG Block Shadow...: Live AG Block Shadow
+  Effects > Stylism > AG Curvature Visualizer...: Live AG Curvature Visualizer
+  Effects > Stylism > AG Offset...: Live AG Offset
+  Effects > Stylism > AG Splatter...: Live AG Splatter
+  Effects > Texturino > Texture: Live Texture
+
+  View > InkQuest Output Preview > Quick Separations: InkQuest Quick Separations
+  View > InkQuest Output Preview > Overprint Preview: InkQuest Overprint Preview
+  View > InkQuest Output Preview > Ink Coverage: InkQuest Ink Coverage
+
+  Window > Astute Graphics > AG Architect: AG Architect Panel Menu Item
+  Window > Astute Graphics > AG Block Shadow: AG Block Shadow Panel Menu Item
+  Window > Astute Graphics > AG Curvature Visualizer: AG Curvature Visualizer Panel Menu Item
+  Window > Astute Graphics > AG Layer Comps: AG Layer Comps Panel Menu Item
+  Window > Astute Graphics > AG Offset: AG Offset Panel Menu Item
+  Window > Astute Graphics > AG Splatter: AG Splatter Panel Menu Item
+  Window > Astute Graphics > Astute Buddy: AstuteBuddy Panel Menu Item
+  Window > Astute Graphics > Autosaviour: Autosaviour Panel Menu Item
+  Window > Astute Graphics > DirectPrefs: DirectPrefs Panel Menu Item
+  Window > Astute Graphics > Dynamic Corners: Dynamic Corners Panel Menu Item
+  Window > Astute Graphics > Dynamic Measure: Dynamic Measure Panel Menu Item
+  Window > Astute Graphics > Dynamic Shapes: Dynamic Shapes Panel Menu Item
+  Window > Astute Graphics > Dynamic Sketch: Dynamic Sketch Panel Menu Item
+  Window > Astute Graphics > FindReplace Art: FindReplace Art Panel Menu Item
+  Window > Astute Graphics > Gradiator: Gradiator Panel Menu Item
+  Window > Astute Graphics > Gradient Forge: Gradient Forge Panel Menu Item
+  Window > Astute Graphics > Gradient From Art: Gradient From Art Panel Menu Item
+  Window > Astute Graphics > InkFlow: InkFlow Panel Menu Item
+  Window > Astute Graphics > InkQuest Separations: InkQuest Separations
+  Window > Astute Graphics > InkScribe: InkScribe Panel Menu Item
+  Window > Astute Graphics > MirrorMe: MirrorMe Panel Menu Item
+  Window > Astute Graphics > Opacity Brush: OB Panel Menu Item
+  Window > Astute Graphics > PathScribe: PathScribe Panel Menu Item
+  Window > Astute Graphics > Perturb: Perturb Panel Menu Item
+  Window > Astute Graphics > Phantasm: Phantasm Panel Menu Item
+  Window > Astute Graphics > QuickOps: QuickOps Menu Item
+  Window > Astute Graphics > Randomino: Randomino Panel Menu Item
+  Window > Astute Graphics > Rasterino: Rasterino Panel Menu Item
+  Window > Astute Graphics > Reform: Path Reshape Panel Menu Item
+  Window > Astute Graphics > Reform Text: Reform Text
+  Window > Astute Graphics > Reprofile: Reform 2 Panel Menu Item
+  Window > Astute Graphics > Space Fill: Space Fill Panel Menu Item
+  Window > Astute Graphics > Stylism: Stylism Panel Menu Item
+  Window > Astute Graphics > Texture: TX Panel Menu Item
+  Window > Astute Graphics > Texture Brush: TB Panel Menu Item
+  Window > Astute Graphics > VectorFirstAid: VectorFirstAid Panel Menu Item
+  Window > Astute Graphics > Width Gradient: Width Gradient Panel Menu Item
+  Window > Astute Graphics > Width Selector: Width Selector Panel Menu Item
+  Window > Astute Graphics > Width Stamp: Width Stamp Panel Menu Item
+
+  # Cool Seilection
+  # https://cool-selection.com
+
+  Edit > Preferences > CoolSelection...: Preferences CoolSelection...
+
+  # CValley FILTERiT
+  # https://cvalley.com
+
+  Object > Filters > FILTERiT5 > Fractalize...: NkSD Fractalize Filter
+
+  Window > FILTERiT5 > Live 3D Path: FILTERiT5_00
+  Window > FILTERiT5 > Live Border: FILTERiT5_01
+  Window > FILTERiT5 > Live Circle: FILTERiT5_02
+  Window > FILTERiT5 > Live Cutout: FILTERiT5_03
+  Window > FILTERiT5 > Live Emboss: FILTERiT5_04
+  Window > FILTERiT5 > Live Explosion: FILTERiT5_05
+  Window > FILTERiT5 > Live Frame: FILTERiT5_06
+  Window > FILTERiT5 > Live Galaxy: FILTERiT5_07
+  Window > FILTERiT5 > Live Generation: FILTERiT5_08
+  Window > FILTERiT5 > Live Neon: FILTERiT5_09
+  Window > FILTERiT5 > Live Reflections: FILTERiT5_10
+  Window > FILTERiT5 > Live Shadow: FILTERiT5_11
+  Window > FILTERiT5 > Live Symbol Path: FILTERiT5_12
+  Window > FILTERiT5 > Live Tiling: FILTERiT5_13
+  Window > FILTERiT5 > Live Trail: FILTERiT5_14
+  Window > FILTERiT5 > Show Panel: FILTERiT5_15
+  Window > FILTERiT5 > Help: FILTERiT5_17
+
+  # N8ive Studio Bundle
+  # https://n8ivestudio.com
+
+  Edit > Repeat Last Command (n8ive.Finder): n8ive.Finder Recent Command
+
+  Window > n8ive.Finder: n8ive.Finder
+  Window > n8ive.Finder Popup: n8ive.Finder Popup
+  Window > n8ive.Normalizer: n8ive.Normalizer
+
+
+  # Pixelology Spiro Spline
+  # https://pixeology.com
+
+  Object > Spiro > Expand Cyclic Spline: Make Noncyclic
+  Object > Spiro > Make Cyclic Spline...: Make Cyclic
+  Object > Spiro > Cyclic Spline Options...: Cyclic Spline Options
+  Object > Spiro > Release Cyclic Spline: Release Cyclic Spline
+  Object > Spiro > Invert Spline: Invert Spline
+
+  # RJ-Graffix AxoTools
+  # https://rj-graffix.com/downloads/plugins/#axotools
+
+  File > AxoTools > Define Axonometric Zone: Document Utilities AxoTools Define Axonometric Zone
+  File > AxoTools > Define Ortho Left Zone: Document Utilities AxoTools Define Ortho Left Zone
+  File > AxoTools > Define Ortho Right Zone: Document Utilities AxoTools Define Ortho Right Zone
+  File > AxoTools > Define Ortho Top (from left) Zone: Document Utilities AxoTools Define Ortho Top (from left) Zone
+  File > AxoTools > Define Ortho Top (from right) Zone: Document Utilities AxoTools Define Ortho Top (from right) Zone
+  File > AxoTools > Define Ortho Bottom (from left) Zone: Document Utilities AxoTools Define Ortho Bottom (from left) Zone
+  File > AxoTools > Define Ortho Bottom (from right) Zone: Document Utilities AxoTools Define Ortho Bottom (from right) Zone
+  File > AxoTools > Clear View Zones: Document Utilities AxoTools Clear View Zones
+
+  Edit > Preferences > Graffix Plugins > AxoTools...: Preferences Graffix Plugins AxoTools...
+  Edit > Preferences > Graffix Plugins > Square Up...: Preferences Graffix Plugins Square Up...
+
+  Object > Transform > Axonometric > Extrude Path: Arrange Transform Axonometric Extrude Path
+  Object > Transform > Axonometric > Project to Left: Arrange Transform Axonometric Project to Left
+  Object > Transform > Axonometric > Project to Right: Arrange Transform Axonometric Project to Right
+  Object > Transform > Axonometric > Project to Top (Left): Arrange Transform Axonometric Project to Top (Left)
+  Object > Transform > Axonometric > Project to Top (Right): Arrange Transform Axonometric Project to Top (Right)
+  Object > Transform > Axonometric > Project to Bottom (Left): Arrange Transform Axonometric Project to Bottom (Left)
+  Object > Transform > Axonometric > Project to Bottom (Right): Arrange Transform Axonometric Project to Bottom (Right)
+  Object > Transform > Axonometric > Unproject (flatten) from Left: Arrange Transform Axonometric Unproject (flatten) from Left
+  Object > Transform > Axonometric > Unproject (flatten) from Right: Arrange Transform Axonometric Unproject (flatten) from Right
+  Object > Transform > Axonometric > Unproject (flatten) from Top (Left): Arrange Transform Axonometric Unproject (flatten) from Top (Left)
+  Object > Transform > Axonometric > Unproject (flatten) from Top (Right): Arrange Transform Axonometric Unproject (flatten) from Top (Right)
+  Object > Transform > Axonometric > Unproject (flatten) from Bottom (Left): Arrange Transform Axonometric Unproject (flatten) from Bottom (Left)
+  Object > Transform > Axonometric > Unproject (flatten) from Bottom (Right): Arrange Transform Axonometric Unproject (flatten) from Bottom (Right)
+  Object > Transform > Axonometric > Axonometric Move...: Arrange Transform Axonometric Axonometric Move...
+  Object > Fade...: Object Utilities Fade...
+  Object > Replace with Top Object: Object Utilities Replace with Top Object
+  Object > Arrange > Stacking Order > Reverse Stack Order: Arrange Move Stacking Order Reverse Stack Order
+  Object > Arrange > Stacking Order > Stack by Location...: Arrange Move Stacking Order Stack by Location...
+  Object > Arrange > Stacking Order > Stack by Size...: Arrange Move Stacking Order Stack by Size...
+  Object > Axonometric Primitive...: Object Utilities Axonometric Primitive...
+
+  View > Go to Axonometric View > Axonometric View: View Go to Axonometric View Axonometric View
+  View > Go to Axonometric View > Left View: View Go to Axonometric View Left View
+  View > Go to Axonometric View > Right View: View Go to Axonometric View Right View
+  View > Go to Axonometric View > Top (Left) View: View Go to Axonometric View Top (Left) View
+  View > Go to Axonometric View > Top (Right) View: View Go to Axonometric View Top (Right) View
+  View > Go to Axonometric View > Bottom (Left) View: View Go to Axonometric View Bottom (Left) View
+  View > Go to Axonometric View > Bottom (Right) View: View Go to Axonometric View Bottom (Right) View
+  View > Show-Hide Axo Reference Points: View Show Axo Reference Points
+
+  Window > AxoTools > Show all AxoTools panels: Tool Palettes AxoTools Show all AxoTools panels
+  Window > AxoTools > AxoTools Control: Tool Palettes AxoTools AxoTools Control
+  Window > AxoTools > AxoTools Projection: Tool Palettes AxoTools AxoTools Projection
+  Window > AxoTools > AxoTools Draw Settings: Tool Palettes AxoTools AxoTools Draw Settings
+  Window > AxoTools > AxoTools Extrude: Tool Palettes AxoTools AxoTools Extrude
+  Window > AxoTools > AxoTools Fasteners: Tool Palettes AxoTools AxoTools Fasteners
+  Window > AxoTools > AxoTools Transformations: Tool Palettes AxoTools AxoTools Transformations
+  Window > AxoTools > AxoTools Auxiliary Projection: Tool Palettes AxoTools AxoTools Auxiliary Projection
+  Window > AxoTools > AxoTools Lighting: Tool Palettes AxoTools AxoTools Lighting
+  Window > AxoTools > AxoTools Information: Tool Palettes AxoTools AxoTools Information
+
+  # RJ-Graffix Cleanup
+  # https://rj-graffix.com/downloads/plugins/#cleanup
+
+  Edit > Preferences > Graffix Plugins > Cleanup Tool...: Preferences Graffix Plugins Cleanup Tool...
+
+  # RJ-Graffix Concatenate
+  # https://rj-graffix.com/downloads/plugins/#concatenate
+
+  Object > Path > Concatenate: Objects Paths Popup Concatenate
+  Object > Path > Assimilate: Objects Paths Popup Assimilate
+
+  Window > Concatenate: Tool Palettes Concatenate
+
+  # RJ-Graffix Cutting Tools
+  # https://rj-graffix.com/downloads/plugins/#cuttingtools
+
+  Edit > Preferences > Graffix Plugins > Cutting Tools...: Preferences Graffix Plugins Cutting Tools...
+
+  Object > Path > Fence Cut: Objects Paths Popup Fence Cut
+
+  # RJ-Graffix Nudge
+  # https://rj-graffix.com/downloads/plugins/#nudgepalette
+
+  Window > Nudge: Tool Palettes Nudge
+
+  # RJ-Graffix Select Menu
+  # https://rj-graffix.com/downloads/plugins/#selectmenu
+
+  Edit > Preferences > Graffix Plugins > SelectMenu...: Preferences Graffix Plugins SelectMenu...
+
+  Select > Object > Path Text Objects: SelectObject Path Text Objects
+  Select > Object > Legacy Text Objects: SelectObject Legacy Text Objects
+  Select > Object > Guides: SelectObject Guides
+  Select > Object > Paths: SelectObject Paths
+  Select > Object > Paths With Attributes > Open Paths: SelectObject Paths With Attributes Open Paths
+  Select > Object > Paths With Attributes > Closed Paths: SelectObject Paths With Attributes Closed Paths
+  Select > Object > Paths With Attributes > Filled Paths: SelectObject Paths With Attributes Filled Paths
+  Select > Object > Paths With Attributes > Unfilled Paths: SelectObject Paths With Attributes Unfilled Paths
+  Select > Object > Paths With Attributes > Stroked Paths: SelectObject Paths With Attributes Stroked Paths
+  Select > Object > Paths With Attributes > Unstroked Paths: SelectObject Paths With Attributes Unstroked Paths
+  Select > Object > Paths With Attributes > Dashed Paths: SelectObject Paths With Attributes Dashed Paths
+  Select > Object > Paths With Attributes > Undashed Paths: SelectObject Paths With Attributes Undashed Paths
+  Select > Object > Paths With Attributes > Compound Paths: SelectObject Paths With Attributes Compound Paths
+  Select > Object > Basic Art Attributes > Opaque Art: SelectObject Basic Art Attributes Opaque Art
+  Select > Object > Basic Art Attributes > Transparent Art: SelectObject Basic Art Attributes Transparent Art
+  Select > Object > Basic Art Attributes > Blend-Mode Art: SelectObject Basic Art Attributes Blend-Mode Art
+  Select > Object > Basic Art Attributes > Overprinting Art: SelectObject Basic Art Attributes Overprinting Art
+  Select > Object > Basic Art Attributes > Effects Applied: SelectObject Basic Art Attributes Effects Applied
+  Select > Object > Basic Art Attributes > Styled Art: SelectObject Basic Art Attributes Styled Art
+  Select > Object > Basic Art Attributes > Unstyled Art: SelectObject Basic Art Attributes Unstyled Art
+  Select > Object > Basic Art Attributes > Styled Groups: SelectObject Basic Art Attributes Styled Groups
+  Select > Object > Basic Art Attributes > Unstyled Groups: SelectObject Basic Art Attributes Unstyled Groups
+  Select > Object > Basic Art Types > Groups: SelectObject Basic Art Types Groups
+  Select > Object > Basic Art Types > Symbols: SelectObject Basic Art Types Symbols
+  Select > Object > Basic Art Types > Path Blends: SelectObject Basic Art Types Path Blends
+  Select > Object > Basic Art Types > Gradient Meshes: SelectObject Basic Art Types Gradient Meshes
+  Select > Object > Basic Art Types > Raster Art: SelectObject Basic Art Types Raster Art
+  Select > Object > Basic Art Types > Raster Art (Alpha): SelectObject Basic Art Types Raster Art (Alpha)
+  Select > Object > Basic Art Types > Placed Art: SelectObject Basic Art Types Placed Art
+  Select > Object > Basic Art Types > Graphs: SelectObject Basic Art Types Graphs
+  Select > Object > Basic Art Types > Non-Native Art: SelectObject Basic Art Types Non-Native Art
+  Select > Object > Special Art Types > Live Objects (Plugin Art): SelectObject Special Art Types Live Objects (Plugin Art)
+  Select > Object > Special Art Types > Envelopes: SelectObject Special Art Types Envelopes
+  Select > Object > Special Art Types > Flares: SelectObject Special Art Types Flares
+  Select > Object > Special Art Types > Image Traces: SelectObject Special Art Types Image Traces
+  Select > Object > Special Art Types > Live Paints: SelectObject Special Art Types Live Paints
+  Select > Object > Special Art Types > Symbol Sets: SelectObject Special Art Types Symbol Sets
+  Select > Object > Special Art Types > AxoTools Transform Objects: SelectObject Special Art Types AxoTools Transform Objects
+  Select > Object > Special Art Types > Compound Shapes: SelectObject Special Art Types Compound Shapes
+  Select > Object > Special Art Types > Opacity Masks: SelectObject Special Art Types Opacity Masks
+  Select > Object > Special Art Types > Intertwined Objects: SelectObject Special Art Types Intertwined Objects
+  Select > Object > Repeats > Radial Repeats: SelectObject Repeats Radial Repeats
+  Select > Object > Repeats > Grid Repeats: SelectObject Repeats Grid Repeats
+  Select > Object > Repeats > Mirror Repeats: SelectObject Repeats Mirror Repeats
+  Select > Object > Art by Name...: SelectObject Art by Name...
+  Select > Object > Art with Notes...: SelectObject Art with Notes...
+  Select > Object > Modifer Keys Refine Selection: SelectObject Modifer Keys Refine Selection
+  Select > Object > SelectMenu Preferences...: SelectObject SelectMenu Preferences...
+
+  # RJ-Graffix Square Up
+  # https://rj-graffix.com/downloads/plugins/#squareup
+
+  Object > Path > Square Up: Objects Paths Popup Square Up
+
+  Window > Square Up: Tool Palettes Square Up
+
+  # RJ-Graffix ToolShed
+  # https://rj-graffix.com/downloads/plugins/#toolshed
+
+  Edit > Preferences > Graffix Plugins > ToolShed...: Preferences Graffix Plugins ToolShed...
+
+  Object > Transform > Get Bounding Box Rotation...: Arrange Transform Get Bounding Box Rotation...
+  Object > Transform > Set Bounding Box Rotation...: Arrange Transform Set Bounding Box Rotation...
+  Object > Transform > Restore Original Rotations: Arrange Transform Restore Original Rotations
+  Object > Transform > Scale To Proportion...: Arrange Transform Scale To Proportion...
+  Object > Transform > Unscale Art...: Arrange Transform Unscale Art...
+  Object > Isolate > Begin Isolation: Object Utilities Isolate Begin Isolation
+  Object > Isolate > Isolate Parent Object: Object Utilities Isolate Isolate Parent Object
+  Object > Isolate > End Isolation: Object Utilities Isolate End Isolation
+  Object > Create Path Array > Radial...: Object Utilities Create Path Array Radial...
+  Object > Create Path Array > Logarithmic...: Object Utilities Create Path Array Logarithmic...
+  Object > Path > Offset Open Path...: Objects Paths Popup Offset Open Path...
+  Object > Path > Close Open Paths: Objects Paths Popup Close Open Paths
+  Object > Path > Minimum Stroke Weight...: Objects Paths Popup Minimum Stroke Weight...
+  Object > Path > Scale Stroke Weight...: Objects Paths Popup Scale Stroke Weight...
+
+  Window > Notes > Document Notes: Tool Palettes Notes Document Notes
+  Window > Notes > Artwork Notes: Tool Palettes Notes Artwork Notes
+  Window > Notes > Layer Notes: Tool Palettes Notes Layer Notes
+
+  # Microvector VectorInspector Pro
+  # https://microvector.livejournal.com
+
+  Window > VectorInspector Pro > Show VectorInspector Pro: Tool Palettes Vector Inspector Pro Show Vector Inspector Pro
+
+
+changes:
+  # Commands chanded from version to version.
+  # Some commands have inaccuracies in the minVer/maxVer.
+  # Let me know if you find them
+
+  Adobe Illustrator Kuler Panel:
+    - command: Adobe Illustrator Kuler Panel
+      menuItem: Window > Color Themes
+      maxVer: '25.9'
+      minVer: '22.0'
+
+  Adobe History Panel Menu Item:
+    - command: Adobe History Panel Menu Item
+      menuItem: Window > History
+      minVer: '27.0'
+    - command: Adobe HistoryPanel Menu Item
+      menuItem: Window > History
+      maxVer: '26.9'
+      minVer: '26.4'
+
+  Adobe Learn Panel Menu Item:
+    - command: Adobe Learn Panel Menu Item
+      menuItem: Window > Learn
+      maxVer: '25.9'
+      minVer: '22.0'
+
+  Adobe Property Palette:
+    - command: Adobe Property Palette
+      menuItem: Window > Properties
+      minVer: '26.0'
+    - command: ''
+      menuItem: Window > Properties
+      maxVer: '25.9'
+      minVer: '22.0'
+
+  Attach Objects on Path:
+    - command: Attach Objects on Path
+      menuItem: Object > Objects on Path > Attach...
+      minVer: '29.0'
+
+  ClipboardPref:
+    - command: FileClipboardPref
+      menuItem: Edit > Preferences > Clipboard Handling...
+      minVer: '25.0'
+
+  Default ToolBar:
+    - command: Default ToolBar
+      menuItem: Window > Toolbars > Default
+      maxVer: '22.0'
+      minVer: '22.0'
+
+  Expand Objects on Path:
+    - command: Expand Objects on Path
+      menuItem: Object > Objects on Path > Expand
+      minVer: '29.0'
+
+  FileClipboardPref:
+    - command: FileClipboardPref
+      menuItem: Edit > Preferences > File Handling & Clipboard...
+      maxVer: '24.9'
+      minVer: '22.0'
+
+  FilePref:
+    - command: FileClipboardPref
+      menuItem: Edit > Preferences > File Handling...
+      minVer: '25.0'
+
+  GenAIConsolidatedBleed:
+    - command: GenAIConsolidatedBleed
+      menuItem: Object > Generative > Print Bleed
+      minVer: '30.0'
+    - command: Gen Bleed Object Menu
+      menuItem: Object > Print Bleed...
+      maxVer: '29.9'
+      minVer: '29.6.1'
+
+  GenAIConsolidatedGenerateVectors:
+    - command: GenAIConsolidatedGenerateVectors
+      menuItem: Object > Generative > Generative Vectors...
+      minVer: '30.0'
+    - command: Generate Modal Object Menu
+      menuItem: Object > Generate Vectors...
+      maxVer: '29.9'
+      minVer: '28.6'
+    - command: Generate Modal Object Menu
+      menuItem: Window > Text to Vector Graphic
+      maxVer: '28.5'
+      minVer: '28.0'
+
+  GenAIConsolidatedPatterns:
+    - command: GenAIConsolidatedPatterns
+      menuItem: Object > Generative > Generate Patterns
+      minVer: '30.0'
+    - command: Adobe Generative Patterns Panel
+      menuItem: Window > Generate Patterns
+      maxVer: '29.9'
+      minVer: '28.6'
+
+    # Text To Pattern ???
+    # Object > Pattern > Text to Pattern
+    # Object > Pattern > Generate Patterns
+
+  GenAIConsolidatedRecolor:
+    - command: GenAIConsolidatedRecolor
+      menuItem: Object > Generative > Generative Recolor
+      minVer: '30.0'
+
+  GenAIConsolidatedShapeFill:
+    - command: GenAIConsolidatedShapeFill
+      menuItem: Object > Generative > Gen Shape Fill...
+      minVer: '30.0'
+    - command: Shape Fill Object Menu
+      menuItem: Object > Gen Shape Fill
+      maxVer: '29.9'
+      minVer: '28.6'
+
+  GenAIConsolidatedVariations:
+    - command: GenAIConsolidatedVariations
+      menuItem: Object > Generative > Generation History
+      minVer: '30.0'
+    - command: Generate
+      menuItem: Window > Generated Variations
+      maxVer: '29.9'
+      minVer: '28.6'
+
+  Gen Expand Object Combine:
+    - command: Gen Expand Object Combine
+      menuItem: Object > Generative > Generative Expand > Combine
+      minVer: '30.0'
+
+  Gen Expand Object Make:
+    - command: Gen Expand Object Make
+      menuItem: Object > Generative > Generative Expand > Make
+      minVer: '30.0'
+
+  Generative Recolor:
+    - command: Generative Recolor
+      menuItem: Edit > Edit Colors > Generative Recolor
+      minVer: '27.6'
+
+  Generate Modal File Menu:
+    - command: 'Generate Modal File Menu '
+      menuItem: Edit > Edit Colors > Generative Recolor
+      minVer: '28.6'
+
+  Live 3DExtrude:
+    - command: Live 3DExtrude
+      menuItem: Effect > 3D and Materials > 3D (Classic) > Extrude & Bevel (Classic)...
+      minVer: '26.0'
+    - command: Live 3DExtrude
+      menuItem: Effect > 3D > Extrude & Bevel...
+      maxVer: '25.9'
+
+  Live 3DRevolve:
+    - command: Live 3DRevolve
+      menuItem: Effect > 3D and Materials > 3D (Classic) > Revolve (Classic)...
+      minVer: '26.0'
+    - command: Live 3DRevolve
+      menuItem: Effect > 3D > Revolve...
+      maxVer: '25.9'
+
+  Live 3DRotate:
+    - command: Live 3DRotate
+      menuItem: Effect > 3D and Materials > 3D (Classic) > Rotate (Classic)...
+      minVer: '26.0'
+    - command: Live 3DRotate
+      menuItem: Effect > 3D > Rotate...
+      maxVer: '25.9'
+
+  Live ASTGStipple:
+    - command: Live ASTGStipple
+      menuItem: Effects > Stipplism > Stipple
+      minVer: '27.2'
+    - command: Live Stipple
+      menuItem: Effects > Stipplism > Stipple
+      maxVer: '27.1'
+
+  Live ASTGSymbolStipple:
+    - command: Live ASTGSymbolStipple
+      menuItem: Effects > Stipplism > Symbol Stipple
+      minVer: '27.2'
+    - command: Live Symbol Stipple
+      menuItem: Effects > Stipplism > Symbol Stipple
+      maxVer: '27.1'
+
+  Make and Expand Image Tracing:
+    - command: Make and Expand Image Tracing
+      menuItem: Object > Image Trace > Create and Expand
+      minVer: '27.6'
+    - command: Make and Expand Image Tracing
+      menuItem: Object > Image Trace > Make and Expand
+      maxVer: '27.5'
+
+  Make Image Tracing:
+    - command: Make Image Tracing
+      menuItem: Object > Image Trace > Create
+      minVer: '27.6'
+    - command: Make Image Tracing
+      menuItem: Object > Image Trace > Make
+      maxVer: '27.5'
+
+  More Options Image Tracing:
+    - command: More Options Image Tracing
+      menuItem: Object > Image Trace > More Options...
+      minVer: '27.6'
+
+  Options Objects on Path:
+    - command: Options Objects on Path
+      menuItem: Object > Objects on Path > Options...
+      minVer: '29.0'
+
+  ReflowWindowMenu:
+    - command: ReflowWindowMenu
+      menuItem: Window > Type > Reflow Viewer
+      minVer: '29.0'
+
+  Release Image Tracing:
+    - command: Release Image Tracing
+      menuItem: Object > Image Trace > Revert To Original
+      minVer: '27.6'
+    - command: Release Image Tracing
+      menuItem: Object > Image Trace > Release
+      maxVer: '27.5'
+
+  Shape Fill Object Menu:
+    - command: Shape Fill Object Menu
+      menuItem: Object > Gen Shape Fill
+      minVer: '28.6'
+
+  SWFPresets:
+    - command: SWFPresets
+      menuItem: Edit > SWF Presets...
+      maxVer: '25.9'
+
+  Switch Orientation:
+    - command: Switch Orientation
+      menuItem: Object > Artboards > Switch Orientation
+      minVer: '30.0'
+
+  ungroup all:
+    - command: ungroup all
+      menuItem: Object > Ungroup All
+      minVer: '29.3'
+    - command: ungroupAll
+      menuItem: Object > Ungroup All
+      maxVer: '29.2'
+      minVer: '29.1'
+
+
+substitutes:
+  # Some commands in the .kys file differ from the executeMenuCommand
+  # .kys command: executeMenuCommand
+
+  areatextoptions: area-type-options
+  debugPalette: Debug Panel
+  OpenGLCompositorPreview: GPU Preview
+  saveasTemplate: saveastemplate
+  selectionPref: selectPref
+  systemInfo: System Info
+  textpathtype3d: 3D ribbon
+  textpathtypeGravity: Gravity
+  textpathtypeOptions: typeOnPathOptions
+  textpathtypeRainbow: Rainbow
+  textpathtypeSkew: Skew
+  textpathtypestairs: Stair Step
+  userInterfacePref: UIPref
+
+  # Command changes
+  '': Adobe Property Palette
+  Adobe HistoryPanel Menu Item: Adobe History Panel Menu Item
+  ungroupAll: ungroup all
+
+
+bugs:
+  # The commands below produces PARM error, when calls in executeMenuCommand
+
+  - _GenericPluginMenuItem 25
+  - ~bullet
+  - ~copyright
+  - ~discretionaryHyphen
+  - ~doubleLeftQuote
+  - ~doubleRightQuote
+  - ~ellipsis
+  - ~emDash
+  - ~emSpace
+  - ~enDash
+  - ~enSpace
+  - ~forcedLineBreak
+  - ~hairSpace
+  - ~kernCloser
+  - ~kernFurther
+  - ~nonBreakingSpace
+  - ~paragraphSymbol
+  - ~placeHolderText
+  - ~registeredTrademark
+  - ~sectionSymbol
+  - ~singleLeftQuote
+  - ~singleRightQuote
+  - ~subscript
+  - ~subscript2
+  - ~superScript
+  - ~superScript2
+  - ~textBold
+  - ~textItalic
+  - ~textUnderline
+  - ~thinSpace
+  - ~trademarkSymbol
+  - Adobe Presentation Mode
+  - Apply Last Filter
+  - avgAndJoin
+  - centerAlign
+  - clearTrack
+  - clearTypeScale
+  - closeAll
+  - closeAll2
+  - collectForExportMultipleAsset
+  - collectForExportSingleAsset
+  - convertlegacyText
+  - convertlegacyText1
+  - convertlegacyText2
+  - convertlegacyText3
+  - convertlegacyText4
+  - copy2
+  - cut2
+  - enterFocus
+  - exitFocus
+  - ExportSettings
+  - faceSizeDown
+  - faceSizeUp
+  - glyphSnapping
+  - helpcontent2
+  - hide2
+  - highlightFont
+  - highlightFont2
+  - ImportSettings
+  - justify
+  - justifyAll
+  - justifyCenter
+  - justifyRight
+  - Last Filter
+  - leftAlign
+  - lock2
+  - navigateToNextDocument
+  - navigateToNextDocumentGroup
+  - navigateToPreviousDocument
+  - navigateToPreviousDocumentGroup
+  - new2
+  - paste2
+  - pixelconstraints
+  - point-area
+  - repeatPathfinder
+  - resetRotationView
+  - rightAlign
+  - RotateView15
+  - RotateView30
+  - RotateView45
+  - RotateView60
+  - RotateView90
+  - RotateView120
+  - RotateView135
+  - RotateView150
+  - RotateView180
+  - RotateViewNegative15
+  - RotateViewNegative30
+  - RotateViewNegative45
+  - RotateViewNegative60
+  - RotateViewNegative90
+  - RotateViewNegative120
+  - RotateViewNegative135
+  - RotateViewNegative150
+  - RotateViewNegative180
+  - rotateViewToSelection
+  - RotateViewZero
+  - sizeStepDown
+  - sizeStepUp
+  - spacing
+  - supportContent
+  - switchSelTool
+  - switchUnits
+  - toggleAutoHyphen
+  - toggleLineComposer
+  - tracking
+  - TrimView
+  - undo2
+  - whatsNewContent
+  - zoomin2

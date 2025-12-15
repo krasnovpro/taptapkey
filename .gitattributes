@@ -1,0 +1,11 @@
+* text=auto
+
+*.ahk text eol=lf
+*.aia text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
+*.yaml text eol=lf

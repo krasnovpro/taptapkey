@@ -1,0 +1,31 @@
+Brushes\
+DataRecovery\
+Graphic Styles\
+Modified Workspaces\
+New Document Profiles\
+Plug-ins\
+Save for Web Settings\Optimize\
+Swatches\
+Symbols\
+Tools\
+Workspaces\
+Adobe SVG Filters.svg
+AI Color Settings
+Adobe Illustrator Cloud Prefs
+Adobe Illustrator Prefs
+Last Used Asset Export Settings
+Perspective grid Presets
+Print Presets
+Transparency Flattener Presets
+Vectorizing Presets
+*.kys
+
+backup.cmd
+prepare.cmd
+backup.txt
+Fonts\
+Plug-ins off\
+Resources\
+Scripts\
+Scripts$\
+Templates\

@@ -1,0 +1,60 @@
+﻿html {
+  --u: 4px; /* Base size. You can create a 'user.css' and override it there */
+
+  --text-color:     #000;
+  --bg-color:       #fffe;
+  --hover-color:    #e8e8ee;
+  --toggle-color:   #444;
+  --key-color:      #bbc5;
+  --icon-color:     #555;
+  --help-bg-color:  #889a;
+  --tab-color:      #bbca;
+  --shadow-color:   #0004;
+  --border-color:   #0001;
+
+  --margin:         var(--u);
+  --font-size:      calc(var(--u) * 3);
+  --icon-size:      calc(var(--u) * 6);
+  --corner:         calc(var(--u) * 2);
+  --item-height:    calc(var(--icon-size) + var(--margin));
+  --help-width:     calc(var(--u) * 100);
+  --help-height:    calc(var(--u) * 75);
+
+  --shadow-shift:   calc(var(--u) * 4);
+  --box-shadow:     0 var(--shadow-shift) calc(var(--u) * 10) 0 var(--shadow-color);
+  --drop-shadow:
+    drop-shadow(var(--border-color)  0px -1px)
+    drop-shadow(var(--border-color)  1px  0px)
+    drop-shadow(var(--border-color)  0px  1px)
+    drop-shadow(var(--border-color) -1px  0px)
+    drop-shadow(var(--shadow-color)  0px  calc(var(--u) * 1.5) calc(var(--u) * 5));
+
+
+  --menu-offset-x:  calc(var(--margin) * 18);
+  --menu-offset-y:  calc(var(--margin) * 5);
+  --key-width:      calc(var(--u) * 5);
+  --key-font-size:  var(--font-size);
+
+  --tab-cell:       calc(var(--u) * 10);
+  --tab-font-size:  calc(var(--u) * 2.5);
+  --tab-key-size:   calc(var(--u) * 2.2);
+
+  --shadow-size:    calc(var(--u) * 12);
+  --shadow-margins:
+    calc(var(--shadow-size) - var(--shadow-shift)) var(--shadow-size)
+    calc(var(--shadow-size) + var(--shadow-shift)) var(--shadow-size);
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,31 @@
+// alert(getAllActions()[0].actions.join('\r')) ;
+
+/**
+  * get all action of preferences
+  * @return {Array} [{name: 'set1', actions: ['action1', 'action2'...]}...]
+*/
+function getAllActions() {
+  var res = [];
+  var pref = app.preferences;
+  var path = 'plugin/Action/SavedSets/set-';
+  var currentPath, setName, actionCount, actions;
+  for (var i = 1; i <= 100; i++) {
+    currentPath = path + i.toString() + '/';
+    // get setName
+    setName = pref.getStringPreference(currentPath + 'name');
+    if (!setName) {
+      break;
+    }
+    // get actionNames
+    actions = [];
+    actionCount = Number(pref.getIntegerPreference(currentPath + 'actionCount'));
+    for (var j = 1; j <= actionCount; j++) {
+      actions.push(pref.getStringPreference(currentPath + 'action-' + j.toString() + '/name'));
+    }
+    res.push({
+      name: setName,
+      actions: actions
+    });
+  }
+  return res;
+}

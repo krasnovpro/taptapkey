@@ -1,0 +1,39 @@
+﻿# Adobe Illustrator favorites
+
+- text: AI Favorites
+  icon: '#adobe_illustrator'
+  hint: For native F1&#10;press it twice
+
+- text: Locate Object
+  icon: '#locate_object'
+  key: v
+  action:
+    - aiRunAction
+    - select - locate object
+
+- text: Compound Path Add
+  icon: '#compound_path_add'
+  key: a
+  action:
+    - aiRunAction
+    - compound path - add
+
+- text: Compound Path Make
+  key: Space
+  action:
+    - aiRunScript
+    - path > boolean > ungroup and make compound
+
+- text: AG Super Marquee
+  icon: '#tools/ag_super_marquee'
+  key: q
+  action:
+    - aiSelectTool
+    - AG Super Marquee
+
+- text: Extrude
+  icon: '#tools/rj_axo_extrude'
+  key: z
+  action:
+    - aiSelectTool
+    - RJ Axo Extrude

@@ -1,0 +1,4501 @@
+﻿# Adobe Illustrator menu
+
+- text: Adobe Illustrator
+  icon: '#adobe_illustrator'
+  hint:
+    For native context menu&#10;
+    press Control-RButton&#10;&#10;
+    Required plugins:&#10;
+    AG - Astute Graphics&#10;
+    RG - RJ-Graffix&#10;
+    CS - CoolSelection&#10;
+    CV - Cvalley FILTERiT
+
+- text: Align, Distribute
+  icon: '#align'
+  key: a
+  items:
+
+    - text: Send to Current Layer
+      icon: '#send_to_current_layer'
+      key: a
+      action:
+        - aiRunMenu
+        - Object > Arrange > Send to Current Layer
+
+    - text: Objects on Path
+      link: https://helpx.adobe.com/illustrator/using/objects-on-path.html
+      icon: '#tools/objects_on_path'
+      key: f
+      action:
+        - aiSelectTool
+        - Objects on Path
+
+    - text: Distribute
+      icon: '#distribute'
+      key: Space
+      items:
+
+        - text: Top
+          icon: '#distribute_top'
+          key: t
+          action:
+            - aiRunAction
+            - distribute - top
+
+        - text: Vertical Center
+          icon: '#distribute_v_center'
+          key: v
+          action:
+            - aiRunAction
+            - distribute - vertical center
+
+        - text: Vertical Space
+          icon: '#distribute_v_space'
+          key: c
+          action:
+            - aiRunAction
+            - distribute - vertical space
+
+        - text: Bottom
+          icon: '#distribute_bottom'
+          key: b
+          action:
+            - aiRunAction
+            - distribute - bottom
+
+        - text: Left
+          icon: '#distribute_left'
+          key: e
+          action:
+            - aiRunAction
+            - distribute - left
+
+        - text: Horizontal Center
+          icon: '#distribute_h_center'
+          key: h
+          action:
+            - aiRunAction
+            - distribute - horizontal center
+
+        - text: Horizontal Space
+          icon: '#distribute_h_space'
+          key: g
+          action:
+            - aiRunAction
+            - distribute - horizontal space
+
+        - text: Right
+          icon: '#distribute_right'
+          key: r
+          action:
+            - aiRunAction
+            - distribute - right
+
+    -
+
+    - text: Align ↓
+
+    - text: Top
+      icon: '#align_top'
+      key: t
+      action:
+        - aiRunMenu
+        - Object > Align > Vertical Align Top
+
+    - text: Vertical Center
+      icon: '#align_v_center'
+      key: v
+      action:
+        - aiRunMenu
+        - Object > Align > Vertical Align Center
+
+    - text: Bottom
+      icon: '#align_bottom'
+      key: b
+      action:
+        - aiRunMenu
+        - Object > Align > Vertical Align Bottom
+
+    - text: Left
+      icon: '#align_left'
+      key: e
+      action:
+        - aiRunMenu
+        - Object > Align > Horizontal Align Left
+
+    - text: Horizontal Center
+      icon: '#align_h_center'
+      key: h
+      action:
+        - aiRunMenu
+        - Object > Align > Horizontal Align Center
+
+    - text: Right
+      icon: '#align_right'
+      key: r
+      action:
+        - aiRunMenu
+        - Object > Align > Horizontal Align Right
+
+- text: Blend, Brush
+  icon: '#blend'
+  key: b
+  items:
+
+    - text: Blend ↓
+      icon: '#tools/blend'
+
+    - text: Make
+      help: blend make.mp4
+      key: Space
+      action:
+        - aiRunMenu
+        - Object > Blend > Make
+
+    - text: Options...
+      help: blend options.mp4
+      key: v
+      action:
+        - aiRunMenu
+        - Object > Blend > Blend Options...
+
+    - text: Expand
+      key: x
+      action:
+        - aiRunMenu
+        - Object > Blend > Expand
+
+    - text: Release
+      key: r
+      action:
+        - aiRunMenu
+        - Object > Blend > Release
+
+    - text: Blend
+      icon: '#tools/blend'
+      key: b
+      action:
+        - aiSelectTool
+        - Blend
+
+    -
+
+    - text: Offset...
+      link: https://helpx.adobe.com/illustrator/desktop/manage-objects/edit-objects/offset-duplicate-objects.html
+      icon: '#offset'
+      key: f
+      action:
+        - aiRunMenu
+        - Object > Path > Offset Path...
+
+    - text: <p>RJ</p> Offset
+      link: https://rj-graffix.com/documentation/toolshed-docs
+      icon: '#tools/rj_open_path_offset'
+      key: g
+      action:
+        - aiSelectTool
+        - RJ Open Path Offset
+
+    - text: <p>RJ</p> Offset Open
+      link: https://rj-graffix.com/documentation/toolshed-docs
+      icon: '#offset'
+      key: h
+      action:
+        - aiRunMenu
+        - Object > Path > Offset Open Path...
+
+    - text: <p>AG</p> Offset
+      link: https://docs.astutegraphics.com/stylism/ag-offset-overview/ag-offset-tool
+      icon: '#tools/ag_offset'
+      key: a
+      action:
+        - aiSelectTool
+        - AG Offset
+
+    - column: break
+
+    - text: Brushes ↓
+      icon: '#brush'
+
+    - text: Paintbrush
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/paintbrush-tool.html
+      icon: '#tools/paintbrush'
+      key: c
+      action:
+        - aiSelectTool
+        - Paintbrush
+
+    - text: Blob Brush
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/blob-brush-tool.html
+      icon: '#tools/blob_brush'
+      key: w
+      action:
+        - aiSelectTool
+        - Blob Brush
+
+    - text: Pencil
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/pencil-tool.html
+      icon: '#tools/pencil'
+      key: e
+      action:
+        - aiSelectTool
+        - Pencil
+
+    - text: <p>AG</p> InkFlow
+      link: https://docs.astutegraphics.com/inkflow/inkflow-overview/inkflow-tool
+      icon: '#tools/ag_inkflow'
+      key: i
+      action:
+        - aiSelectTool
+        - AG InkFlow
+
+    - text: <p>AG</p> Dynamic Sketch
+      link: https://docs.astutegraphics.com/dynamicsketch/dynamic-sketch-overview/dynamic-sketch-tool
+      icon: '#tools/ag_dynamic_sketch'
+      key: d
+      action:
+        - aiSelectTool
+        - AG Dynamic Sketch
+
+    - text: <p>AG</p> Opacity Brush
+      link: https://docs.astutegraphics.com/texturino/opacity-brush-overview/opacity-brush-tool
+      icon: '#tools/ag_opacity_brush'
+      key: q
+      action:
+        - aiSelectTool
+        - AG Opacity Brush
+
+    - text: <p>AG</p> Texture Brush
+      link: https://docs.astutegraphics.com/texturino/texture-brush-overview/texture-brush-tool
+      icon: '#tools/ag_texture_brush'
+      key: t
+      action:
+        - aiSelectTool
+        - AG Texture Brush
+
+- text: Fill Color
+  icon: '#color'
+  key: c
+  items:
+
+    - text: Fill ↓
+      icon: '#color'
+
+    - text: None
+      hint:
+        Remove fill from&#10;
+        selected objects
+      key: c
+      action:
+        - aiRunAction
+        - fill - none
+
+    - text: Activate
+      hint:
+        Unconditionally&#10;
+        activate the fill color&#10;
+        on the toolbar
+      key: Space
+      action:
+        - aiRunAction
+        - fill - activate
+
+    - text: Random
+      hint: Random fill color
+      key: r
+      action:
+        - aiRunScript
+        - color > random > fill
+
+    - text: Black, Stroke None
+      hint:
+        Set fill black,&#10;
+        stroke none
+      key: n
+      action:
+        - aiRunAction
+        - fill - black; stroke - none
+
+    - text: White, Stroke None
+      hint:
+        Set fill white,&#10;
+        stroke none
+      key: w
+      action:
+        - aiRunAction
+        - fill - white; stroke - none
+
+    -
+
+    - text: Swap Fill / Stroke
+      key: x
+      action:
+        - aiRunScript
+        - color > swap fill stroke
+
+    - text: <p>AG</p> Swap Fill / Stroke
+      link: https://docs.astutegraphics.com/phantasm/swap-fill-and-stroke
+      key: z
+      action:
+        - aiRunMenu
+        - Object > Path > Swap Fill and Stroke
+
+    - text: <p>AG</p> Swap Fill / Stroke wFX
+      link: https://docs.astutegraphics.com/phantasm/swap-fill-and-stroke
+      key: v
+      action:
+        - aiRunMenu
+        - Object > Path > Swap Fill and Stroke with Effects
+
+    - column: break
+
+    - text: Eyedropper
+      icon: '#tools/eyedropper'
+      key: d
+      action:
+        - aiSelectTool
+        - Eyedropper
+
+    - text: <p>AG</p> Color Select
+      link: https://docs.astutegraphics.com/subscribe/ag-color-select-tool
+      icon: '#tools/ag_color_select'
+      key: s
+      action:
+        - aiSelectTool
+        - AG Color Select
+
+    - text: Random Layer Color
+      icon: '#window/layers'
+      key: y
+      action:
+        - aiRunScript
+        - color > random > layer
+
+    - text: Recolor Artwork...
+      icon: '#recolor'
+      key: a
+      action:
+        - aiRunMenu
+        - Edit > Edit Colors > Recolor Artwork...
+
+    -
+
+    - text: Blending
+      link: https://helpx.adobe.com/illustrator/desktop/manage-colors/apply-transparency-and-blending/blending-mode-types.html
+      key: b
+      items:
+
+        - text: Normal
+          key: n
+          action:
+            - aiRunAction
+            - blending - normal
+
+        - text: Darken
+          key: r
+          action:
+            - aiRunAction
+            - blending - darken
+
+        - text: Multiply
+          key: m
+          action:
+            - aiRunAction
+            - blending - multiply
+
+        - text: Color Burn
+          key: b
+          action:
+            - aiRunAction
+            - blending - color burn
+
+        - text: Lighten
+          key: l
+          action:
+            - aiRunAction
+            - blending - lighten
+
+        - text: Screen
+          key: s
+          action:
+            - aiRunAction
+            - blending - screen
+
+        - text: Color Dodge
+          key: g
+          action:
+            - aiRunAction
+            - blending - color dodge
+
+        - text: Overlay
+          key: v
+          action:
+            - aiRunAction
+            - blending - overlay
+
+        - column: break
+
+        - text: Soft Light
+          key: s
+          action:
+            - aiRunAction
+            - blending - soft light
+
+        - text: Hard Light
+          key: f
+          action:
+            - aiRunAction
+            - blending - hard light
+
+        - text: Difference
+          key: d
+          action:
+            - aiRunAction
+            - blending - difference
+
+        - text: Exclusion
+          key: e
+          action:
+            - aiRunAction
+            - blending - exclusion
+
+        - text: Hue
+          key: h
+          action:
+            - aiRunAction
+            - blending - hue
+
+        - text: Saturation
+          key: a
+          action:
+            - aiRunAction
+            - blending - saturation
+
+        - text: Color
+          key: c
+          action:
+            - aiRunAction
+            - blending - color
+
+        - text: Luminosity
+          key: u
+          action:
+            - aiRunAction
+            - blending - luminosity
+
+    - text: <p>AG</p> Phantasm
+      link: https://docs.astutegraphics.com/phantasm/phantasm-plugin-overview
+      key: f
+      items:
+
+        - text: Brightness /<br>Contrast...
+          key: b
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Brightness/Contrast...
+
+        - text: Curves...
+          key: c
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Curves...
+
+        - text: Desaturate...
+          key: a
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Desaturate...
+
+        - text: Duotone...
+          key: d
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Duotone...
+
+        - text: Exposure...
+          key: e
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Exposure...
+
+        - text: Halftone...
+          key: f
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Halftone...
+
+        - column: break
+
+        - text: Hue / Saturation...
+          key: h
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Hue/Saturation...
+
+        - text: Invert...
+          key: g
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Invert...
+
+        - text: Levels...
+          key: v
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Levels...
+
+        - text: Prepress Correct...
+          key: r
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Prepress Correct...
+
+        - text: Shift to Color...
+          key: s
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Shift to Color...
+
+        - text: Temperature / Tint...
+          key: t
+          action:
+            - aiRunMenu
+            - Object > Filters > Phantasm > Temperature/Tint...
+
+    - text: Opacity
+      key: q
+      items:
+
+        - text: Set...
+          key: q
+          action:
+            - aiRunScript
+            - color > opacity > change
+
+        - text: 0%
+          key: 1
+          action:
+            - aiRunAction
+            - opacity - 0
+
+        - text: 20%
+          key: 2
+          action:
+            - aiRunAction
+            - opacity - 20
+
+        - text: 40%
+          key: 3
+          action:
+            - aiRunAction
+            - opacity - 40
+
+        - column: break
+
+        - text:
+
+        - text: 60%
+          key: 4
+          action:
+            - aiRunAction
+            - opacity - 60
+
+        - text: 80%
+          key: 5
+          action:
+            - aiRunAction
+            - opacity - 80
+
+        - text: 100%
+          key: 6
+          action:
+            - aiRunAction
+            - opacity - 100
+
+    - text: Color Space
+      hint:
+        Change color space&#10;
+        in the Color panel
+      key: e
+      items:
+
+        - text: Grayscale
+          key: g
+          action:
+            - aiRunAction
+            - color - grayscale
+
+        - text: RGB
+          key: r
+          action:
+            - aiRunAction
+            - color - rgb
+
+        - text: HSB
+          key: h
+          action:
+            - aiRunAction
+            - color - hsb
+
+        - text: CMYK
+          key: c
+          action:
+            - aiRunAction
+            - color - cmyk
+
+- text: Anchors
+  icon: '#anchors'
+  key: d
+  items:
+
+    - text: Anchors ↓
+      icon: '#anchors'
+
+    - text: Remove Selected
+      key: v
+      action:
+        - aiRunMenu
+        - Object > Path > Remove Anchor Points
+
+    - text: Break Selected
+      key: d
+      action:
+        - aiRunScript
+        - path > anchor > break
+
+    - text: Add
+      key: a
+      action:
+        - aiRunMenu
+        - Object > Path > Add Anchor Points
+
+    -
+
+    - text: Handle Glue
+      link: https://github.com/shspage/illustrator-scripts?tab=readme-ov-file#handlegluejsx
+      key: h
+      action:
+        - aiRunScript
+        - path > anchor > handle glue
+
+    - text: Join
+      key: q
+      items:
+
+        - text: Path Join
+          key: q
+          action:
+            - aiRunMenu
+            - Object > Path > Join
+
+        - text: Clone Parts and Join
+          help: clone parts and join.mp4
+          key: f
+          action:
+            - aiRunAction
+            - path - clone parts and join
+
+        -
+
+        - text: <p>AG</p> Rejoin
+          help: ag rejoin.mp4
+          key: r
+          action:
+            - aiRunAction
+            - path - ag rejoin
+            - taptapkey plugins
+
+        - text: <p>AG</p> Rejoin Strict
+          help: ag rejoin strict.mp4
+          key: e
+          action:
+            - aiRunAction
+            - path - ag rejoin strict
+            - taptapkey plugins
+
+        -
+
+        - text: <p>AG</p> Close
+          help: ag close.mp4
+          key: c
+          action:
+            - aiRunAction
+            - path - ag close
+            - taptapkey plugins
+
+        - text: <p>AG</p> Close Smooth
+          help: ag close smooth.mp4
+          key: s
+          action:
+            - aiRunAction
+            - path - ag close smooth
+            - taptapkey plugins
+
+        - text: <p>AG</p> Close Straight
+          help: ag close straight.mp4
+          key: a
+          action:
+            - aiRunAction
+            - path - ag close straight
+            - taptapkey plugins
+
+    -
+
+    - text: <p>AG</p> Tangent All Dots
+      help: ag tangent all dots.mp4
+      key: t
+      action:
+        - aiRunAction
+        - path - ag move all points to tangencies
+        - taptapkey plugins
+
+    - text: <p>AG</p> Tangent Sel.Dots
+      help: ag tangent selected dots.mp4
+      key: 5
+      action:
+        - aiRunAction
+        - path - ag move selected points to nearest tangecies
+        - taptapkey plugins
+
+    -
+
+    - text: <p>AG</p> Retract Handles ↓
+
+    - text: Anchor
+      key: 1
+      action:
+        - aiRunAction
+        - path - ag retract anchor handles
+        - taptapkey plugins
+
+    - text: Segment
+      key: 2
+      action:
+        - aiRunAction
+        - path - ag retract segment handles
+        - taptapkey plugins
+
+    - text: Remove Useless
+      key: 3
+      action:
+        - aiRunAction
+        - path - ag remove useless handles
+        - taptapkey plugins
+
+    - column: break
+
+    - text: Corner ↓
+      icon: '#corners'
+
+    - text: Recover
+      key: r
+      help: corner recover.mp4
+      action:
+        - aiRunScript
+        - path > corner > recover
+
+    - text: Smooth...
+      link: https://github.com/kefiijrw/Round-Corners-Customization-for-Illustrator
+      key: w
+      help: corner smooth.mp4
+      action:
+        - aiRunScript
+        - path > corner > smooth
+
+    - text: Round
+      link: https://github.com/alexander-ladygin/illustrator-scripts
+      help: corner round.mp4
+      key: c
+      action:
+        - aiRunScript
+        - path > corner > round
+
+    - text: Expand
+      hint:
+        Scale shape a bit&#10;
+        to remove corner annotators&#10;
+        from rounded corners
+      key: f
+      action:
+        - aiRunAction
+        - scale - -0.01% vertical
+
+    -
+
+    - text: <p>AG</p> Corner ↓
+
+    - text: to Dynamic
+      link: https://docs.astutegraphics.com/vectorscribe/dynamic-corners/dynamic-corners-panel#dynamic-corners-panel-flyout-menu
+      key: y
+      action:
+        - aiRunAction
+        - corner - ag to dynamic
+        - taptapkey plugins
+
+    - text: Dynamic Remove
+      link: https://docs.astutegraphics.com/vectorscribe/dynamic-corners/dynamic-corners-panel#dynamic-corners-panel-flyout-menu
+      key: x
+      action:
+        - aiRunAction
+        - corner - ag dynamic remove
+        - taptapkey plugins
+
+    - text: Smart Remove
+      help: smart remove.mp4
+      key: s
+      action:
+        - aiRunAction
+        - corner - ag smart remove
+        - taptapkey plugins
+
+    - text: Clear All Radiuses
+      help: clear all radiuses.mp4
+      link: https://docs.astutegraphics.com/vectorscribe/dynamic-corners
+      key: z
+      action:
+        - aiRunAction
+        - corner - ag clear radius
+        - taptapkey plugins
+
+    -
+
+    - text: Dimension
+      icon: '#tools/dimension'
+      key: e
+      action:
+        - aiSelectTool
+        - Dimension
+
+- text: Expand, Erase
+  icon: '#expand'
+  key: e
+  items:
+
+    - text: Tools
+      icon: '#tools/eraser'
+      key: e
+      items:
+
+        - text: Eraser
+          icon: '#tools/eraser'
+          key: e
+          action:
+            - aiSelectTool
+            - Eraser
+
+        - text: Path Eraser
+          icon: '#tools/path_eraser'
+          key: q
+          action:
+            - aiSelectTool
+            - Path Eraser
+
+        - text: Knife
+          icon: '#tools/knife'
+          key: f
+          action:
+            - aiSelectTool
+            - Knife
+
+        - text: Scissors
+          icon: '#tools/scissors'
+          key: s
+          action:
+            - aiSelectTool
+            - Scissors
+
+        - column: break
+
+        - text: <p>RJ</p> Table Saw
+          link: https://rj-graffix.com/documentation/cuttingtools-docs
+          icon: '#tools/rj_table_saw'
+          key: t
+          action:
+            - aiSelectTool
+            - RJ Table Saw
+
+        - text: <p>RJ</p> Hatchet
+          link: https://rj-graffix.com/documentation/cuttingtools-docs
+          icon: '#tools/rj_hatchet'
+          key: h
+          action:
+            - aiSelectTool
+            - RJ Hatchet
+
+        - text: <p>RJ</p> Vector Vac
+          link: https://rj-graffix.com/documentation/cuttingtools-docs
+          icon: '#tools/rj_vector_vac'
+          key: v
+          action:
+            - aiSelectTool
+            - RJ Vector Vac
+
+        - text: <p>RJ</p> Trimmer
+          link: https://rj-graffix.com/documentation/cuttingtools-docs
+          icon: '#tools/rj_trimmer'
+          key: r
+          action:
+            - aiSelectTool
+            - RJ Trimmer
+
+    -
+
+    - text: Expand ↓
+
+    - text: Object...
+      key: b
+      action:
+        - aiRunMenu
+        - Object > Expand...
+
+    - text: Appearance
+      key: a
+      action:
+        - aiRunMenu
+        - Object > Expand Appearance
+
+    - text: Group / Clip
+      hint:
+        Remove groups and&#10;
+        clips in selected art
+      key: g
+      action:
+        - aiRunScript
+        - object > group > ungroup noui
+
+    - text: Shape
+      key: h
+      action:
+        - aiRunMenu
+        - Object > Shape > Expand Shape
+
+    - text: Stroke
+      key: s
+      action:
+        - aiRunMenu
+        - Object > Path > Outline Stroke
+
+    - text: Type
+      hint:
+        Convert text to single&#10;
+        compound path
+      key: x
+      action:
+        - aiRunScript
+        - type > expand
+
+    - text: Outline Type
+      key: t
+      action:
+        - aiRunMenu
+        - Type > Create Outlines
+
+    -
+
+    - text: Clear Appearance
+      key: c
+      action:
+        - aiRunAction
+        - appearance - clear
+
+    - column: break
+
+    - text: Delete Unused
+      key: d
+      action:
+        - aiRunAction
+        - delete - unused
+
+    -
+
+    - text: <p>AG</p> Smart Remove ↓
+
+    - text: Brush
+      hint:
+        Removes&#10;
+        unnecessary&#10;
+        anchors
+      help: ag smart remove brush.mp4
+      link: https://docs.astutegraphics.com/vectorscribe/smart-remove-brush-tool
+      icon: '#tools/ag_smart_remove_brush'
+      key: r
+      action:
+        - aiSelectTool
+        - AG Smart Remove Brush
+
+    - text: Smooth
+      key: z
+      items:
+
+        - text: 10
+          hint:
+            Smooth smart remove&#10;
+            (smooths corners)
+          key: 1
+          action:
+            - aiRunAction
+            - path - ag smart remove - 10
+            - taptapkey plugins
+
+        - text: 20
+          key: 2
+          action:
+            - aiRunAction
+            - path - ag smart remove - 20
+            - taptapkey plugins
+
+        - text: 3
+          key: 3
+          action:
+            - aiRunAction
+            - path - ag smart remove - 3
+            - taptapkey plugins
+
+        - text: 40
+          key: 4
+          action:
+            - aiRunAction
+            - path - ag smart remove - 40
+            - taptapkey plugins
+
+        - text: 5
+          key: 5
+          action:
+            - aiRunAction
+            - path - ag smart remove - 5
+            - taptapkey plugins
+
+        - text: 60
+          key: 6
+          action:
+            - aiRunAction
+            - path - ag smart remove - 60
+            - taptapkey plugins
+
+    - text: 10
+      hint:
+        Sharp smart remove&#10;
+        (preserve corners)
+      key: 1
+      action:
+        - aiRunAction
+        - path - ag smart remove - 10 sharp
+        - taptapkey plugins
+
+    - text: 20
+      key: 2
+      action:
+        - aiRunAction
+        - path - ag smart remove - 20 sharp
+        - taptapkey plugins
+
+    - text: 3
+      key: 3
+      action:
+        - aiRunAction
+        - path - ag smart remove - 3 sharp
+        - taptapkey plugins
+
+    - text: 40
+      key: 4
+      action:
+        - aiRunAction
+        - path - ag smart remove - 40 sharp
+        - taptapkey plugins
+
+    - text: 5
+      key: 5
+      action:
+        - aiRunAction
+        - path - ag smart remove - 5 sharp
+        - taptapkey plugins
+
+    - text: 60
+      key: 6
+      action:
+        - aiRunAction
+        - path - ag smart remove - 60 sharp
+        - taptapkey plugins
+
+- text: Path
+  icon: '#path'
+  key: f
+  items:
+
+    - text: <p>AG</p> Tools
+      icon: '#tools/ag_inkscribe'
+      key: f
+      items:
+
+        - text: Ink Scribe
+          link: https://docs.astutegraphics.com/inkscribe/inkscribe-overview/inkscribe-tool
+          icon: '#tools/ag_inkscribe'
+          key: f
+          action:
+            - aiSelectTool
+            - AG InkScribe
+
+        - text: PathScribe
+          link: https://docs.astutegraphics.com/vectorscribe/pathscribe-overview/pathscribe-tool
+          icon: '#tools/ag_pathscribe'
+          key: d
+          action:
+            - aiSelectTool
+            - AG PathScribe
+
+        - text: Trim and Join
+          link: https://docs.astutegraphics.com/dynamicsketch/ag-trim-and-join-tool
+          icon: '#tools/ag_trim_and_join'
+          key: t
+          action:
+            - aiSelectTool
+            - AG Trim and Join
+
+        - text: Dynamic Corners
+          link: https://docs.astutegraphics.com/vectorscribe/dynamic-corners/dynamic-corners-tool
+          icon: '#tools/ag_dynamic_corners'
+          key: c
+          action:
+            - aiSelectTool
+            - AG Dynamic Corners
+
+        - text: Reform
+          link: https://docs.astutegraphics.com/reform/reform-overview
+          icon: '#tools/ag_reform'
+          key: v
+          action:
+            - aiSelectTool
+            - AG Reform
+
+        - text: Reprofile
+          link: https://docs.astutegraphics.com/reform/reprofile-overview
+          icon: '#tools/ag_reprofile'
+          key: n
+          action:
+            - aiSelectTool
+            - AG Reprofile
+
+        - text: Reposition Point
+          link: https://docs.astutegraphics.com/vectorscribe/reposition-point
+          icon: '#tools/ag_reposition_point'
+          key: r
+          action:
+            - aiSelectTool
+            - AG Reposition Point
+
+        - column: break
+
+        - text: Extend Path
+          link: https://docs.astutegraphics.com/vectorscribe/extend-path-tool
+          icon: '#tools/ag_extend_path'
+          key: e
+          action:
+            - aiSelectTool
+            - AG Extend Path
+
+        - text: Connect
+          link: https://docs.astutegraphics.com/subscribe/connect-tool
+          icon: '#tools/ag_connect'
+          key: q
+          action:
+            - aiSelectTool
+            - AG Connect
+
+        -
+
+        - text: Width Gradient
+          link: https://docs.astutegraphics.com/widthscribe/width-gradient-overview/width-gradient-tool
+          icon: '#tools/ag_width_gradient'
+          key: 5
+          action:
+            - aiSelectTool
+            - AG Width Gradient
+
+        - text: Width Selector
+          link: https://docs.astutegraphics.com/widthscribe/width-selector-overview
+          icon: '#tools/ag_width_selector'
+          key: 6
+          action:
+            - aiSelectTool
+            - AG Width Selector
+
+        - text: Width Brush
+          link: https://docs.astutegraphics.com/widthscribe/width-brush-tool
+          icon: '#tools/ag_width_brush'
+          key: 7
+          action:
+            - aiSelectTool
+            - AG Width Brush
+
+        - text: Width Eraser
+          link: https://docs.astutegraphics.com/widthscribe/width-eraser-tool
+          icon: '#tools/ag_width_eraser'
+          key: 8
+          action:
+            - aiSelectTool
+            - AG Width Eraser
+
+    - text: Pen
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/pen-tool.html
+      icon: '#tools/pen'
+      key: g
+      action:
+        - aiSelectTool
+        - Pen
+
+    - text: Anchor Point
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/anchor-point-tool.html
+      icon: '#tools/anchor_point'
+      key: a
+      action:
+        - aiSelectTool
+        - Anchor Point
+
+    - text: Curvature
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/curvature-tool.html
+      icon: '#tools/curvature'
+      key: u
+      action:
+        - aiSelectTool
+        - Curvature
+
+    - text: Join
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/join-tool.html
+      icon: '#tools/join'
+      key: j
+      action:
+        - aiSelectTool
+        - Join
+
+    - text: Reshape
+      link: https://helpx.adobe.com/illustrator/using/adjust-path-segments.html#stretch-parts-of-a-path
+      icon: '#tools/reshape'
+      key: y
+      action:
+        - aiSelectTool
+        - Reshape
+
+    - text: Smooth
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/smooth-tool.html
+      icon: '#tools/smooth'
+      key: h
+      action:
+        - aiSelectTool
+        - Smooth
+
+    - text: Width
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/width-tool.html
+      icon: '#tools/width'
+      key: w
+      action:
+        - aiSelectTool
+        - Width
+
+    - text: Add Anchor Point
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/add-anchor-point-tool.html
+      icon: '#tools/add_anchor_point'
+      key: 9
+      action:
+        - aiSelectTool
+        - Add Anchor Point
+
+    - text: Delete Anchor Point
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/delete-anchor-point-tool.html
+      icon: '#tools/delete_anchor_point'
+      key: 0
+      action:
+        - aiSelectTool
+        - Delete Anchor Point
+
+    - column: break
+
+    - text: <p>RJ</p> Stabilized Pencil
+      help: rj stabilized pencil.gif
+      link: https://rj-graffix.com/new-stabilized-pencil-tool-for-toolshed
+      icon: '#tools/rj_stabilized_pencil'
+      key: b
+      action:
+        - aiSelectTool
+        - RJ Stabilized Pencil
+
+    -
+
+    - text: Reverse Path
+      help: reverse path.mp4
+      key: z
+      action:
+        - aiRunMenu
+        - Object > Path > Reverse Path Direction
+
+    - text: Extrude Segment
+      help: extrude segment.mp4
+      hint:
+        Select segment on path&#10;
+        run this command&#10;
+        then drag segment out
+      key: x
+      action:
+        - aiRunScript
+        - path > anchor > extrude
+
+    -
+
+    - text: Arc Correction
+      help: arc correction.mp4
+      hint:
+        Convert the open shape&#10;
+        into an arc
+      key: 1
+      action:
+        - aiRunScript
+        - path > arc correction
+
+    - text: Arc Correction / Flip
+      help: arc correction flip.mp4
+      hint:
+        Convert the open shape&#10;
+        into an arc (opposite side)
+      key: 2
+      action:
+        - aiRunScript
+        - path > arc correction flip
+
+    -
+
+    - text: Convert to Shape
+      help: convert to shape.mp4
+      hint:
+        Convert a rectangular path&#10;
+        into a rectangle
+      key: 3
+      action:
+        - aiRunMenu
+        - Object > Shape > Convert to Shape
+
+    - text: <p>AG</p> Convert to Dyn.Shape
+      link: https://docs.astutegraphics.com/vectorscribe/dynamic-shapes/dynamic-shapes-panel/dynamic-shapes-panel-flyout-menu
+      key: 4
+      action:
+        - aiRunAction
+        - convert - ag to dynamic shape
+        - taptapkey plugins
+
+- text: Gradient
+  icon: '#gradient'
+  key: g
+  items:
+
+    - text: Gradient Angle
+      key: a
+      items:
+
+        - text: '−180°'
+          icon: '#angle_-180'
+          key: q
+          action:
+            - aiRunAction
+            - gradient - 180
+
+        - text: '−150°'
+          icon: '#angle_-150'
+          action:
+            - aiRunAction
+            - gradient - -150
+
+        - text: '−135°'
+          icon: '#angle_-135'
+          key: a
+          action:
+            - aiRunAction
+            - gradient - -135
+
+        - text: '−120°'
+          icon: '#angle_-120'
+          action:
+            - aiRunAction
+            - gradient - -120
+
+        - text: '−90°'
+          icon: '#angle_-90'
+          action:
+            - aiRunAction
+            - gradient - -90
+
+        - text: '−60°'
+          icon: '#angle_-60'
+          action:
+            - aiRunAction
+            - gradient - -60
+
+        - text: '−45°'
+          icon: '#angle_-45'
+          key: z
+          action:
+            - aiRunAction
+            - gradient - -45
+
+        - text: '−30°'
+          icon: '#angle_-30'
+          action:
+            - aiRunAction
+            - gradient - -30
+
+        - column: break
+
+        - text: 0°'
+          icon: '#angle_0'
+          key: r
+          action:
+            - aiRunAction
+            - gradient - 0
+
+        - text: '30°'
+          icon: '#angle_30'
+          action:
+            - aiRunAction
+            - gradient - 30
+
+        - text: '45°'
+          icon: '#angle_45'
+          key: f
+          action:
+            - aiRunAction
+            - gradient - 45
+
+        - text: '60°'
+          icon: '#angle_60'
+          action:
+            - aiRunAction
+            - gradient - 60
+
+        - text: '90°'
+          icon: '#angle_90'
+          action:
+            - aiRunAction
+            - gradient - 90
+
+        - text: '120°'
+          icon: '#angle_120'
+          action:
+            - aiRunAction
+            - gradient - 120
+
+        - text: '135°'
+          icon: '#angle_135'
+          key: v
+          action:
+            - aiRunAction
+            - gradient - 135
+
+        - text: '150°'
+          icon: '#angle_150'
+          action:
+            - aiRunAction
+            - gradient - 150
+
+    - text: Gradient Tool
+      icon: '#tools/gradient'
+      key: g
+      action:
+        - aiSelectTool
+        - Gradient
+
+    - text: <p>AG</p> Gradient From Art
+      link: https://docs.astutegraphics.com/subscribe/gradient-from-art
+      icon: '#tools/ag_gradient_from_art'
+      key: r
+      action:
+        - aiSelectTool
+        - AG Gradient From Art
+
+    - text: Gradient Mesh
+      icon: '#tools/mesh'
+      key: h
+      action:
+        - aiSelectTool
+        - Mesh
+
+    - text: Color to Gradient
+      hint:
+        Convert solid color&#10;
+        to gradient
+      icon: '#color_to_gradient'
+      key: Space
+      action:
+        - aiRunScript
+        - color > gradient > color to gradient noui
+
+    - text: Color to Flat Gradient
+      hint:
+        Convert solid color&#10;
+        to gradient with the same&#10;
+        color at the stops
+      icon: '#color_to_gradient'
+      key: f
+      action:
+        - aiRunScript
+        - color > gradient > color to flat gradient
+
+    - text: Gradient to Color
+      icon: '#gradient_to_color'
+      key: c
+      action:
+        - aiRunScript
+        - color > gradient > gradient to color noui
+
+    - text: Remove Gradient Stops
+      key: s
+      action:
+        - aiRunScript
+        - color > gradient > remove gradient stops
+
+    - text: Cycle Gradient Stops
+      key: y
+      action:
+        - aiRunScript
+        - color > gradient > cycle
+
+- text: View, Hide, Lock
+  icon: '#view'
+  key: h
+  items:
+
+    - text: Toggle View
+      icon: '#toggle'
+      key: h
+      items:
+
+        - text: Artboard
+          key: a
+          action:
+            - aiRunMenu
+            - View > Show-Hide Artboards
+
+        - text: Bounding Box
+          key: b
+          action:
+            - aiRunMenu
+            - View > Show-Hide Bounding Box
+
+        - text: Corner Widget
+          key: c
+          action:
+            - aiRunMenu
+            - View > Show-Hide Corner Widget
+
+        - text: Edges
+          key: e
+          action:
+            - aiRunMenu
+            - View > Show-Hide Edges
+
+        - text: Gradient Annotator
+          key: f
+          action:
+            - aiRunMenu
+            - View > Show-Hide Gradient Annotator
+
+        - text: Grid
+          key: g
+          action:
+            - aiRunMenu
+            - View > Show-Hide Grid
+
+        - text: Guides
+          key: d
+          action:
+            - aiRunMenu
+            - View > Guides > Show-Hide Guides
+
+        - text: Hidden Chars
+          key: h
+          action:
+            - aiRunMenu
+            - Type > Show Hidden Characters
+
+        - column: break
+
+        - text: Live Paint Gaps
+          key: q
+          action:
+            - aiRunMenu
+            - View > Show-Hide Live Paint Gaps
+
+        - text: Perspective Grid
+          key: 4
+          action:
+            - aiRunMenu
+            - View > Perspective Grid > Show-Hide Grid
+
+        - text: Print Tiling
+          key: p
+          action:
+            - aiRunMenu
+            - View > Show-Hide Print Tiling
+
+        - text: Rulers
+          key: r
+          action:
+            - aiRunMenu
+            - View > Rulers > Show-Hide Rulers
+
+        - text: Slices
+          key: 2
+          action:
+            - aiRunMenu
+            - View > Show-Hide Slices
+
+        - text: Template
+          key: 3
+          action:
+            - aiRunMenu
+            - View > Show-Hide Template
+
+        - text: Text Threads
+          key: x
+          action:
+            - aiRunMenu
+            - View > Show-Hide Text Threads
+
+        - text: Transparency Grid
+          key: t
+          action:
+            - aiRunMenu
+            - View > Show-Hide Transparency Grid
+
+    - text: Snap to
+      icon: '#snap'
+      key: s
+      items:
+
+        - text: Grid
+          key: g
+          action:
+            - aiRunMenu
+            - View > Snap to Grid
+
+        - text: Perspective
+          key: e
+          action:
+            - aiRunMenu
+            - View > Perspective Grid > Snap to Grid
+
+        - text: Pixel
+          hint: Disabled
+          key: x
+
+        - text: Point
+          key: f
+          action:
+            - aiRunMenu
+            - View > Snap to Point
+
+        - text: Smart Guides
+          key: s
+          action:
+            - aiRunMenu
+            - View > Smart Guides
+
+    - text: Rotate View
+      icon: '#tools/rotate_view'
+      key: r
+      items:
+
+        - text: Rotate View
+          icon: '#tools/rotate_view'
+          key: Space
+          action:
+            - aiSelectTool
+            - Rotate View
+
+        - text: 0°
+          icon: '#angle_90'
+          key: w
+          action:
+            - aiRunCode
+            - activeDocument.activeView.rotateAngle = 0
+
+        - text: 180°
+          icon: '#angle_-90'
+          key: s
+          action:
+            - aiRunCode
+            - activeDocument.activeView.rotateAngle = 180
+
+        - text: 90°
+          icon: '#angle_-180'
+          key: a
+          action:
+            - aiRunCode
+            - activeDocument.activeView.rotateAngle = -90
+
+        - text: −90°
+          icon: '#angle_0'
+          key: d
+          action:
+            - aiRunCode
+            - activeDocument.activeView.rotateAngle = 90
+
+    - text: Constrain Angle
+      icon: '#constrain_angle'
+      key: c
+      items:
+
+        - text: 150°
+          icon: '#angle_150'
+          key: x
+          action:
+            - aiRunScript
+            - prefs > set > constrain angle 150
+
+        - text: 0°
+          icon: '#angle_0'
+          key: c
+          action:
+            - aiRunScript
+            - prefs > set > constrain angle 0
+
+        - text: 30°
+          icon: '#angle_30'
+          key: v
+          action:
+            - aiRunScript
+            - prefs > set > constrain angle 30
+
+        - column: break
+
+        - text: 135°
+          icon: '#angle_135'
+          action:
+            - aiRunScript
+            - prefs > set > constrain angle 135
+
+        - text: 45°
+          icon: '#angle_45'
+          action:
+            - aiRunScript
+            - prefs > set > constrain angle 45
+
+    -
+
+    - text: Zoom Selection
+      key: Space
+      action:
+        - aiRunScript
+        - object > zoom > selected
+
+    - text: Outline / Preview
+      key: y
+      action:
+        - aiOutlinePreview
+
+    - text: Pixel Preview
+      key: x
+      action:
+        - aiRunMenu
+        - View > Pixel Preview
+
+    - text: Overprint Preview
+      key: v
+      action:
+        - aiRunMenu
+        - View > Overprint Preview
+
+    - column: break
+
+    - text: Hide Selection
+      icon: '#hide'
+      key: 3
+      action:
+        - aiRunMenu
+        - Object > Hide > Selection
+
+    - text: Hide Others
+      key: q
+      action:
+        - aiRunMenu
+        - Other Object > Hide Others
+
+    - text: Unhide Others
+      key: z
+      action:
+        - aiRunAction
+        - select - unhide others
+
+    - text: Unhide All
+      key: a
+      action:
+        - aiRunMenu
+        - Object > Show All
+
+    -
+
+    - text: Lock Selection
+      icon: '#lock'
+      key: 2
+      action:
+        - aiRunMenu
+        - Object > Lock > Selection
+
+    - text: Lock Others
+      key: e
+      action:
+        - aiRunMenu
+        - Other Object > Lock Others
+
+    - text: Unlock All
+      key: d
+      action:
+        - aiRunMenu
+        - Object > Unlock All
+
+    - text: <p>AG</p> Lock Unlock
+      link: https://docs.astutegraphics.com/subscribe/lock-unlock-tool
+      icon: '#tools/ag_lock_unlock'
+      key: g
+      action:
+        - aiSelectTool
+        - AG Lock Unlock
+
+- text: Files
+  icon: '#files'
+  key: n
+  items:
+
+    - text: File New
+      key: n
+      action:
+        - aiRunMenu
+        - File > New...
+
+    - text: File Open
+      key: Space
+      action:
+        - aiRunMenu
+        - File > Open...
+
+    -
+
+    - text: File Save
+      key: s
+      action:
+        - aiRunMenu
+        - File > Save
+
+    - text: File Save As
+      key: a
+      action:
+        - aiRunMenu
+        - File > Save As...
+
+    - text: File Save a Copy
+      key: c
+      action:
+        - aiRunMenu
+        - File > Save a Copy...
+
+    -
+
+    - text: Edit Linked File
+      hint:
+        Open the selected&#10;
+        linked item in the&#10;
+        associated application
+      key: e
+      action:
+        - aiRunScript
+        - file > link > edit
+
+    - text: Open Document Folder
+      key: f
+      action:
+        - aiRunScript
+        - file > open document folder
+
+- text: Edit
+  icon: '#edit'
+  key: 5
+  items:
+
+    - text: Paste ↓
+
+    - text: Paste
+      icon: '#paste'
+      key: v
+      action:
+        - aiRunMenu
+        - Edit > Paste
+
+    - text: In Front
+      key: f
+      action:
+        - aiRunMenu
+        - Edit > Paste in Front
+
+    - text: In Back
+      key: b
+      action:
+        - aiRunMenu
+        - Edit > Paste in Back
+
+    - text: In Place
+      key: q
+      action:
+        - aiRunMenu
+        - Edit > Paste in Place
+
+    - text: On All Artboards
+      key: a
+      action:
+        - aiRunMenu
+        - Edit > Paste on All Artboards
+
+    - text: Without Formatting
+      key: w
+      action:
+        - aiRunMenu
+        - Edit > Paste without Formatting
+
+    - text: Image with alpha
+      hint:
+        Workaround for&#10;
+        a Windows bug&#10;
+        that incorrectly inserts&#10;
+        transparent images
+      key: t
+      action:
+        - aiPasteApng
+
+    - column: break
+
+    - text: Cut
+      key: x
+      action:
+        - aiRunMenu
+        - Edit > Cut
+
+    - text: Copy
+      key: c
+      action:
+        - aiRunMenu
+        - Edit > Copy
+
+    - text: Copy as SVG
+      hint:
+        Copy selected&#10;
+        art as SVG code
+      key: s
+      action:
+        - aiCopyAsSvg
+
+    -
+
+    - text: New Layer ↓
+      icon: '#window/layers'
+
+    - text: Above
+      key: 1
+      action:
+        - aiRunScript
+        - layer > new > above
+
+    - text: Below
+      key: 2
+      action:
+        - aiRunScript
+        - layer > new > below
+
+    - text: Top
+      key: 3
+      action:
+        - aiRunScript
+        - layer > new > top
+
+    - text: Bottom
+      key: 4
+      action:
+        - aiRunScript
+        - layer > new > bottom
+
+- column: break
+
+- text: Preferences
+  icon: '#preferences'
+  key: Space
+  items:
+
+    - text: Toggle Prefs ↓
+      icon: '#toggle'
+
+    - text: Scale Strokes & Effects
+      icon: {scaleStrokes: {0: '#empty', 1: '#checked'}}
+      key: s
+      action:
+        - aiRunScript
+        - prefs > toggle > scale strokes
+        - waitReturn
+
+    - text: Scale Corners
+      icon: {scaleCorners: {0: '#empty', 1: '#checked'}}
+      key: c
+      action:
+        - aiRunScript
+        - prefs > toggle > scale corners
+        - waitReturn
+
+    -
+
+    - text: Preview Bounds
+      icon: {previewBounds: {0: '#empty', 1: '#checked'}}
+      key: b
+      action:
+        - aiRunScript
+        - prefs > toggle > preview bounds
+        - waitReturn
+
+    - text: Select by Path Only
+      icon: {selectByPathOnly: {0: '#empty', 1: '#checked'}}
+      key: f
+      action:
+        - aiRunScript
+        - prefs > toggle > select by path only
+        - waitReturn
+
+    - text: Type Select by Path Only
+      icon: {typeSelectByPathOnly: {0: '#empty', 1: '#checked'}}
+      key: a
+      action:
+        - aiRunScript
+        - prefs > toggle > type select by path only
+        - waitReturn
+
+    - text: Select Object Behind
+      icon: {selectObjectBehind: {0: '#empty', 1: '#checked'}}
+      key: d
+      action:
+        - aiRunScript
+        - prefs > toggle > select behind
+        - waitReturn
+
+    - text: Show Lock Icon
+      icon: {showLockIcon: {0: '#empty', 1: '#checked'}}
+      key: q
+      action:
+        - aiRunScript
+        - prefs > toggle > show lock icon
+        - waitReturn
+
+    - text: Transform Tools
+      icon: {transformTools: {0: '#empty', 1: '#checked'}}
+      key: t
+      action:
+        - aiRunScript
+        - prefs > toggle > transform tools
+        - waitReturn
+
+    - text: JSX Warning
+      icon: {jsxWarning: {0: '#empty', 1: '#checked'}}
+      key: j
+      action:
+        - aiRunScript
+        - prefs > toggle > jsx warning
+        - waitReturn
+
+    -
+
+    - text: Transform Object Only
+      icon: {transformObjectOnly: {0: '#empty', 1: '#checked'}}
+      key: y
+      action:
+        - aiRunScript
+        - prefs > set > transform object only
+
+    - text: Transform Pattern Only
+      icon: {transformPatternOnly: {0: '#empty', 1: '#checked'}}
+      key: h
+      action:
+        - aiRunScript
+        - prefs > set > transform pattern only
+
+    - text: Transform Both
+      icon: {transformBoth: {0: '#empty', 1: '#checked'}}
+      key: u
+      action:
+        - aiRunScript
+        - prefs > set > transform both
+
+    - column: break
+
+    - text: Preferences General
+      key: Space
+      action:
+        - aiRunMenu
+        - Edit > Preferences > General...
+
+    - text: Keyboard Shortcuts
+      key: v
+      action:
+        - aiRunMenu
+        - Edit > Keyboard Shortcuts...
+
+    -
+
+    - text: Set Grid, Subdivisions
+      icon: '#tools/measure'
+      key: g
+      items:
+
+        - text: 10, 10
+          key: 1
+          action:
+            - aiSetUnits
+            - grid
+            - 10, 10
+
+        - text: 10, 2
+          key: 2
+          action:
+            - aiSetUnits
+            - grid
+            - 10, 2
+
+        - text: 1, 2
+          key: 3
+          action:
+            - aiSetUnits
+            - grid
+            - 1, 2
+
+        - text: 1, 4
+          key: 4
+          action:
+            - aiSetUnits
+            - grid
+            - 1, 4
+
+        - text: 8, 2
+          key: 5
+          action:
+            - aiSetUnits
+            - grid
+            - 8, 2
+
+        - text: 64, 4
+          key: 6
+          action:
+            - aiSetUnits
+            - grid
+            - 64, 4
+
+        - text: 100, 10
+          key: 0
+          action:
+            - aiSetUnits
+            - grid
+            - 100, 10
+
+    - text: Set All Units
+      hint:
+        Set document units, general units&#10;
+        (based on profiles in units.yaml),&#10;
+        and nudge units
+      key: x
+      items:
+
+        - text: Pixels
+          key: x
+          action:
+            - aiSetUnits
+            - all
+            - px
+
+        - text: Points
+          action:
+            - aiSetUnits
+            - all
+            - pt
+
+        - text: Picas
+          action:
+            - aiSetUnits
+            - all
+            - p
+
+        - text: Inches
+          key: i
+          action:
+            - aiSetUnits
+            - all
+            - in
+
+        - text: Feet
+          action:
+            - aiSetUnits
+            - all
+            - ft
+
+        - text: Feet & Inches
+          action:
+            - aiSetUnits
+            - all
+            - ft_in
+
+        - text: Yards
+          action:
+            - aiSetUnits
+            - all
+            - yd
+
+        - text: Millimeters
+          key: m
+          action:
+            - aiSetUnits
+            - all
+            - mm
+
+        - text: Centimeters
+          key: c
+          action:
+            - aiSetUnits
+            - all
+            - cm
+
+        - text: Meters
+          action:
+            - aiSetUnits
+            - all
+            - m
+
+    - text: Set Keyboard Increment
+      key: z
+      items:
+
+        - text: 100
+          key: a
+          action:
+            - aiSetUnits
+            - increment
+            - 100
+
+        - text: 10
+          key: s
+          action:
+            - aiSetUnits
+            - increment
+            - 10
+
+        - text: 5
+          key: d
+          action:
+            - aiSetUnits
+            - increment
+            - 5
+
+        - text: 1
+          key: z
+          action:
+            - aiSetUnits
+            - increment
+            - 1
+
+        - text: 0.5
+          key: x
+          action:
+            - aiSetUnits
+            - increment
+            - 1/2
+
+        - text: 0.1
+          key: c
+          action:
+            - aiSetUnits
+            - increment
+            - 1/10
+
+        - text: 0.01
+          key: v
+          action:
+            - aiSetUnits
+            - increment
+            - 1/100
+
+    - text: Set Nudge Units
+      key: n
+      items:
+
+        - text: Pixels
+          key: x
+          action:
+            - aiSetUnits
+            - nudge
+            - px
+
+        - text: Points
+          action:
+            - aiSetUnits
+            - nudge
+            - pt
+
+        - text: Picas
+          action:
+            - aiSetUnits
+            - nudge
+            - p
+
+        - text: Inches
+          key: i
+          action:
+            - aiSetUnits
+            - nudge
+            - in
+
+        - text: Feet
+          action:
+            - aiSetUnits
+            - nudge
+            - ft
+
+        - text: Feet & Inches
+          action:
+            - aiSetUnits
+            - nudge
+            - ft_in
+
+        - text: Yards
+          action:
+            - aiSetUnits
+            - nudge
+            - yd
+
+        - text: Millimeters
+          key: m
+          action:
+            - aiSetUnits
+            - nudge
+            - mm
+
+        - text: Centimeters
+          key: c
+          action:
+            - aiSetUnits
+            - nudge
+            - cm
+
+        - text: Meters
+          action:
+            - aiSetUnits
+            - nudge
+            - m
+
+    -
+
+    - text: Save Taptapkey Workspace
+      hint:
+        Save active panels&#10;
+        to the 'Taptapkey' profile
+      key: w
+      action:
+        - aiRunScript
+        - prefs > save workspace
+
+    - text: Load Taptapkey Actions
+      hint:
+        Reload actions&#10;
+        from 'taptapkey.aia'
+      action:
+        - aiLoadActionSet
+        - taptapkey
+
+    - text: Load Taptapkey Plugins Actions
+      hint:
+        Reload actions&#10;
+        from 'taptapkey plugins.aia'
+      action:
+        - aiLoadActionSet
+        - taptapkey plugins
+
+    -
+
+    - text: Open Prefs Folder
+      key: r
+      action:
+        - aiOpenPrefsDir
+
+    - text: Backup Prefs
+      hint:
+        Archive Illustrator settings&#10;
+        to the 'My Documents' folder
+      key: 1
+      action:
+        - aiBackup
+
+    - text: Open PDF Presets Folder
+      key: q
+      action:
+        - aiOpenPdfPresetsDir
+
+    -
+
+    - text: Check GDI Handles
+      key: '`'
+      action:
+        - aiGdiCheck
+
+- text: Boolean
+  icon: '#boolean'
+  key: q
+  items:
+
+    - text: Comp.Shape
+      link: https://helpx.adobe.com/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-shapes-with-pathfinder.html
+      hint:
+        Non-destructive Boolean
+      key: q
+      items:
+
+        - text: Add
+          icon: '#compound_shape_add'
+          key: a
+          action:
+            - aiRunAction
+            - compound shape - add
+
+        - text: Subtract
+          icon: '#compound_shape_subtract'
+          key: s
+          action:
+            - aiRunAction
+            - compound shape - subtract
+
+        - text: Intersect
+          icon: '#compound_shape_intersect'
+          key: i
+          action:
+            - aiRunAction
+            - compound shape - intersect
+
+        - text: Exclude
+          icon: '#compound_shape_exclude'
+          key: e
+          action:
+            - aiRunAction
+            - compound shape - exclude
+
+        -
+
+        - text: Make
+          icon: '#compound_shape_make'
+          key: Space
+          action:
+            - aiRunAction
+            - compound shape - make
+
+        - text: Expand
+          icon: '#compound_shape_expand'
+          key: x
+          action:
+            - aiRunAction
+            - compound shape - expand
+
+        - text: Release
+          icon: '#compound_shape_release'
+          key: r
+          action:
+            - aiRunAction
+            - compound shape - release
+
+    - text: Add
+      hint: Unite
+      link: https://helpx.adobe.com/illustrator/desktop/manage-objects/reshape-transform-objects/pathfinder-panel-overview.html
+      icon: '#pathfinder_add'
+      key: a
+      action:
+        - aiRunAction
+        - pathfinder - add
+
+    - text: Subtract
+      hint: Minus Front
+      icon: '#pathfinder_subtract'
+      key: s
+      action:
+        - aiRunAction
+        - pathfinder - subtract
+
+    - text: Intersect
+      icon: '#pathfinder_intersect'
+      key: i
+      action:
+        - aiRunAction
+        - pathfinder - intersect
+
+    - text: Exclude
+      icon: '#pathfinder_exclude'
+      key: e
+      action:
+        - aiRunAction
+        - pathfinder - exclude
+
+    - text: Divide
+      icon: '#pathfinder_divide'
+      key: d
+      action:
+        - aiRunAction
+        - pathfinder - divide
+
+    - text: Trim
+      icon: '#pathfinder_trim'
+      key: t
+      action:
+        - aiRunAction
+        - pathfinder - trim
+
+    - text: Merge
+      icon: '#pathfinder_merge'
+      key: m
+      action:
+        - aiRunAction
+        - pathfinder - merge
+
+    - text: Crop
+      icon: '#pathfinder_crop'
+      key: g
+      action:
+        - aiRunAction
+        - pathfinder - crop
+
+    - text: Outline
+      icon: '#pathfinder_outline'
+      key: u
+      action:
+        - aiRunAction
+        - pathfinder - outline
+
+    - text: Minus Back
+      icon: '#pathfinder_minus_back'
+      key: h
+      action:
+        - aiRunAction
+        - pathfinder - minus back
+
+    -
+
+    - text: Shape Builder
+      link: https://helpx.adobe.com/illustrator/using/creating-shapes-shape-builder-tool.html
+      icon: '#tools/shape_builder'
+      key: z
+      action:
+        - aiSelectTool
+        - Shape Builder
+
+    - text: Shaper
+      link: https://helpx.adobe.com/illustrator/using/building-new-shapes-using-shape.html
+      icon: '#tools/shaper'
+      key: =
+      action:
+        - aiSelectTool
+        - Shaper
+
+    - column: break
+
+    - text: Clipping Mask
+      link: https://helpx.adobe.com/illustrator/desktop/manage-objects/edit-objects/about-clipping-masks.html
+      icon: '#clip'
+      key: c
+      items:
+
+        - text: Make
+          key: Space
+          action:
+            - aiRunMenu
+            - Object > Clipping Mask > Make
+
+        - text: Edit
+          key: e
+          action:
+            - aiRunMenu
+            - Object > Clipping Mask > Edit Mask-Contents
+
+        - text: Release
+          key: r
+          action:
+            - aiRunMenu
+            - Object > Clipping Mask > Release
+
+        -
+
+        - text: Clipper
+          help: clipper.mp4
+          hint:
+            Make clipping mask,&#10;
+            preserve appearance.&#10;
+            Mask at top
+          key: c
+          action:
+            - aiRunScript
+            - object > clip > clipper
+
+        - text: Clipper Bottom
+          help: clipper bottom.mp4
+          hint:
+            Make clipping mask,&#10;
+            preserve appearance.&#10;
+            Mask at bottom
+          key: b
+          action:
+            - aiRunScript
+            - object > clip > clipper bottom
+
+    - text: Live Paint
+      link: https://helpx.adobe.com/illustrator/desktop/paint-and-fill/learn-painting-basics/about-live-paint.html
+      icon: '#live_paint'
+      key: y
+      items:
+
+        - text: Make
+          key: Space
+          action:
+            - aiRunMenu
+            - Object > Live Paint > Make
+
+        - text: Expand
+          key: x
+          action:
+            - aiRunMenu
+            - Object > Live Paint > Expand
+
+        - text: Release
+          key: r
+          action:
+            - aiRunMenu
+            - Object > Live Paint > Release
+
+        - text: Bucket
+          icon: '#tools/live_paint_bucket'
+          key: b
+          action:
+            - aiSelectTool
+            - Live Paint Bucket
+
+        - text: Selection
+          icon: '#tools/live_paint_selection'
+          key: s
+          action:
+            - aiSelectTool
+            - Live Paint Selection
+
+        -
+
+        - text: From CAD
+          hint:
+            Converts imported from CAD&#10;
+            open paths into filled shapes
+          key: a
+          action:
+            - aiRunScript
+            - path > boolean > live paint all_action
+
+    - text: Intertwine
+      link: https://helpx.adobe.com/illustrator/desktop/manage-objects/reshape-transform-objects/create-intertwined-objects.html
+      icon: '#tools/intertwine'
+      key: w
+      items:
+
+        - text: Make
+          key: Space
+          action:
+            - aiRunMenu
+            - Object > Intertwine > Make
+
+        - text: Edit
+          key: e
+          action:
+            - aiRunMenu
+            - Object > Intertwine > Edit
+
+        - text: Release
+          key: r
+          action:
+            - aiRunMenu
+            - Object > Intertwine > Release
+
+    -
+
+    - text: Compound Path ↓
+
+    - text: Make
+      hint:
+        Ungroup all selected paths&#10;
+        and make compound
+      key: Space
+      action:
+        - aiRunScript
+        - path > boolean > ungroup and make compound
+
+    - text: Add
+      key: v
+      action:
+        - aiRunAction
+        - compound path - add
+
+    - text: Expand
+      key: x
+      action:
+        - aiRunAction
+        - compound path - expand
+
+    - text: Release
+      key: r
+      action:
+        - aiRunMenu
+        - Object > Compound Path > Release
+
+    - text: Fix
+      hint:
+        Fix incorrectly created&#10;
+        compound paths
+      key: f
+      action:
+        - aiRunScript
+        - path > compound fix
+
+    -
+
+    - text: Divide Below
+      icon: '#divide_objects_below'
+      key: 1
+      action:
+        - aiRunMenu
+        - Object > Path > Divide Objects Below
+
+    - text: Split
+      link: https://github.com/creold/illustrator-scripts/blob/master/md/Path.md#splitpath
+      hint:
+        Useful to boolean open paths
+      key: 2
+      action:
+        - aiRunScript
+        - path > boolean > split
+
+    - text: Unoverlap
+      hint:
+        Merge overlapped open paths
+      key: 3
+      action:
+        - aiRunScript
+        - path > boolean > remove overlapped
+
+- text: <p>AG</p> Orient
+  icon: '#tools/ag_straighten'
+  key: r
+  items:
+
+    - text: Orient
+      link: https://docs.astutegraphics.com/subscribe/orient-tool
+      icon: '#tools/ag_orient'
+      key: e
+      action:
+        - aiSelectTool
+        - AG Orient
+
+    - text: Quick Orient
+      link: https://docs.astutegraphics.com/subscribe/quick-orient-tool
+      icon: '#tools/ag_quick_orient'
+      key: q
+      action:
+        - aiSelectTool
+        - AG Quick Orient
+
+    - text: Orient Transform
+      link: https://docs.astutegraphics.com/subscribe/orient-transform-tool
+      icon: '#tools/ag_orient_transform'
+      key: w
+      action:
+        - aiSelectTool
+        - AG Orient Transform
+
+    -
+
+    - text: Collision ↓
+
+    - text: Rotate at
+      link: https://docs.astutegraphics.com/colliderscribe/rotate-at-collision-tool
+      icon: '#tools/ag_rotate_at_collision'
+      key: r
+      action:
+        - aiSelectTool
+        - AG Rotate At Collision
+
+    - text: Rotate to
+      link: https://docs.astutegraphics.com/colliderscribe/rotate-to-collision-tool
+      icon: '#tools/ag_rotate_to_collision'
+      key: c
+      action:
+        - aiSelectTool
+        - AG Rotate To Collision
+
+    - text: Snap to
+      link: https://docs.astutegraphics.com/colliderscribe/snap-to-collisions-tool
+      icon: '#tools/ag_snap_to_collisions'
+      key: s
+      action:
+        - aiSelectTool
+        - AG Snap To Collisions
+
+    - column: break
+
+    - text: Straighten
+      link: https://docs.astutegraphics.com/subscribe/straighten-tool
+      icon: '#tools/ag_straighten'
+      key: f
+      action:
+        - aiSelectTool
+        - AG Straighten
+
+    - text: Tangent Line
+      link: https://docs.astutegraphics.com/subscribe/tangent-line-tool
+      icon: '#tools/ag_tangent_line'
+      key: t
+      action:
+        - aiSelectTool
+        - AG Tangent Line
+
+    - text: Perpendicular Line
+      link: https://docs.astutegraphics.com/subscribe/perpendicular-line-tool
+      icon: '#tools/ag_perpendicular_line'
+      key: h
+      action:
+        - aiSelectTool
+        - AG Perpendicular Line
+
+    -
+
+    - text: Circle by Points
+      link: https://docs.astutegraphics.com/subscribe/circle-by-points-tool
+      icon: '#tools/ag_circle_by_points'
+      key: b
+      action:
+        - aiSelectTool
+        - AG Circle by Points
+
+    - text: Arc by Points
+      link: https://docs.astutegraphics.com/subscribe/arc-by-points-tool
+      icon: '#tools/ag_arc_by_points'
+      key: a
+      action:
+        - aiSelectTool
+        - AG Arc by Points
+
+    - text: Curvature Circle
+      link: https://docs.astutegraphics.com/subscribe/curvature-circle-tool
+      icon: '#tools/ag_curvature_circle'
+      key: y
+      action:
+        - aiSelectTool
+        - AG Curvature Circle
+
+    - text: Tangent Circle
+      link: https://docs.astutegraphics.com/subscribe/tangent-circle-tool
+      icon: '#tools/ag_tangent_circle'
+      key: g
+      action:
+        - aiSelectTool
+        - AG Tangent Circle
+
+- text: Stroke
+  icon: '#stroke'
+  key: s
+  items:
+
+    - text: Stroke ↓
+      icon: '#stroke'
+
+    - text: None
+      hint:
+        Remove stroke from&#10;
+        the selected objects
+      key: s
+      action:
+        - aiRunAction
+        - stroke - none
+
+    - text: Activate
+      hint:
+        Unconditionally&#10;
+        activate the stroke color&#10;
+        on the toolbar
+      key: Space
+      action:
+        - aiRunAction
+        - stroke - activate
+
+    - text: Random
+      hint:
+        Random stroke color
+      key: r
+      action:
+        - aiRunScript
+        - color > random > stroke
+
+    - text: Black, Fill None
+      hint:
+        Set stroke black,&#10;
+        fill none
+      key: n
+      action:
+        - aiRunAction
+        - fill - none; stroke - black 0.1
+
+    - text: Black, Fill White
+      hint:
+        Set stroke black,&#10;
+        fill white
+      key: w
+      action:
+        - aiRunAction
+        - fill - white; stroke - black 0.1
+
+    - column: break
+
+    - text: Stroke Style
+      key: y
+      items:
+
+        - text: Center
+          key: 1
+          action:
+            - aiRunAction
+            - stroke - center
+
+        - text: Inside
+          key: 2
+          action:
+            - aiRunAction
+            - stroke - inside
+
+        - text: Outside
+          key: 3
+          action:
+            - aiRunAction
+            - stroke - outside
+
+        - text: Butt / Miter
+          key: 4
+          action:
+            - aiRunAction
+            - stroke - butt
+
+        - text: Round / Round
+          key: 5
+          action:
+            - aiRunAction
+            - stroke - round
+
+        - text: Projecting / Bevel
+          key: 6
+          action:
+            - aiRunAction
+            - stroke - projecting
+
+    - text: Color From Fill
+      link: https://github.com/creold/illustrator-scripts/blob/master/md/Color.md#strokecolorfromfill
+      hint:
+        Make stroke color&#10;
+        slightly darker than the fill
+      key: x
+      action:
+        - aiRunScript
+        - color > stroke > fill to stroke noui_action
+
+    - text: Color From Fill...
+      link: https://github.com/creold/illustrator-scripts/blob/master/md/Color.md#strokecolorfromfill
+      key: z
+      action:
+        - aiRunScript
+        - color > stroke > fill to stroke_action
+
+    -
+
+    - text: Weight Tweak
+      key: t
+      action:
+        - aiRunScript
+        - path > stroke > weight > change
+
+    - text: Weight Average
+      key: r
+      action:
+        - aiRunScript
+        - path > stroke > weight > average
+
+    -
+
+    - text: <p>AG</p> Dyn.Measure
+      link: https://docs.astutegraphics.com/vectorscribe/dynamic-measure/dynamic-measure-tool
+      icon: '#tools/ag_dynamic_measure'
+      key: d
+      action:
+        - aiSelectTool
+        - AG Dynamic Measure
+
+- text: Type
+  icon: '#type'
+  key: t
+  items:
+
+    - text: Align Text
+      icon: '#type/align_center'
+      key: Space
+      items:
+
+        - text: Left
+          icon: '#type/align_left'
+          key: e
+          action:
+            - aiRunAction
+            - type - align - left
+
+        - text: Center
+          icon: '#type/align_center'
+          key: c
+          action:
+            - aiRunAction
+            - type - align - center
+
+        - text: Right
+          icon: '#type/align_right'
+          key: r
+          action:
+            - aiRunAction
+            - type - align - right
+
+        -
+
+        - text: Justify Text Left
+          icon: '#type/justify_left'
+          key: s
+          action:
+            - aiRunAction
+            - type - justify - left
+
+        - text: Justify All Lines
+          icon: '#type/justify_all_lines'
+          key: a
+          action:
+            - aiRunAction
+            - type - justify - all lines
+
+        - column: break
+
+        - text: Top
+          icon: '#type/vertical_align_top'
+          key: t
+          action:
+            - aiRunAction
+            - type - vertical align - top
+
+        - text: Center
+          icon: '#type/vertical_align_center'
+          key: v
+          action:
+            - aiRunAction
+            - type - vertical align - center
+
+        - text: Justify
+          icon: '#type/vertical_align_justify'
+          key: s
+          action:
+            - aiRunAction
+            - type - vertical align - justify
+
+        - text: Bottom
+          icon: '#type/vertical_align_bottom'
+          key: b
+          action:
+            - aiRunAction
+            - type - vertical align - bottom
+
+    - text: Style
+      icon: '#~textstrikethrough'
+      key: s
+      items:
+
+        - text: Bold
+          icon: '#~textbold'
+          key: b
+          action:
+            - aiRunScript
+            - type > style > bold
+
+        - text: Italic
+          icon: '#~textitalic'
+          key: t
+          action:
+            - aiRunScript
+            - type > style > italic
+
+        - text: Underline
+          icon: '#~textunderline'
+          key: d
+          action:
+            - aiRunScript
+            - type > style > underline
+
+        - text: Strikethrough
+          icon: '#~textstrikethrough'
+          key: s
+          action:
+            - aiRunScript
+            - type > style > strikethrough
+
+    - text: Type
+      icon: '#tools/type'
+      key: t
+      action:
+        - aiSelectTool
+        - Type
+
+    - text: Touch Type
+      icon: '#tools/touch_type'
+      key: y
+      action:
+        - aiSelectTool
+        - Touch Type
+
+    - text: Type on a Path
+      icon: '#tools/type_on_a_path'
+      key: 5
+      action:
+        - aiSelectTool
+        - Type on a Path
+
+    -
+
+    - text: Auto Size
+      icon: '#type/auto_size'
+      key: a
+      action:
+        - aiRunAction
+        - type - auto size
+
+    - text: Point / Area Type
+      icon: '#type/point_area'
+      key: x
+      action:
+        - aiRunAction
+        - type - point or area
+
+    - text: Area Type Options...
+      key: z
+      action:
+        - aiRunMenu
+        - Type > Area Type Options...
+
+    - column: break
+
+    - text: Show Hidden Chars
+      icon: '#type/show_hidden_characters'
+      key: h
+      action:
+        - aiRunMenu
+        - Type > Show Hidden Characters
+
+    -
+
+    - text: <p>AG</p> Reform Text
+      link: https://docs.astutegraphics.com/reform/reform-text-overview
+      icon: '#tools/ag_reform'
+      key: v
+      action:
+        - aiSelectTool
+        - AG Reform Text
+
+    - text: <p>AG</p> Break into Lines
+      link: https://docs.astutegraphics.com/action-tags/text#text-operation-buttons
+      icon: '#type/break_into_lines'
+      key: b
+      action:
+        - aiRunAction
+        - type - ag break into lines
+        - taptapkey plugins
+
+    - text: <p>AG</p> Break into Words
+      link: https://docs.astutegraphics.com/action-tags/text#text-operation-buttons
+      icon: '#type/break_into_words'
+      key: w
+      action:
+        - aiRunAction
+        - type - ag break into words
+        - taptapkey plugins
+
+    - text: <p>AG</p> Combine Text
+      link: https://docs.astutegraphics.com/action-tags/text#text-operation-buttons
+      icon: '#type/combine'
+      key: c
+      action:
+        - aiRunAction
+        - type - ag combine
+        - taptapkey plugins
+
+    -
+
+    - text: Adjust to Segment
+      link: https://github.com/gau/adjust-text-angle-to-segment
+      key: 1
+      action:
+        - aiRunScript
+        - type > rotate > adjust to segment
+
+    - text: Match to Segment
+      key: 2
+      action:
+        - aiRunScript
+        - type > rotate > match to segment
+
+- text: Select
+  icon: '#select'
+  key: v
+  items:
+
+    - text: Locate Object
+      hint:
+        Focus the object&#10;
+        in the Layers panel
+      icon: '#locate_object'
+      key: v
+      action:
+        - aiRunAction
+        - select - locate object
+
+    - text: Selection Paths
+      key: 1
+      action:
+        - aiRunScript
+        - select > selection paths
+
+    - text: Anchors
+      key: a
+      items:
+
+        - text: Anchors Only
+          hint:
+            Select only anchors&#10;
+            of selected objects
+          key: a
+          action:
+            - aiRunScript
+            - select > anchors > only
+
+        - text: Anchors of Segments
+          hint:
+            Select anchors&#10;
+            of selected segments&#10;
+            of path
+          icon: '#anchors_of_selected_segments'
+          key: s
+          action:
+            - aiRunScript
+            - select > anchors > of segments
+
+        - text: Anchors by Type...
+          link: https://github.com/creold/illustrator-scripts/blob/master/md/Select.md#selectpointsbytype
+          key: t
+          action:
+            - aiRunScript
+            - select > anchors > by type
+
+        -
+
+        - text: Inner Corners
+          key: x
+          action:
+            - aiRunScript
+            - select > anchors > inner
+
+        - text: Outer Corners
+          key: z
+          action:
+            - aiRunScript
+            - select > anchors > outer
+
+    - text: Plus
+      key: Space
+      items:
+
+        - text: Selection Plus
+          icon: '#selection_plus'
+          key: Space
+          action:
+            - aiRunScript
+            - select > selection plus
+
+        - text: Selection Plus (Groups)
+          icon: '#selection_plus_groups'
+          key: g
+          action:
+            - aiRunScript
+            - select > selection plus groups
+
+        - text: Selection Minus
+          icon: '#selection_minus'
+          key: d
+          action:
+            - aiRunScript
+            - select > selection minus
+
+        - text: Selection Minus (Groups)
+          icon: '#selection_minus_groups'
+          key: s
+          action:
+            - aiRunScript
+            - select > selection minus groups
+
+    -
+
+    - text: Select by Same
+      key: s
+      items:
+
+        - text: Appearance
+          key: a
+          action:
+            - aiRunMenu
+            - Select > Same > Appearance
+
+        - text: Fill & Stroke
+          key: f
+          action:
+            - aiRunMenu
+            - Select > Same > Fill & Stroke
+
+        - text: Fill Color
+          key: c
+          action:
+            - aiRunMenu
+            - Select > Same > Fill Color
+
+        - text: Opacity
+          key: q
+          action:
+            - aiRunMenu
+            - Select > Same > Opacity
+
+        - text: Stroke Color
+          key: s
+          action:
+            - aiRunMenu
+            - Select > Same > Stroke Color
+
+        - text: Stroke Weight
+          key: w
+          action:
+            - aiRunMenu
+            - Select > Same > Stroke Weight
+
+    - text: Note
+      key: n
+      items:
+
+        - text: "Set 'taptapkey'"
+          key: Space
+          action:
+            - aiRunAction
+            - note - set taptapkey
+
+        - text: "Select 'taptapkey'"
+          key: v
+          action:
+            - aiRunAction
+            - select - note taptapkey
+
+        - text: 'Clear'
+          key: n
+          action:
+            - aiRunAction
+            - note - clear
+
+    -
+
+    - text: Global Edit
+      icon: '#global_edit'
+      key: e
+      action:
+        - aiRunMenu
+        - Select > Start-Stop Global Edit
+
+    - text: Duplicate Selection
+      icon: '#duplicate'
+      key: 2
+      action:
+        - aiRunScript
+        - object > duplicate
+
+    - text: Rename Selection
+      icon: '#rename'
+      key: r
+      action:
+        - aiRunScript
+        - object > rename
+
+    - text: Batch Rename
+      icon: '#rename'
+      key: t
+      action:
+        - aiRunScript
+        - object > batch rename
+
+    -
+
+    - text: Reset Bounding Box
+      icon: '#reset_bbox'
+      key: x
+      action:
+        - aiRunMenu
+        - Object > Transform > Reset Bounding Box
+
+    - column: break
+
+    - text: Selection
+      icon: '#tools/selection'
+      key: z
+      action:
+        - aiSelectTool
+        - Selection
+
+    - text: Direct Selection
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/direct-selection-tool.html
+      icon: '#tools/direct_selection'
+      key: d
+      action:
+        - aiSelectTool
+        - Direct Selection
+
+    - text: Group Selection
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/group-selection-tool.html
+      icon: '#tools/group_selection'
+      key: g
+      action:
+        - aiSelectTool
+        - Group Selection
+
+    -
+
+    - text: Lasso
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/lasso-tool.html
+      icon: '#tools/lasso'
+      key: f
+      action:
+        - aiSelectTool
+        - Lasso
+
+    - text: Magic Wand
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/magic-wand-tool.html
+      icon: '#tools/magic_wand'
+      key: w
+      action:
+        - aiSelectTool
+        - Magic Wand
+
+    - text: <p>AG</p> Super Marquee
+      link: https://docs.astutegraphics.com/colliderscribe/super-marquee-tool
+      icon: '#tools/ag_super_marquee'
+      key: q
+      action:
+        - aiSelectTool
+        - AG Super Marquee
+
+    -
+
+    - text: <p>CS</p> Brush
+      link: https://cool-selection.com
+      icon: '#tools/cs_brush'
+      key: u
+      action:
+        - aiSelectTool
+        - CS Brush
+
+    - text: <p>CS</p> Box
+      link: https://cool-selection.com
+      icon: '#tools/cs_box'
+      key: o
+      action:
+        - aiSelectTool
+        - CS Box
+
+    -
+
+    - text: Layer Above
+      key: c
+      action:
+        - aiRunScript
+        - select > layer > above
+
+    - text: Layer Below
+      key: b
+      action:
+        - aiRunScript
+        - select > layer > below
+
+    -
+
+    - text: Isolate Empty
+      key: y
+      action:
+        - aiRunAction
+        - isolate - empty
+
+- text: Transform
+  icon: '#transform'
+  key: w
+  items:
+
+    - text: Transform
+      key: Space
+      icon: '#transform'
+      items:
+
+        - text: Transform Again
+          key: Space
+          action:
+            - aiRunMenu
+            - Object > Transform > Transform Again
+
+        - text: Transform Each...
+          key: t
+          action:
+            - aiRunMenu
+            - Object > Transform > Transform Each...
+
+        - text: Move...
+          key: w
+          action:
+            - aiRunMenu
+            - Object > Transform > Move...
+
+        - text: Rotate...
+          key: r
+          action:
+            - aiRunMenu
+            - Object > Transform > Rotate...
+
+        - text: Reflect...
+          key: q
+          action:
+            - aiRunMenu
+            - Object > Transform > Reflect...
+
+        - text: Scale...
+          key: s
+          action:
+            - aiRunMenu
+            - Object > Transform > Scale...
+
+        - text: Shear...
+          key: e
+          action:
+            - aiRunMenu
+            - Object > Transform > Shear...
+
+    - text: Flip
+      icon: '#flip_horizontal'
+      key: f
+      items:
+
+        - text: Horizontal
+          icon: '#flip_horizontal'
+          key: f
+          action:
+            - aiRunAction
+            - flip - horizontal
+
+        - text: Vertical
+          icon: '#flip_vertical'
+          key: v
+          action:
+            - aiRunAction
+            - flip - vertical
+
+        - text: Diagonal
+          icon: '#flip_diagonal'
+          key: d
+          action:
+            - aiRunAction
+            - flip - diagonal
+
+    - text: Reference Point
+      icon: '#refpoint/center'
+      key: y
+      items:
+
+        - text: '&#x2196;'
+          icon: '#refpoint/top_left'
+          key: e
+          action:
+            - aiRunScript
+            - prefs > reference point > top left
+
+        - text: '&#x2190;'
+          icon: '#refpoint/middle_left'
+          key: d
+          action:
+            - aiRunScript
+            - prefs > reference point > middle left
+
+        - text: '&#x2199;'
+          icon: '#refpoint/bottom_left'
+          key: c
+          action:
+            - aiRunScript
+            - prefs > reference point > bottom left
+
+        - column: break
+
+        - text: '&nbsp;&#x2191;'
+          icon: '#refpoint/top_middle'
+          key: r
+          action:
+            - aiRunScript
+            - prefs > reference point > top middle
+
+        - text: '&#x25A2;'
+          icon: '#refpoint/center'
+          key: f
+          action:
+            - aiRunScript
+            - prefs > reference point > center
+
+        - text: '&nbsp;&#x2193;'
+          icon: '#refpoint/top_left'
+          key: v
+          action:
+            - aiRunScript
+            - prefs > reference point > bottom middle
+
+        - column: break
+
+        - text: '&#x2197;'
+          icon: '#refpoint/top_right'
+          key: t
+          action:
+            - aiRunScript
+            - prefs > reference point > top right
+
+        - text: '&#x2192;'
+          icon: '#refpoint/middle_right'
+          key: g
+          action:
+            - aiRunScript
+            - prefs > reference point > middle right
+
+        - text: '&#x2198;'
+          icon: '#refpoint/bottom_right'
+          key: b
+          action:
+            - aiRunScript
+            - prefs > reference point > bottom right
+
+    - text: Repeat
+      icon: '#repeat'
+      key: g
+      items:
+
+        - text: Radial
+          key: r
+          action:
+            - aiRunMenu
+            - Object > Repeat > Radial
+
+        - text: Grid
+          key: g
+          action:
+            - aiRunMenu
+            - Object > Repeat > Grid
+
+        - text: Mirror
+          key: w
+          action:
+            - aiRunMenu
+            - Object > Repeat > Mirror
+
+        -
+
+        - text: Release
+          key: e
+          action:
+            - aiRunMenu
+            - Object > Repeat > Release
+
+        - text: Options...
+          key: q
+          action:
+            - aiRunMenu
+            - Object > Repeat > Options...
+
+    - text: Warp
+      icon: '#warp'
+      key: w
+      items:
+
+        - text: Warp
+          icon: '#tools/warp'
+          key: w
+          action:
+            - aiSelectTool
+            - Warp
+
+
+        - text: Twirl
+          icon: '#tools/twirl'
+          key: t
+          action:
+            - aiSelectTool
+            - Twirl
+
+        - text: Pucker
+          icon: '#tools/pucker'
+          key: e
+          action:
+            - aiSelectTool
+            - Pucker
+
+        - text: Bloat
+          icon: '#tools/bloat'
+          key: b
+          action:
+            - aiSelectTool
+            - Bloat
+
+        - column: break
+
+        - text: Scallop
+          icon: '#tools/scallop'
+          key: s
+          action:
+            - aiSelectTool
+            - Scallop
+
+        - text: Crystallize
+          icon: '#tools/crystallize'
+          key: c
+          action:
+            - aiSelectTool
+            - Crystallize
+
+        - text: Wrinkle
+          icon: '#tools/wrinkle'
+          key: r
+          action:
+            - aiSelectTool
+            - Wrinkle
+
+        - text: Puppet Warp
+          icon: '#tools/puppet_warp'
+          key: Space
+          action:
+            - aiSelectTool
+            - Puppet Warp
+
+    - text: <p>CV</p> Tools
+      hint:
+        The cvalley.com website&#10;
+        has ceased to exist
+      icon: '#tools/cv_craft'
+      key: c
+      items:
+
+        - text: Craft
+          icon: '#tools/cv_craft'
+          key: c
+          action:
+            - aiSelectTool
+            - CV Craft
+
+        - text: Warp
+          icon: '#tools/cv_warp'
+          key: w
+          action:
+            - aiSelectTool
+            - CV Warp
+
+        - text: Wave
+          icon: '#tools/cv_wave'
+          key: e
+          action:
+            - aiSelectTool
+            - CV Wave
+
+        - text: Broom
+          icon: '#tools/cv_broom'
+          key: b
+          action:
+            - aiSelectTool
+            - CV Broom
+
+        - text: Lens
+          icon: '#tools/cv_lens'
+          key: n
+          action:
+            - aiSelectTool
+            - CV Lens
+
+    - text: Smooth
+      help: smooth.mp4
+      icon: '#smooth'
+      key: z
+      action:
+        - aiRunMenu
+        - Object > Path > Smooth...
+
+    - text: <p>AG</p> MirrorMe
+      link: https://docs.astutegraphics.com/mirrorme/mirrorme-overview/mirrorme-tool
+      icon: '#tools/ag_mirrorme'
+      key: m
+      action:
+        - aiSelectTool
+        - AG MirrorMe
+
+    - text: <p>AG</p> Inflate Deflate
+      link: https://docs.astutegraphics.com/colliderscribe/inflate-deflate-tool
+      icon: '#tools/ag_inflate_deflate'
+      key: x
+      action:
+        - aiSelectTool
+        - AG Inflate Deflate
+
+    - text: <p>RJ</p> Transform
+      help: rj transform tool.gif
+      link: https://rj-graffix.com/documentation/toolshed-docs
+      icon: '#tools/rj_transform'
+      key: d
+      action:
+        - aiSelectTool
+        - RJ Transform
+
+    - column: break
+
+    - text: Reflect
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/reflect-tool.html
+      icon: '#tools/reflect'
+      key: q
+      action:
+        - aiSelectTool
+        - Reflect
+
+    - text: Rotate
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/rotate-tool.html
+      icon: '#tools/rotate'
+      key: r
+      action:
+        - aiSelectTool
+        - Rotate
+
+    - text: Scale
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/scale-tool.html
+      icon: '#tools/scale'
+      key: s
+      action:
+        - aiSelectTool
+        - Scale
+
+    - text: Artboard
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/artboard-tool.html
+      icon: '#tools/artboard'
+      key: a
+      action:
+        - aiSelectTool
+        - Artboard
+
+    - text: Free Transform
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/free-transform-tool.html
+      icon: '#tools/free_transform'
+      key: e
+      action:
+        - aiSelectTool
+        - Free Transform
+
+    - text: Shear
+      link: https://helpx.adobe.com/illustrator/using/tool-techniques/shear-tool.html
+      icon: '#tools/shear'
+      key: =
+      action:
+        - aiSelectTool
+        - Shear
+
+    - text: Snap to Grid
+      link: https://graphicdesign.stackexchange.com/questions/64365/script-to-automatically-snap-all-points-to-grid-in-adobe-illustrator
+      key: t
+      action:
+        - aiRunScript
+        - object > snap to grid
+
+    - text: Rescale
+      link: https://github.com/creold/illustrator-scripts/blob/master/md/Item.md#rescale
+      key: 1
+      action:
+        - aiRunScript
+        - transform > resize > rescale
+
+    - text: Resize to Size
+      link: https://github.com/creold/illustrator-scripts/blob/master/md/Item.md#resizetosize
+      key: 2
+      action:
+        - aiRunScript
+        - transform > resize > to size
+
+    - text: Extract from Group
+      link: https://github.com/creold/illustrator-scripts/blob/master/md/Group.md#extractfromgroup
+      key: 3
+      action:
+        - aiRunScript
+        - object > group > extract from
+
+- text: Panels
+  icon: '#panels'
+  key: x
+  items:
+
+    - text: Home
+      link: https://helpx.adobe.com/illustrator/desktop/get-started/learn-the-basics/switch-between-the-workspace-and-homescreen.html
+      icon: '#home'
+      key: Space
+      action:
+        - aiClickHome
+
+    - text: Actions
+      link: https://helpx.adobe.com/illustrator/desktop/automate-visualize-data/automate-actions/actions-panel-overview.html
+      icon: '#window/actions'
+      key: a
+      action:
+        - aiRunMenu
+        - Window > Actions
+
+    - text: Align
+      link: https://helpx.adobe.com/illustrator/desktop/manage-objects/arrange-objects/align-and-distribute-objects.html
+      icon: '#window/align'
+      key: i
+      action:
+        - aiRunMenu
+        - Window > Align
+
+    - text: Appearance
+      link: https://helpx.adobe.com/illustrator/using/appearance-attributes.html
+      icon: '#window/appearance'
+      key: e
+      action:
+        - aiRunMenu
+        - Window > Appearance
+
+    - text: Artboards
+      link: https://helpx.adobe.com/illustrator/desktop/create-manage-artboards/add-edit-artboards/add-new-artboards.html
+      icon: '#window/artboards'
+      key: b
+      action:
+        - aiRunMenu
+        - Window > Artboards
+
+    - text: Asset Export
+      link: https://helpx.adobe.com/illustrator/using/collect-assets-export-for-screens.html
+      icon: '#window/asset_export'
+      key: s
+      action:
+        - aiRunMenu
+        - Window > Asset Export
+
+    - text: Character
+      link: https://helpx.adobe.com/illustrator/desktop/design-with-text/edit-format-text/character-panel-overview.html
+      icon: '#window/type/character'
+      key: t
+      action:
+        - aiRunMenu
+        - Window > Type > Character
+
+    - text: Color
+      link: https://helpx.adobe.com/illustrator/desktop/manage-colors/select-and-adjust-colors/color-panel-overview.html
+      icon: '#window/color'
+      key: c
+      action:
+        - aiRunMenu
+        - Window > Color
+
+    - text: Document Info
+      link: https://helpx.adobe.com/illustrator/using/file-information-metadata.html
+      icon: '#window/document_info'
+      key: d
+      action:
+        - aiRunMenu
+        - Window > Document Info
+
+    - text: Gradient
+      link: https://helpx.adobe.com/illustrator/desktop/paint-and-fill/create-and-edit-gradients/apply-a-predefined-gradient.html
+      icon: '#window/gradient'
+      key: g
+      action:
+        - aiRunMenu
+        - Window > Gradient
+
+    - column: break
+
+    - text: Control
+      link: https://helpx.adobe.com/illustrator/desktop/get-started/learn-the-basics/control-panel-overview.html
+      icon: '#window/control'
+      key: q
+      action:
+        - aiRunMenu
+        - Window > Control
+
+    - text: 3D and Materials
+      link: https://helpx.adobe.com/illustrator/desktop/special-effects-styles/create-3d-graphics/3d-materials-panel-options.html
+      icon: '#window/3d_and_materials'
+      key: 3
+      action:
+        - aiRunMenu
+        - Window > 3D and Materials
+
+    - text: History
+      link: https://helpx.adobe.com/illustrator/using/recovery-undo-automation.html
+      icon: '#window/history'
+      key: h
+      action:
+        - aiRunMenu
+        - Window > History
+
+    - text: Layers
+      link: https://helpx.adobe.com/illustrator/desktop/manage-layers/create-and-organize-layers/layers-panel-overview.html
+      icon: '#window/layers'
+      key: y
+      action:
+        - aiRunMenu
+        - Window > Layers
+
+    - text: Navigator
+      link: https://helpx.adobe.com/illustrator/using/viewing-artwork.html
+      icon: '#window/navigator'
+      key: n
+      action:
+        - aiRunMenu
+        - Window > Navigator
+
+    - text: Properties
+      link: https://helpx.adobe.com/illustrator/desktop/get-started/learn-the-basics/properties-panel-overview.html
+      icon: '#window/properties'
+      key: r
+      action:
+        - aiRunMenu
+        - Window > Properties
+
+    - text: Toolbar Basic
+      link: https://helpx.adobe.com/illustrator/using/tools.html
+      icon: '#window/toolbars/basic'
+      key: 1
+      action:
+        - aiRunMenu
+        - Window > Toolbars > Basic
+
+    - text: Toolbar Advanced
+      link: https://helpx.adobe.com/illustrator/using/tools.html
+      icon: '#window/toolbars/advanced'
+      key: 2
+      action:
+        - aiRunMenu
+        - Window > Toolbars > Advanced
+
+    - text: Transform
+      link: https://helpx.adobe.com/illustrator/desktop/manage-objects/reshape-transform-objects/transform-panel-overview.html
+      icon: '#window/transform'
+      key: w
+      action:
+        - aiRunMenu
+        - Window > Transform
+
+    - text: Variables
+      link: https://helpx.adobe.com/illustrator/desktop/automate-visualize-data/automate-actions/variable-panel-overview.html
+      icon: '#window/variables'
+      key: v
+      action:
+        - aiRunMenu
+        - Window > Variables
+
+- text: Shape
+  icon: '#shape'
+  key: y
+  items:
+
+    - text: Rectangle
+      icon: '#tools/rectangle'
+      key: r
+      action:
+        - aiSelectTool
+        - Rectangle
+
+    - text: Ellipse
+      icon: '#tools/ellipse'
+      key: e
+      action:
+        - aiSelectTool
+        - Ellipse
+
+    - text: Line Segment
+      icon: '#tools/line_segment'
+      key: f
+      action:
+        - aiSelectTool
+        - Line Segment
+
+    - text: Polygon
+      icon: '#tools/polygon'
+      key: y
+      action:
+        - aiSelectTool
+        - Polygon
+
+    - text: Star
+      icon: '#tools/star'
+      key: s
+      action:
+        - aiSelectTool
+        - Star
+
+    - text: Rectangular Grid
+      icon: '#tools/rectangular_grid'
+      key: g
+      action:
+        - aiSelectTool
+        - Rectangular Grid
+
+    - column: break
+
+    - text: Polar Grid
+      icon: '#tools/polar_grid'
+      key: p
+      action:
+        - aiSelectTool
+        - Polar Grid
+
+    - text: Spiral
+      icon: '#tools/spiral'
+      key: w
+      action:
+        - aiSelectTool
+        - Spiral
+
+    - text: <p>AG</p> Dyn.Shapes
+      link: https://docs.astutegraphics.com/vectorscribe/dynamic-shapes/dynamic-shapes-tool
+      icon: '#tools/ag_dynamic_shapes'
+      key: d
+      action:
+        - aiSelectTool
+        - AG Dynamic Shapes
+
+    - text: <p>RJ</p> Primitive...
+      icon: '#window/axotools/axo_tools_draw_settings'
+      key: z
+      action:
+        - aiRunMenu
+        - Object > Axonometric Primitive...
+
+    - text: <p>RJ</p> Tangent Arc
+      link: https://rj-graffix.com/documentation/toolshed-docs
+      icon: '#tools/rj_tangent_arc'
+      key: a
+      action:
+        - aiSelectTool
+        - RJ Tangent Arc
+
+    - text: <p>RJ</p> Bracket
+      link: https://rj-graffix.com/documentation/toolshed-docs
+      icon: '#tools/rj_bracket'
+      key: b
+      action:
+        - aiSelectTool
+        - RJ Bracket
+
+- text: Isometry, Effects
+  icon: '#isometry'
+  key: z
+  items:
+
+    - text: <p>RJ</p> AxoTools
+      icon: '#window/axotools/axo_tools_draw_settings'
+      key: z
+      items:
+
+        - text: Extrude
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-extrude-tool
+          icon: '#tools/rj_axo_extrude'
+          key: z
+          action:
+            - aiSelectTool
+            - RJ Axo Extrude
+
+        - text: Move
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-tool
+          icon: '#tools/rj_axo'
+          key: Space
+          action:
+            - aiSelectTool
+            - RJ Axo
+
+        - text: Line
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-line-tool
+          icon: '#tools/rj_axo_line'
+          key: w
+          action:
+            - aiSelectTool
+            - RJ Axo Line
+
+        - text: Ellipse
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-ellipse-tool
+          icon: '#tools/rj_axo_ellipse'
+          key: e
+          action:
+            - aiSelectTool
+            - RJ Axo Ellipse
+
+        - text: Rectangle
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-rectangle-tool
+          icon: '#tools/rj_axo_rectangle'
+          key: d
+          action:
+            - aiSelectTool
+            - RJ Axo Rectangle
+
+        - text: Arc
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-arc-tool
+          icon: '#tools/rj_axo_arc'
+          key: a
+          action:
+            - aiSelectTool
+            - RJ Axo Arc
+
+        - text: Auxiliary Axis
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-axis-tool
+          icon: '#tools/rj_auxiliary_axis'
+          key: x
+          action:
+            - aiSelectTool
+            - RJ Auxiliary Axis
+
+        - column: break
+
+        - text: Scale
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-scale-tool
+          icon: '#tools/rj_axo_scale'
+          key: s
+          action:
+            - aiSelectTool
+            - RJ Axo Scale
+
+        - text: Rotate
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-rotate-tool
+          icon: '#tools/rj_axo_rotate'
+          key: r
+          action:
+            - aiSelectTool
+            - RJ Axo Rotate
+
+        - text: Shear
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-shear-tool
+          icon: '#tools/rj_axo_shear'
+          key: v
+          action:
+            - aiSelectTool
+            - RJ Axo Shear
+
+        - text: Tangent Line
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-tangent-line-tool
+          icon: '#tools/rj_axo_tangent_line'
+          key: t
+          action:
+            - aiSelectTool
+            - RJ Axo Tangent Line
+
+        - text: Measure
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-measure-tool
+          icon: '#tools/rj_axo_measure'
+          key: m
+          action:
+            - aiSelectTool
+            - RJ Axo Measure
+
+        - text: Zone
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-zone-tool
+          icon: '#tools/rj_axo_zone'
+          key: q
+          action:
+            - aiSelectTool
+            - RJ Axo Zone
+
+        - text: Fastener
+          link: https://rj-graffix.com/documentation/axotools-docs/axotools-tools/#axo-fastener-tool
+          icon: '#tools/rj_axo_fastener'
+          key: f
+          action:
+            - aiSelectTool
+            - RJ Fastener
+
+    -
+
+    - text: Isometry ↓
+      icon: '#isometry'
+
+    - text: Left
+      icon: '#iso_left'
+      key: e
+      help: isometry left.webp
+      action:
+        - aiRunScript
+        - transform > isometry > left
+
+    - text: Right
+      icon: '#iso_right'
+      key: r
+      action:
+        - aiRunScript
+        - transform > isometry > right
+
+    - text: Top Left
+      icon: '#iso_top_left'
+      key: d
+      action:
+        - aiRunScript
+        - transform > isometry > top left
+
+    - text: Top Right
+      icon: '#iso_top_right'
+      key: f
+      action:
+        - aiRunScript
+        - transform > isometry > top right
+
+    -
+
+    - text: Iso Scale Up
+      hint:
+        Scales the selected art&#10;
+        by +22.45% (specific to isometry)
+      key: t
+      action:
+        - aiRunAction
+        - scale - +22.45% (iso)
+
+    - column: break
+
+    - text: Effects
+      icon: '#effects'
+      key: x
+      items:
+
+        - text: 3D Extrude
+          link: https://helpx.adobe.com/illustrator/desktop/special-effects-styles/create-3d-graphics/create-3d-objects.html
+          icon: '#3d-extrude'
+          key: x
+          action:
+            - ai3d
+            - extrude
+            - top
+
+        - text: 3D Revolve
+          link: https://helpx.adobe.com/illustrator/desktop/special-effects-styles/create-3d-graphics/create-3d-objects.html
+          icon: '#3d-revolve'
+          key: e
+          action:
+            - ai3d
+            - revolve
+            - top
+
+        - text: 3D Rotate
+          link: https://helpx.adobe.com/illustrator/desktop/special-effects-styles/create-3d-graphics/rotate-objects-in-3d.html
+          icon: '#3d-rotate'
+          key: r
+          action:
+            - ai3d
+            - rotate
+            - top
+
+        - text: <p>AG</p> Block Shadow
+          link: https://docs.astutegraphics.com/stylism/ag-block-shadow-overview/ag-block-shadow-tool
+          icon: '#tools/ag_block_shadow'
+          key: s
+          action:
+            - aiSelectTool
+            - AG Block Shadow
+
+        - text: <p>AG</p> Stylism
+          link: https://docs.astutegraphics.com/stylism/stylism-overview/stylism-tool
+          icon: '#tools/ag_stylism'
+          key: y
+          action:
+            - aiSelectTool
+            - AG Stylism
+
+        - text: <p>AG</p> Texture
+          link: https://docs.astutegraphics.com/texturino/texture-overview/texture-tool
+          icon: '#tools/ag_texture'
+          key: t
+          action:
+            - aiSelectTool
+            - AG Texture
+
+        - text: <p>AG</p> Randomini
+          link: https://docs.astutegraphics.com/randomino/randomini-tool
+          icon: '#tools/ag_randomini'
+          key: a
+          action:
+            - aiSelectTool
+            - AG Randomini
+
+    -
+
+    - text: Undo Isometry ↓
+      icon: '#unisometry'
+
+    - text: Left
+      icon: '#uniso_left'
+      key: q
+      action:
+        - aiRunScript
+        - transform > isometry > undo left
+
+    - text: Right
+      icon: '#uniso_right'
+      key: w
+      action:
+        - aiRunScript
+        - transform > isometry > undo right
+
+    - text: Top Left
+      icon: '#uniso_top_left'
+      key: a
+      action:
+        - aiRunScript
+        - transform > isometry > undo top left
+
+    - text: Top Right
+      icon: '#uniso_top_right'
+      key: s
+      action:
+        - aiRunScript
+        - transform > isometry > undo top right
+
+    -
+
+    - text: Iso Scale Down
+      hint:
+        Scales the selected art&#10;
+        by -18.33% (specific to isometry)
+      key: g
+      action:
+        - aiRunAction
+        - scale - -18.33% (iso)
+
+-
+
+- text: Keyboard Map
+  hint:
+    List of all Illustrator&#10;
+    hotkeys (only the English&#10;
+    locale is supported)
+  icon: '#keyboard'
+  key: '`'
+  action:
+    - aiShowKeyboardMap

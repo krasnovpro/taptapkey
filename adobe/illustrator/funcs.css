@@ -1,0 +1,28 @@
+#funcs {
+  --c1: #6a1;
+  --c2: #333;
+  --c3: #e80;
+  --c4: #e00;
+  --c5: #27a;
+
+  .nav .item.active :is(svg, img) {
+    fill: var(--bg-color);
+  }
+
+  .nav .active[data-key]::after,
+  .content .item.active .text {
+    color: var(--bg-color);
+  }
+
+  .nav.focused:has(.active[data-tab="nudge"]),
+  .nav .active[data-tab="nudge"],
+  .content .item#nudge .text {
+    background-color: #6ac;
+  }
+
+  .nav.focused:has(.active[data-tab="rotate"]),
+  .nav .active[data-tab="rotate"],
+  .content .item#rotate .text {
+    background-color: #e70;
+  }
+}

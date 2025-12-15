@@ -1,0 +1,1 @@
+﻿app.activeDocument.layoutWindows[0].transformReferencePoint = AnchorPoint.TOP_RIGHT_ANCHOR

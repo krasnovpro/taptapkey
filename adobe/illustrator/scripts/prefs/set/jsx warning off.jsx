@@ -1,0 +1,1 @@
+app.preferences.setBooleanPreference("ShowExternalJSXWarning", 0);

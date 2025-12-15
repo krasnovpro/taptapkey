@@ -1,0 +1,401 @@
+﻿# Figma menu
+
+- text: Figma
+  icon: '#figma'
+
+- text: Favorites
+  icon: '#favorites'
+  key: Space
+  items:
+
+    - text: Resize to Fit
+      key: r
+      action:
+        - fgTap
+        - resize to fit
+
+    - text: Convert to Section
+      key: e
+      action:
+        - fgAction
+        - convert to section
+
+    - text: Frame Selection
+      key: f
+      action:
+        - fgTap
+        - frame selection
+
+    - text: Ungroup and Frame
+      key: g
+      action:
+        - fgTap
+        - ungroup and frame selection
+
+    - text: Smooth Join Selection
+      key: j
+      action:
+        - fgAction
+        - smooth join selection
+
+    - column: break
+
+    - text: Scale Tool
+      key: s
+      action:
+        - fgTap
+        - scale tool
+
+    - text: Pen Tool
+      key: x
+      action:
+        - fgTap
+        - pen tool
+
+    - text: Pick Color Tool
+      key: c
+      action:
+        - fgTap
+        - pick color tool
+
+    -
+
+    - text: Zoom 100%
+      key: Space
+      action:
+        - fgTap
+        - zoom to 100%
+
+    - text: Outline
+      key: y
+      action:
+        - fgTap
+        - show outlines
+
+- text: Panels
+  icon: '#panels'
+  key: '`'
+  items:
+
+    - text: Toggle Panels
+      key: '`'
+      action:
+        - fgTap
+        - show/hide ui
+
+    - text: Minimize Panels
+      key: Space
+      action:
+        - fgTap
+        - minimize ui
+
+    -
+
+    - text: Layers
+      key: 1
+      action:
+        - fgTap
+        - open layers panel
+
+    - text: Assets
+      key: 2
+      action:
+        - fgTap
+        - open assets panel
+
+    - text: Library
+      key: 3
+      action:
+        - fgTap
+        - team library
+
+    -
+
+    - text: Design
+      key: 4
+      action:
+        - fgTap
+        - open design panel
+
+    - text: Prototype
+      key: 5
+      action:
+        - fgTap
+        - open prototype panel
+
+    - text: Inspect
+      key: 6
+      action:
+        - fgTap
+        - open inspect panel
+
+- text: Align
+  icon: '#align'
+  key: a
+  items:
+
+    - text: Align ↓
+
+    - text: Top
+      icon: '#align_top'
+      key: t
+      action:
+        - fgTap
+        - align top
+
+    - text: V Centers
+      icon: '#align_v_center'
+      key: v
+      action:
+        - fgTap
+        - align vertical centers
+
+    - text: Bottom
+      icon: '#align_bottom'
+      key: b
+      action:
+        - fgTap
+        - align bottom
+
+    - text: Left
+      icon: '#align_left'
+      key: e
+      action:
+        - fgTap
+        - align left
+
+    - text: H Centers
+      icon: '#align_h_center'
+      key: h
+      action:
+        - fgTap
+        - align horizontal centers
+
+    - text: Right
+      icon: '#align_right'
+      key: r
+      action:
+        - fgTap
+        - align right
+
+    - column: break
+
+    - text: Flip ↓
+
+    - text: Horizontal
+      icon: '#flip_horizontal'
+      key: j
+      action:
+        - fgTap
+        - flip horizontal
+
+    - text: Vertical
+      icon: '#flip_vertical'
+      key: b
+      action:
+        - fgTap
+        - flip vertical
+
+    -
+
+    - text: Rotate ↓
+
+    - text: 90° Left
+      key: q
+      action:
+        - fgAction
+        - rotate 90 left
+
+    - text: 90° Right
+      key: r
+      action:
+        - fgAction
+        - rotate 90 right
+
+- text: Color
+  icon: '#color'
+  key: c
+  items:
+
+    - text: Remove Fill
+      key: f
+      action:
+        - fgTap
+        - remove fill
+
+    - text: Remove Stroke
+      key: s
+      action:
+        - fgTap
+        - remove stroke
+
+    - text: Set Default Properties
+      key: d
+      action:
+        - fgAction
+        - set default properties
+
+- text: View
+  icon: '#view'
+  key: h
+  items:
+
+    - text: Pixel
+      key: x
+      action:
+        - fgTap
+        - show pixel preview
+
+    - text: Grids
+      key: g
+      action:
+        - fgTap
+        - show layout grids
+
+    - text: Outline
+      key: y
+      action:
+        - fgTap
+        - show outlines
+
+    - text: Mask Outlines
+      key: m
+      action:
+        - fgAction
+        - show mask outlines
+
+    - text: Frame Outlines
+      key: f
+      action:
+        - fgAction
+        - show frame outlines
+
+    - column: break
+
+    - text: Hide / Unhide Selection
+      key: h
+      action:
+        - fgTap
+        - show/hide selection
+
+    - text: Hide Others
+      key: j
+      action:
+        - fgAction
+        - hide other layers
+
+    - text: Unhide All
+      key: a
+      action:
+        - fgAction
+        - unhide all objects
+
+    -
+
+    - text: Lock / Unlock Selection
+      key: s
+      action:
+        - fgTap
+        - lock/unlock selection
+
+    - text: Lock Others
+      key: q
+      action:
+        - tap
+        - ^+a^+l^+a
+
+    - text: Unlock All
+      key: u
+      action:
+        - fgTap
+        - unlock all objects
+
+- text: Boolean
+  icon: '#boolean'
+  key: q
+  items:
+
+    - text: Union
+      icon: '#union'
+      key: q
+      action:
+        - fgTap
+        - union
+
+    - text: Subtract
+      icon: '#subtract'
+      key: s
+      action:
+        - fgTap
+        - subtract
+
+    - text: Intersect
+      icon: '#intersect'
+      key: r
+      action:
+        - fgTap
+        - intersect
+
+    - text: Exclude
+      icon: '#exclude'
+      key: e
+      action:
+        - fgTap
+        - exclude
+
+    -
+
+    - text: Flatten
+      icon: '#flatten'
+      key: f
+      action:
+        - fgTap
+        - flatten
+
+    - text: Outline Stroke
+      icon: '#outline_stroke'
+      key: q
+      action:
+        - fgTap
+        - outline stroke
+
+- text: Snap
+  icon: '#snap'
+  key: s
+  items:
+
+    - text: 'Plug: Pixel Cleaner'
+      key: c
+      action:
+        - fgAction
+        - plugin pixel cleaner
+
+    - text: 'Plug: Better Round to Pix'
+      key: b
+      action:
+        - fgAction
+        - plugin better round to pixel
+
+    - text: 'Plug: Pixel Perfect'
+      key: e
+      action:
+        - fgAction
+        - plugin pixel perfect
+
+    - text: 'Plug: Round All'
+      key: a
+      action:
+        - fgAction
+        - plugin round all
+
+    - text: Round to Pixel
+      key: r
+      action:
+        - fgAction
+        - round to pixel
+
+    - text: Toggle Snap to Pixel
+      key: Space
+      action:
+        - fgTap
+        - snap to pixel

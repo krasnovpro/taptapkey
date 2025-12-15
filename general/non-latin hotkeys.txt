@@ -1,0 +1,21 @@
+If your system has a keyboard layout other than Latin,
+it would be nice to use the vkNN key codes
+in hotkey definitions for these keys:
+  ; - vkBA
+  , - vkBC
+  . - vkBE
+  / - vkBF
+  [ - vkDB
+  ] - vkDD
+  ' - vkDE
+  ` - vkC0
+
+Example. Instead of this:
+  ^`::MsgBox("Hello!")
+
+Use this:
+  ^vkC0::MsgBox("Hello!")
+
+
+See the help for details:
+https://www.autohotkey.com/docs/v2/Hotkeys.htm

@@ -1,0 +1,522 @@
+﻿# 2025.11.16
+
+# If you find an error, please report it
+
+cs_CZ:
+  3D Extrude & Bevel Options: Možnosti 3D vytlačení a úkosu
+  3D Revolve Options:         Možnosti 3D obkroužení
+  3D Rotate Options:          Možnosti 3D otočení
+  Adobe Illustrator Prefs:    Adobe Illustrator Prefs
+  Blend Options:              Volby prolnutí
+  Characters:                 Znaky
+  Colors:                     Podržte klávesu Shift, abyste vyvolali alternativní uživatelské rozhraní
+  Discover:                   Objevujte
+  Document Setup:             Nastavení dokumentu
+  Insert Menu Item:           Vložit položku nabídky
+  Keyboard Shortcuts Folder:  Klávesové zkratky
+  Keyboard Shortcuts:         Klávesové zkratky
+  Move:                       Přemístění
+  Object Type:                Typ objektu
+  Offset Path:                Odsazená cesta
+  OK:                         OK
+  Preferences:                Předvolby
+  Preview:                    Náhled
+  Rectangle:                  Obdélník
+  Shape Options:              Volby tvaru
+  Star:                       Hvězda
+  Stroke:                     Tah
+  Transform Each:             Transformovat jednotně
+  Transform Effect:           Efekt transformace
+  Transform:                  Transformovat
+
+da_DK:
+  3D Extrude & Bevel Options: Indstillinger for 3D-ekstrudering & facet
+  3D Revolve Options:         Indstillinger for 3D-drejning
+  3D Rotate Options:          Indstillinger for 3D-rotering
+  Adobe Illustrator Prefs:    Adobe Illustrator-indstillinger
+  Blend Options:              Blandingsindstillinger
+  Characters:                 Tegn
+  Colors:                     Hold Skift nede for at åbne grænseflade med anden farve
+  Discover:                   Opdag
+  Document Setup:             Dokumentopsætning
+  Insert Menu Item:           Indsæt menupunkt
+  Keyboard Shortcuts Folder:  Tastaturgenveje
+  Keyboard Shortcuts:         Tastaturgenveje
+  Move:                       Flyt
+  Object Type:                Objekttype
+  Offset Path:                Forskyd kurve
+  OK:                         OK
+  Preferences:                Indstillinger
+  Preview:                    Vis
+  Rectangle:                  Rektangel
+  Shape Options:              Indstillinger for form
+  Star:                       Stjerne
+  Stroke:                     Streg
+  Transform Each:             Transformer hvert
+  Transform Effect:           Transformeringseffekt
+  Transform:                  Transformer
+
+de_DE:
+  3D Extrude & Bevel Options: 3D-Extrudieren und abgeflachte Kante - Optionen
+  3D Revolve Options:         3D-Kreiseln - Optionen
+  3D Rotate Options:          3D-Drehen - Optionen
+  Adobe Illustrator Prefs:    Adobe Illustrator Prefs
+  Blend Options:              Angleichung-Optionen
+  Characters:                 Zeichen
+  Colors:                     Halten Sie die Umschalttaste gedrückt, um ein anderes Farbbedienfeld anzuzeigen
+  Discover:                   Entdecken
+  Document Setup:             Dokument einrichten
+  Insert Menu Item:           Menübefehl einfügen
+  Keyboard Shortcuts Folder:  Tastaturbefehle
+  Keyboard Shortcuts:         Tastaturbefehle
+  Move:                       Verschieben
+  Object Type:                Objektart
+  Offset Path:                Pfad verschieben
+  OK:                         OK
+  Preferences:                Voreinstellungen
+  Preview:                    Vorschau
+  Rectangle:                  Rechteck
+  Shape Options:              Form-Optionen
+  Star:                       Stern
+  Stroke:                     Kontur
+  Transform Each:             Einzeln transformieren
+  Transform Effect:           Transformieren
+  Transform:                  Transformieren
+
+en_US: &en
+  3D Extrude & Bevel Options: 3D Extrude & Bevel Options
+  3D Revolve Options:         3D Revolve Options
+  3D Rotate Options:          3D Rotate Options
+  Adobe Illustrator Prefs:    Adobe Illustrator Prefs
+  Blend Options:              Blend Options
+  Characters:                 Characters
+  Colors:                     Hold shift key to bring up alternate color UI
+  Discover:                   Discover
+  Document Setup:             Document Setup
+  Insert Menu Item:           Insert Menu Item
+  Keyboard Shortcuts Folder:  Keyboard Shortcuts
+  Keyboard Shortcuts:         Keyboard Shortcuts
+  Move:                       Move
+  Object Type:                Object Type
+  Offset Path:                Offset Path
+  OK:                         OK
+  Preferences:                Preferences
+  Preview:                    Preview
+  Rectangle:                  Rectangle
+  Shape Options:              Shape Options
+  Star:                       Star
+  Stroke:                     Stroke
+  Transform Each:             Transform Each
+  Transform Effect:           Transform Effect
+  Transform:                  Transform
+en_AE: *en
+en_GB: *en
+en_IL: *en
+
+es_ES: &es
+  3D Extrude & Bevel Options: Opciones de extrusión y biselado 3D
+  3D Revolve Options:         Opciones de Giro 3D
+  3D Rotate Options:          Opciones de Rotación 3D
+  Adobe Illustrator Prefs:    Prefs. de Adobe Illustrator
+  Blend Options:              Opciones de fusión
+  Characters:                 Caracteres
+  Colors:                     Mantenga pulsada la tecla Mayús para abrir la IU de colores alternativos
+  Discover:                   Descubrir
+  Document Setup:             Ajustar documento
+  Insert Menu Item:           Insertar elemento de menú
+  Keyboard Shortcuts Folder:  Métodos abreviados de teclado
+  Keyboard Shortcuts:         Métodos abreviados de teclado
+  Move:                       Mover
+  Object Type:                Tipo de objeto
+  Offset Path:                Desplazamiento
+  OK:                         OK
+  Preferences:                Preferencias
+  Preview:                    Previsualizar
+  Rectangle:                  Rectángulo
+  Shape Options:              Opciones de forma
+  Star:                       Estrella
+  Stroke:                     Trazo
+  Transform Each:             Transformar individualmente
+  Transform Effect:           Efecto Transformar
+  Transform:                  Transformar
+es_MX: *es
+
+fr_FR: &fr
+  3D Extrude & Bevel Options: Options d’extrusion et de biseautage 3D
+  3D Revolve Options:         Options de révolution 3D
+  3D Rotate Options:          Options de rotation 3D
+  Adobe Illustrator Prefs:    Préfs Adobe Illustrator
+  Blend Options:              Options de dégradés
+  Characters:                 Caractères
+  Colors:                     Maintenez la touche Maj enfoncée pour utiliser une autre couleur d'interface utilisateur.
+  Discover:                   Découvrir
+  Document Setup:             Format de document
+  Insert Menu Item:           Insérer une commande
+  Keyboard Shortcuts Folder:  Raccourcis clavier
+  Keyboard Shortcuts:         Raccourcis clavier
+  Move:                       Déplacement
+  Object Type:                Type d'objet
+  Offset Path:                Décalage
+  OK:                         OK
+  Preferences:                Préférences
+  Preview:                    Aperçu
+  Rectangle:                  Rectangle
+  Shape Options:              Options de forme
+  Star:                       Etoile
+  Stroke:                     'Contour '
+  Transform Each:             Transformation répartie
+  Transform Effect:           Transformation
+  Transform:                  Transformation
+fr_CA: *fr
+fr_MA: *fr
+
+hu_HU:
+  3D Extrude & Bevel Options: 3D kiemelés és sarkítás beállításai
+  3D Revolve Options:         3D körbeforgatási lehetőségek
+  3D Rotate Options:          3D forgatási beállítások
+  Adobe Illustrator Prefs:    Adobe Illustrator Prefs
+  Blend Options:              Keverési beállítások
+  Characters:                 Karakterek
+  Colors:                     Más színű felhasználói felület megjelenítéséhez tartsa lenyomva a Shift billentyűt
+  Discover:                   Hadd lássam
+  Document Setup:             Dokumentum beállítása
+  Insert Menu Item:           Menüelem beszúrása
+  Keyboard Shortcuts Folder:  Billentyűparancsok
+  Keyboard Shortcuts:         Billentyűparancsok
+  Move:                       Áthelyezés
+  Object Type:                Objektum típusa
+  Offset Path:                Görbe eltolása
+  OK:                         OK
+  Preferences:                Beállítások
+  Preview:                    Előkép
+  Rectangle:                  Téglalap
+  Shape Options:              Forma beállításai
+  Star:                       Csillag
+  Stroke:                     Ecsetvonás
+  Transform Each:             Mindegyik alakítása
+  Transform Effect:           Alakítási hatás
+  Transform:                  Átalakítás
+
+it_IT:
+  3D Extrude & Bevel Options: Opzioni di estrusione e smussato 3D
+  3D Revolve Options:         Opzioni di rivoluzione 3D
+  3D Rotate Options:          Opzioni di rotazione 3D
+  Adobe Illustrator Prefs:    Preferenze Adobe Illustrator
+  Blend Options:              Opzioni fusione
+  Characters:                 Caratteri
+  Colors:                     Tenete premuto Maiusc per aprire un altro metodo di scelta del colore
+  Discover:                   Esplora
+  Document Setup:             Imposta documento
+  Insert Menu Item:           Inserisci voce da menu
+  Keyboard Shortcuts Folder:  Scelte rapide da tastiera
+  Keyboard Shortcuts:         Scelte rapide da tastiera
+  Move:                       Spostamento
+  Object Type:                Tipo di oggetto
+  Offset Path:                Scostamento tracciato
+  OK:                         OK
+  Preferences:                Preferenze
+  Preview:                    Anteprima
+  Rectangle:                  Rettangolo
+  Shape Options:              Opzioni forma
+  Star:                       Stella
+  Stroke:                     Traccia
+  Transform Each:             Trasforma ognuno
+  Transform Effect:           Effetto Trasforma
+  Transform:                  Trasforma
+
+ja_JP:
+  3D Extrude & Bevel Options: 3D 押し出しとベベルオプション
+  3D Revolve Options:         3D 回転体オプション
+  3D Rotate Options:          3D 回転オプション
+  Adobe Illustrator Prefs:    Adobe Illustrator 環境設定
+  Blend Options:              ブレンドオプション
+  Characters:                 文字
+  Colors:                     スウォッチパネル (Shift キーを押したままクリックでカラーパネル) を表示
+  Discover:                   もっと知る
+  Document Setup:             ドキュメント設定
+  Insert Menu Item:           メニュー項目を挿入
+  Keyboard Shortcuts Folder:  キーボードショートカット
+  Keyboard Shortcuts:         キーボードショートカット
+  Move:                       移動
+  Object Type:                オブジェクトの種類
+  Offset Path:                パスのオフセット
+  OK:                         OK
+  Preferences:                環境設定
+  Preview:                    プレビュー(P)
+  Rectangle:                  長方形
+  Shape Options:              形状オプション
+  Star:                       スター
+  Stroke:                     '線 '
+  Transform Each:             個別に変形
+  Transform Effect:           変形効果
+  Transform:                  シェイプ
+
+ko_KR:
+  3D Extrude & Bevel Options: 3D 입체화와 경사 옵션
+  3D Revolve Options:         3D 축 중심 회전 옵션
+  3D Rotate Options:          3D 회전 옵션
+  Adobe Illustrator Prefs:    Adobe Illustrator 환경 설정
+  Blend Options:              블렌드 옵션
+  Characters:                 문자
+  Colors:                     Shift 키를 누른 채 대체 색상 UI를 보기 합니다.
+  Discover:                   탐색
+  Document Setup:             문서 설정
+  Insert Menu Item:           메뉴 항목 삽입
+  Keyboard Shortcuts Folder:  키보드 단축키
+  Keyboard Shortcuts:         키보드 단축키
+  Move:                       이동
+  Object Type:                오브젝트 유형
+  Offset Path:                오프셋 패스
+  OK:                         OK
+  Preferences:                환경 설정
+  Preview:                    미리보기(P)
+  Rectangle:                  사각형
+  Shape Options:              도형 옵션
+  Star:                       별모양
+  Stroke:                     획
+  Transform Each:             개별 변형
+  Transform Effect:           변형 효과
+  Transform:                  변형
+
+nl_NL:
+  3D Extrude & Bevel Options: Opties voor Diepte geven en Schuine kanten in 3D
+  3D Revolve Options:         Opties voor Draaien in 3D
+  3D Rotate Options:          Opties voor Roteren in 3D
+  Adobe Illustrator Prefs:    Voorkeuren Adobe Illustrator
+  Blend Options:              Overvloeiopties
+  Characters:                 Tekens
+  Colors:                     Houd de Shift-toets ingedrukt om de gebruikersinterface voor alternatieve kleuren te openen
+  Discover:                   Ontdekken
+  Document Setup:             Documentinstellingen
+  Insert Menu Item:           Menu-optie invoegen
+  Keyboard Shortcuts Folder:  Sneltoetsen
+  Keyboard Shortcuts:         Sneltoetsen
+  Move:                       Verplaatsen
+  Object Type:                Objecttype
+  Offset Path:                Pad verschuiven
+  OK:                         OK
+  Preferences:                Voorkeuren
+  Preview:                    Voorvertoning
+  Rectangle:                  Rechthoek
+  Shape Options:              Opties voor vorm
+  Star:                       Ster
+  Stroke:                     Lijn
+  Transform Each:             Elk object transformeren
+  Transform Effect:           Effect Transformatie
+  Transform:                  Transformeren
+
+pl_PL:
+  3D Extrude & Bevel Options: Opcje wyciągnięcia i fazowania 3D
+  3D Revolve Options:         Opcje bryły obrotowej 3D
+  3D Rotate Options:          Opcje obrotu 3D
+  Adobe Illustrator Prefs:    Preferencje programu Adobe Illustrator
+  Blend Options:              Opcje mieszania
+  Characters:                 Znaki
+  Colors:                     Wciśnij klawisz Shift, by pokazać alternatywne okno wyboru koloru
+  Discover:                   Odkryj
+  Document Setup:             Ustawienia dokumentu
+  Insert Menu Item:           Wstaw polecenie z menu
+  Keyboard Shortcuts Folder:  Skróty klawiaturowe
+  Keyboard Shortcuts:         Skróty klawiszowe
+  Move:                       Przesuwanie
+  Object Type:                Typ obiektu
+  Offset Path:                Przesunięcie ścieżki
+  OK:                         OK
+  Preferences:                Preferencje
+  Preview:                    Podgląd
+  Rectangle:                  Prostokąt
+  Shape Options:              Opcje kształtu
+  Star:                       Gwiazda
+  Stroke:                     Obrys
+  Transform Each:             Przekształć każdy
+  Transform Effect:           Efekt przekształcenia
+  Transform:                  Przekształć
+
+pt_BR:
+  3D Extrude & Bevel Options: Opções de Extrusão e chanfro 3D
+  3D Revolve Options:         Opções de Revolução 3D
+  3D Rotate Options:          Opções de Giro 3D
+  Adobe Illustrator Prefs:    Prefs. do Adobe Illustrator
+  Blend Options:              Opções de mesclagem
+  Characters:                 Caracteres
+  Colors:                     Mantenha a tecla Shift pressionada para abrir a UI de cores alternativas
+  Discover:                   Descubra
+  Document Setup:             Configuração de documento
+  Insert Menu Item:           Inserir item do menu
+  Keyboard Shortcuts Folder:  Teclas de atalho
+  Keyboard Shortcuts:         Teclas de atalho
+  Move:                       Mover
+  Object Type:                Tipo de objeto
+  Offset Path:                Deslocar caminho
+  OK:                         OK
+  Preferences:                Preferências
+  Preview:                    Visualizar
+  Rectangle:                  Retângulo
+  Shape Options:              Opções de forma
+  Star:                       Estrela
+  Stroke:                     Traçado
+  Transform Each:             Transformar cada
+  Transform Effect:           Transformar efeito
+  Transform:                  Transformar
+
+ru_RU:
+  3D Extrude & Bevel Options: Параметры 3D-вытягивания и фаски
+  3D Revolve Options:         Параметры 3D-вращения
+  3D Rotate Options:          Параметры 3D-поворота
+  Adobe Illustrator Prefs:    Установки Adobe Illustrator
+  Blend Options:              Параметры перехода
+  Characters:                 Символы
+  Colors:                     Удерживайте клавишу Shift, чтобы применить альтернативный цвет
+  Discover:                   Для вас
+  Document Setup:             Параметры документа
+  Insert Menu Item:           Вставить пункт меню
+  Keyboard Shortcuts Folder:  Комбинации клавиш
+  Keyboard Shortcuts:         Комбинации клавиш
+  Move:                       Перемещение
+  Object Type:                Тип объекта
+  Offset Path:                Создать параллельный контур
+  OK:                         OK
+  Preferences:                Установки
+  Preview:                    Просмотр
+  Rectangle:                  Прямоугольник
+  Shape Options:              Параметры фигур
+  Star:                       Звезда
+  Stroke:                     Обводка
+  Transform Each:             Трансформировать каждый
+  Transform Effect:           Эффект трансформирования
+  Transform:                  Трансформирование
+
+sv_SE:
+  3D Extrude & Bevel Options: Alternativ för 3D-extrudering och avfasning
+  3D Revolve Options:         Alternativ för 3D-kretslopp
+  3D Rotate Options:          Alternativ för 3D-rotering
+  Adobe Illustrator Prefs:    Adobe Illustrator-inställningar
+  Blend Options:              Övergångsalternativ
+  Characters:                 Tecken
+  Colors:                     Håll ned Skift om du vill visa alternativt färggränssnitt
+  Discover:                   Upptäck
+  Document Setup:             Dokumentformat
+  Insert Menu Item:           Infoga menyobjekt
+  Keyboard Shortcuts Folder:  Kortkommandon
+  Keyboard Shortcuts:         Kortkommandon
+  Move:                       Flytta
+  Object Type:                Objekttyp
+  Offset Path:                Skapa ytterkontur
+  OK:                         OK
+  Preferences:                Inställningar
+  Preview:                    Förhandsvisa
+  Rectangle:                  Rektangel
+  Shape Options:              Formalternativ
+  Star:                       Stjärna
+  Stroke:                     Linje
+  Transform Each:             Omforma
+  Transform Effect:           Omforma
+  Transform:                  Omforma
+
+tr_TR:
+  3D Extrude & Bevel Options: 3D Kalıptan Geçir ve Eğim Ver Seçenekleri
+  3D Revolve Options:         3D Uzayda Döndürme Seçenekleri
+  3D Rotate Options:          3D Döndürme Seçenekleri
+  Adobe Illustrator Prefs:    Adobe Illustrator Tercihleri
+  Blend Options:              Karışım Seçenekleri
+  Characters:                 Karakterler
+  Colors:                     Alternatif renk arayüzü getirmek için Shift tuşunu basılı tutun
+  Discover:                   Keşfedin
+  Document Setup:             Belge Ayarları
+  Insert Menu Item:           Menü Öğesi Ekle
+  Keyboard Shortcuts Folder:  Klavye Kısayolları
+  Keyboard Shortcuts:         Klavye Kısayolları
+  Move:                       Taşı
+  Object Type:                Nesne Türü
+  Offset Path:                Yolu Kaydır
+  OK:                         Tamam
+  Preferences:                Tercihler
+  Preview:                    Önizleme
+  Rectangle:                  Dikdörtgen
+  Shape Options:              Şekil Seçenekleri
+  Star:                       Yıldız
+  Stroke:                     Kontur
+  Transform Each:             Her Birini Dönüştür
+  Transform Effect:           Dönüştürme Efekti
+  Transform:                  Dönüştür
+
+uk_UA:
+  3D Extrude & Bevel Options: Параметри 3D-витягування та скосу
+  3D Revolve Options:         Параметри 3D-обертання
+  3D Rotate Options:          Параметри 3D-повороту
+  Adobe Illustrator Prefs:    Уподобання Adobe Illustrator
+  Blend Options:              Параметри переходу
+  Characters:                 Символи
+  Colors:                     Утримуйте клавішу Shift щоб призначити альтернативний колір
+  Discover:                   Ознайомитися
+  Document Setup:             Налаштування документа
+  Insert Menu Item:           Вставити пункт меню
+  Keyboard Shortcuts Folder:  Клавіші швидкого доступу
+  Keyboard Shortcuts:         Комбінації клавіш
+  Move:                       Перемістити
+  Object Type:                Тип об'єкта
+  Offset Path:                Зсунути контур
+  OK:                         OK
+  Preferences:                Уподобання
+  Preview:                    Перегляд
+  Rectangle:                  Прямокутник
+  Shape Options:              Параметри фігур
+  Star:                       Зірка
+  Stroke:                     Обведення
+  Transform Each:             Трансформувати кожний
+  Transform Effect:           Ефект трансформування
+  Transform:                  Трансформувати
+
+zh_CN:
+  3D Extrude & Bevel Options: 3D 凸出和斜角选项
+  3D Revolve Options:         3D 绕转选项
+  3D Rotate Options:          3D 旋转选项
+  Adobe Illustrator Prefs:    Adobe Illustrator 首选项
+  Blend Options:              混合选项
+  Characters:                 字符
+  Colors:                     按住 Shift 键调出替代色彩用户界面
+  Discover:                   发现
+  Document Setup:             文档设置
+  Insert Menu Item:           插入菜单项
+  Keyboard Shortcuts Folder:  键盘快捷键
+  Keyboard Shortcuts:         键盘快捷键
+  Move:                       移动
+  Object Type:                对象类型
+  Offset Path:                偏移路径
+  OK:                         确定
+  Preferences:                首选项
+  Preview:                    预览(P)
+  Rectangle:                  矩形
+  Shape Options:              形状选项
+  Star:                       星形
+  Stroke:                     描边
+  Transform Each:             分别变换
+  Transform Effect:           变换效果
+  Transform:                  变换
+
+zh_TW:
+  3D Extrude & Bevel Options: 3D 突出與斜角選項
+  3D Revolve Options:         3D 迴轉選項
+  3D Rotate Options:          3D 旋轉選項
+  Adobe Illustrator Prefs:    Adobe Illustrator 偏好設定
+  Blend Options:              漸變選項
+  Characters:                 字元
+  Colors:                     按住 Shift 鍵顯示替代色彩使用者介面
+  Discover:                   探索
+  Document Setup:             文件設定
+  Insert Menu Item:           插入選單項目
+  Keyboard Shortcuts Folder:  鍵盤快捷鍵
+  Keyboard Shortcuts:         鍵盤快捷鍵
+  Move:                       移動
+  Object Type:                物件類型
+  Offset Path:                位移複製
+  OK:                         確定
+  Preferences:                偏好設定
+  Preview:                    預視(P)
+  Rectangle:                  矩形
+  Shape Options:              外框選項
+  Star:                       星形
+  Stroke:                     筆畫
+  Transform Each:             個別變形
+  Transform Effect:           變形效果
+  Transform:                  變形
