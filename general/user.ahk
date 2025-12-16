@@ -3,7 +3,7 @@
 /* Use it as example for your own user settings */
 
 ttk.tap := { layout: "English", restore: false }
-ttk.hint := { conf: { opacity: 50, time: 10, font: "Consolas" } }
+ttk.hint := { conf: { opacity: 80, time: 10, font: "Consolas" } }
 
 ttk.capsLockEnable := false
 ttk.widgetDebug := false
@@ -54,57 +54,57 @@ ttk.widgetDebug := false
 
   ;combos
   #HotIf                      aiMode("main")
+                              ttk.hint.xbutton1 := "isolate:`n"
     ~XButton1::               hint(ttk.hint.xbutton1, ttk.hint.conf)
     XButton1 up::             hint()
-                              ttk.hint.xbutton1 := "
-                              (
-                                isolate:
-                                <  hover/begin
-                                >  end
-                                ^  up
-                                v  down
 
-                                _   zoom/locate
-                                e  del obj below top
-                                d  duplicate
-                                r   rename
-                                s   toggl sel by path
-                                x   del
-                              )"
-
+                              ttk.hint.xbutton1 .= "<  hover ...begin`n"
     XButton1 & LButton::      aiIsolate(isTaps() = 1 ? "hover" : "begin")
+
+                              ttk.hint.xbutton1 .= ">  end`n"
     XButton1 & RButton::      aiIsolate("end")
+
+                              ttk.hint.xbutton1 .= "^  up`n"
     XButton1 & WheelUp::      aiIsolate("up")
+
+                              ttk.hint.xbutton1 .= "v  down`n`n"
     XButton1 & WheelDown::    aiIsolate("down")
 
-    XButton1 & Space::        {
-                                if isTaps() = 1 {
-                                  aiRunScript("object > zoom > selected")
-                                } else {
-                                  aiRunAction("select - locate object")
-                                }
-                              }
-    XButton1 & d::            aiRunScript("object > duplicate")
+                              ttk.hint.xbutton1 .= "_   zoom ...locate`n"
+    XButton1 & Space::        isTaps() = 1
+                              ? aiRunScript("object > zoom > selected")
+                              : aiRunAction("select - locate object")
+
+                              ttk.hint.xbutton1 .= "e  del under top`n"
     XButton1 & e::            aiDelObjBelowTop()
+
+                              ttk.hint.xbutton1 .= "d  duplicate`n"
+    XButton1 & d::            aiRunScript("object > duplicate")
+
+                              ttk.hint.xbutton1 .= "r   rename`n"
     XButton1 & r::            aiRunScript("object > rename")
+
+                              ttk.hint.xbutton1 .= "s   toggl sel by path`n"
     XButton1 & s::            aiRunScript("prefs > toggle > select by path only", "waitReturn")
+
+                              ttk.hint.xbutton1 .= "x   del`n"
     XButton1 & x::            Send("{Delete}"), hk("Delete")
 
 
+                              ttk.hint.xbutton2 := "select:`n"
     ~XButton2::               hint(ttk.hint.xbutton2, ttk.hint.conf)
     XButton2 up::             hint()
-                              ttk.hint.xbutton2 := "
-                              (
-                                select:
-                                <  inv2
-                                >  +++
-                                ↑  · · ·
-                                ↓  −−−
-                              )"
 
+                              ttk.hint.xbutton2 .= "<  inv2`n"
     XButton2 & LButton::      aiRunAction("select - inverse inverse")
+
+                              ttk.hint.xbutton2 .= ">  +++`n"
     XButton2 & RButton::      aiRunScript("select > selection plus")
+
+                              ttk.hint.xbutton2 .= "↑  · · ·`n"
     XButton2 & WheelUp::      aiRunScript("select > anchors > only")
+
+                              ttk.hint.xbutton2 .= "↓  −−−`n"
     XButton2 & WheelDown::    aiRunScript("select > selection paths")
 
   #HotIf            aiMode("app")
