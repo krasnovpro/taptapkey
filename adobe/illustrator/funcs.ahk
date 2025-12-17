@@ -3,6 +3,7 @@
 ;;INIT
   ai                := { app: Map(0, {active: false}), pid: 0 }
 
+  ai.toggleWhileDrag:= true
   ai.gdiCheck       := true
   ai.showHint       := true
   ai.remindToSave   := 3 ;minutes
@@ -480,10 +481,9 @@ aiInit() {
 
   getActions()
   if getHotkeys() {
-    setSaveReminder()
-    setOutlinePreview()
-    setSmartGuides()
     setKeyboardMap()
+    setSaveReminder()
+    setToggleWhileDrag()
   }
   aiInitCpl(, &p)
 
@@ -562,20 +562,24 @@ aiInit() {
     return true
   }
 
-  setOutlinePreview() {
-    ;make outline/preview work while dragging
-    if (v := p.kys["menus"]["keys"].indexOf("preview")).hasValue {
-      HotIfWinActive("ahk_pid " ai.pid) and HotIf('aiMode("app")')
-      Hotkey(v.value, (k, *) => aiOutlinePreview())
+  ;make some menu toggles work while dragging
+  setToggleWhileDrag() {
+    if !ai.toggleWhileDrag {
+      return
     }
-  }
 
-  setSmartGuides() {
-    ;make toggle smart guides work while dragging
-    if (v := p.kys["menus"]["keys"].indexOf("Snapomatic on-off menu item")).hasValue {
-      HotIfWinActive("ahk_pid " ai.pid)
-        and HotIf('aiMode("app") and GetKeyState("LButton")')
-      Hotkey(v.value, (k, *) => aiRunMenu("View > Smart Guides"))
+    dragCondition := 'aiMode("app") and (GetKeyState("LButton") or GetKeyState("MButton"))'
+
+    items := Map(
+      "preview", "View > Outline-Preview",
+      "Snapomatic on-off menu item", "View > Smart Guides"
+    )
+
+    for name, cmd in items {
+      if (v := p.kys["menus"]["keys"].indexOf(name)).hasValue {
+        HotIfWinActive("ahk_pid " ai.pid) and HotIf(dragCondition)
+        Hotkey(v.value, ((cmd, *) => aiRunMenu(cmd)).Bind(cmd))
+      }
     }
   }
 
@@ -1252,6 +1256,7 @@ aiOpenPrefsDir(subDir := "") {
   hk("Open '" dir "'")
 }
 
+;same as aiRunMenu("View > Outline-Preview")
 aiOutlinePreview(*) {
   SetTimer(() {
     dhw := A_DetectHiddenWindows
