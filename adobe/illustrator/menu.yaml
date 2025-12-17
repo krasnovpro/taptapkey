@@ -1910,8 +1910,7 @@
     - text: Open Document Folder
       key: f
       action:
-        - aiRunScript
-        - file > open document folder
+        - aiOpenDocumentDir
 
 - text: Edit
   icon: '#edit'

@@ -1216,6 +1216,13 @@ aiNudge(precision, direction) {
   }
 }
 
+aiOpenDocumentDir() {
+  path := aiRunScript("file > get document path", true)
+  if path {
+    Run('explorer.exe /select,"' path '"')
+  }
+}
+
 aiOpenPdfPresetsDir() {
   dir := EnvGet("AppData") "\Adobe\Adobe PDF\Settings"
   if DirExist(dir) {
