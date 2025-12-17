@@ -482,6 +482,7 @@ aiInit() {
   if getHotkeys() {
     setSaveReminder()
     setOutlinePreview()
+    setSmartGuides()
     setKeyboardMap()
   }
   aiInitCpl(, &p)
@@ -566,6 +567,15 @@ aiInit() {
     if (v := p.kys["menus"]["keys"].indexOf("preview")).hasValue {
       HotIfWinActive("ahk_pid " ai.pid) and HotIf('aiMode("app")')
       Hotkey(v.value, (k, *) => aiOutlinePreview())
+    }
+  }
+
+  setSmartGuides() {
+    ;make toggle smart guides work while dragging
+    if (v := p.kys["menus"]["keys"].indexOf("Snapomatic on-off menu item")).hasValue {
+      HotIfWinActive("ahk_pid " ai.pid)
+        and HotIf('aiMode("app") and GetKeyState("LButton")')
+      Hotkey(v.value, (k, *) => aiRunMenu("View > Smart Guides"))
     }
   }
 

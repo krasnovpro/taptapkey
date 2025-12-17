@@ -20,6 +20,7 @@
     m.Show()
   }
 
+  #HotIf            aiMode("app") and GetKeyState("LButton") ;for setSmartGuides()
   #HotIf            aiMode("*widget")
     CapsLock::      getTapTime(), capsLock()
     ~CapsLock up::  (getTapTime("up") > 200) ? capsLock() : aiWidgetFuncs("CapsLock")

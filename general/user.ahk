@@ -49,9 +49,6 @@ ttk.widgetDebug := false
     !d::            aiRunScript("object > duplicate")
     !a::            aiDelObjBelowTop()
 
-  ; #HotIf            WinActive("ahk_exe Illustrator.exe") and GetKeyState("LButton")
-  ;   ^u::            aiRunMenu("View > Smart Guides"), hint("toggle smart guides")
-
   ;combos
   #HotIf                      aiMode("main")
 
