@@ -151,9 +151,20 @@
           - aiRunScript
           - transform > adjacent > copy > down
 
+    - hint: Undo/Redo
+      icon: '#undo'
+      key: z
+      action:
+        up:
+          - aiRunMenu
+          - Edit > Undo
+        down:
+          - aiRunMenu
+          - Edit > Redo
+
     - hint: ↑ Random stroke color&#10;↓ Random fill color
       icon: '#random_stroke_fill_color'
-      key: z
+      key: x
       action:
         up:
           - aiRunScript
@@ -162,16 +173,16 @@
           - aiRunScript
           - color > random > fill
 
-    - hint: ↑ Gradient to color&#10;↓ Color to gradient
-      icon: '#g2c_c2g'
-      key: x
-      action:
-        up:
-          - aiRunScript
-          - color > gradient > gradient to color noui
-        down:
-          - aiRunScript
-          - color > gradient > color to gradient noui
+    # - hint: ↑ Gradient to color&#10;↓ Color to gradient
+    #   icon: '#g2c_c2g'
+    #   key: x
+    #   action:
+    #     up:
+    #       - aiRunScript
+    #       - color > gradient > gradient to color noui
+    #     down:
+    #       - aiRunScript
+    #       - color > gradient > color to gradient noui
 
     - hint: Random layer color
       icon: '#random_layer_color'
@@ -184,7 +195,7 @@
           - aiRunScript
           - color > random > layer
 
-    - hint: Strokes width
+    - hint: Strokes weight
       icon: '#strokes_up_down'
       key: v
       action:
@@ -413,20 +424,16 @@
           - aiRunAction
           - flip - horizontal
 
-    - hint: Scale 20%
-      text: ±20%
+    - hint: Undo/Redo
+      icon: '#undo'
       key: z
       action:
         up:
-          - aiRunAction
-          - scale - -20%
-          -
-          - 1
+          - aiRunMenu
+          - Edit > Undo
         down:
-          - aiRunAction
-          - scale - +20%
-          -
-          - 1
+          - aiRunMenu
+          - Edit > Redo
 
     - hint: Scale 10%
       text: ±10%

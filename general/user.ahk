@@ -54,6 +54,7 @@ ttk.widgetDebug := false
 
   ;combos
   #HotIf                      aiMode("main")
+
                               ttk.hint.xbutton1 := "isolate:`n"
     ~XButton1::               hint(ttk.hint.xbutton1, ttk.hint.conf)
     XButton1 up::             hint()
