@@ -151,7 +151,7 @@
           - aiRunScript
           - transform > adjacent > copy > down
 
-    - hint: Undo/Redo
+    - hint: ↑ Undo&#10;↓ Redo
       icon: '#undo'
       key: z
       action:
@@ -424,7 +424,7 @@
           - aiRunAction
           - flip - horizontal
 
-    - hint: Undo/Redo
+    - hint: ↑ Undo&#10;↓ Redo
       icon: '#undo'
       key: z
       action:
