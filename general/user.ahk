@@ -19,7 +19,7 @@ ttk.widgetDebug := false
     z(), aiRunMenu("Object > Show All")
   }
 
-  aiIsolate(arg) {
+  aiIsolate(arg) { ;requires RJ-Graffix Toolshed plugin
     switch arg, 0 {
       default:      err(A_ThisFunc ". Wrong argument: " arg)
       case "hover": Send("^{Click}")
