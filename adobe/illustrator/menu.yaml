@@ -2954,6 +2954,28 @@
         - aiRunAction
         - fill - white; stroke - black 0.1
 
+    - text: Dash
+      key: d
+      items:
+
+        - text: Random...
+          key: d
+          action:
+            - aiRunScript
+            - path > dash > random
+
+        - text: Quick Random
+          key: c
+          action:
+            - aiRunScript
+            - path > dash > crazy
+
+        - text: Expand
+          key: x
+          action:
+            - aiRunScript
+            - path > dash > expand
+
     - column: break
 
     - text: Stroke Style
@@ -3032,7 +3054,7 @@
     - text: <p>AG</p> Dyn.Measure
       link: https://docs.astutegraphics.com/vectorscribe/dynamic-measure/dynamic-measure-tool
       icon: '#tools/ag_dynamic_measure'
-      key: d
+      key: m
       action:
         - aiSelectTool
         - AG Dynamic Measure
