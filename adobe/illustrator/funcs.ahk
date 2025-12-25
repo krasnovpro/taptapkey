@@ -154,6 +154,7 @@ aiClickCpanel(item) {
     "strokeDown"
   ]
   cpl := ai.app[ai.pid].cpl
+  offset := aiUiScaling(2)
 
   movePopup() {
     if WinWaitActive("Title",, 2) {
@@ -163,12 +164,19 @@ aiClickCpanel(item) {
   }
 
   clickControl() {
-    if WinExist("Title ahk_class #32770 ahk_pid " ai.pid) {
-      ControlClick("x" x " y" y, cpl["id"],,,, "Pos")
+    CoordMode("Mouse", "Screen")
+    cx := x + cpl["root"].Location.x + offset
+    cy := y + cpl["root"].Location.y + offset
+    MouseClick(, cx, cy)
+    ; ControlClick("x" x " y" y, cpl["id"],,,, "Pos")
+  }
+
+  forceClickControl() {
+    popupExist := WinExist("Title ahk_class #32770 ahk_pid " ai.pid)
+    clickControl()
+    if popupExist {
       Sleep(50)
-      ControlClick("x" x " y" y, cpl["id"],,,, "Pos")
-    } else {
-      ControlClick("x" x " y" y, cpl["id"],,,, "Pos")
+      clickControl()
     }
   }
 
@@ -187,11 +195,11 @@ aiClickCpanel(item) {
       try {
         x := cpl["x"].Location.x - cpl["root"].Location.x
         y := cpl["x"].Location.y - cpl["root"].Location.y
-        clickControl()
+        forceClickControl()
       } catch {
         x := cpl["transform"].Location.x - cpl["root"].Location.x
         y := cpl["transform"].Location.y - cpl["root"].Location.y
-        clickControl()
+        forceClickControl()
       } finally {
         movePopup()
       }
@@ -199,7 +207,7 @@ aiClickCpanel(item) {
     case "fillColor", "strokeColor", "strokeWidth":
       x := cpl[item].Location.x - cpl["root"].Location.x
       y := cpl[item].Location.y - cpl["root"].Location.y
-      clickControl()
+      forceClickControl()
       movePopup()
 
     case "strokeUp", "strokeDown":
@@ -207,7 +215,7 @@ aiClickCpanel(item) {
       xShift := aiUiScaling(15)
       x := cpl["strokeWidth"].BoundingRectangle.r - cpl["root"].Location.x + xShift
       y := cpl["strokeWidth"].BoundingRectangle.t - cpl["root"].Location.y + yShift
-      ControlClick("x" x " y" y, cpl["id"],,,, "Pos")
+      clickControl()
   }
   mousePos("pop")
 }
@@ -568,18 +576,16 @@ aiInit() {
       return
     }
 
-    dragCondition := 'aiMode("app") and (GetKeyState("LButton") or GetKeyState("MButton"))'
+    ;make outline/preview work while dragging
+    if (v := p.kys["menus"]["keys"].indexOf("preview")).hasValue {
+      HotIfWinActive("ahk_pid " ai.pid) and HotIf('aiMode("app")')
+      Hotkey(v.value, (k, *) => aiOutlinePreview())
+    }
 
-    items := Map(
-      "preview", "View > Outline-Preview",
-      "Snapomatic on-off menu item", "View > Smart Guides"
-    )
-
-    for name, cmd in items {
-      if (v := p.kys["menus"]["keys"].indexOf(name)).hasValue {
-        HotIfWinActive("ahk_pid " ai.pid) and HotIf(dragCondition)
-        Hotkey(v.value, ((cmd, *) => aiRunMenu(cmd)).Bind(cmd))
-      }
+    ;make toggle smart guides work while dragging
+    if (v := p.kys["menus"]["keys"].indexOf("Snapomatic on-off menu item")).hasValue {
+      HotIfWinActive("ahk_pid " ai.pid) and HotIf('aiMode("app")')
+      Hotkey(v.value, (k, *) => aiRunMenu("View > Smart Guides"))
     }
   }
 
@@ -1256,7 +1262,6 @@ aiOpenPrefsDir(subDir := "") {
   hk("Open '" dir "'")
 }
 
-;same as aiRunMenu("View > Outline-Preview")
 aiOutlinePreview(*) {
   SetTimer(() {
     dhw := A_DetectHiddenWindows

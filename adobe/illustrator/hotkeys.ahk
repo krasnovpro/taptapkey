@@ -20,9 +20,6 @@
     m.Show()
   }
 
-                    ;for ai.toggleWhileDrag
-  #HotIf            aiMode("app") and (GetKeyState("LButton") or GetKeyState("MButton"))
-
   #HotIf            aiMode("*widget")
     CapsLock::      getTapTime(), capsLock()
     ~CapsLock up::  (getTapTime("up") > 200) ? capsLock() : aiWidgetFuncs("CapsLock")
