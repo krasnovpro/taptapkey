@@ -7,7 +7,7 @@
 #Requires AutoHotkey v2.1-a
 #SingleInstance Ignore
 
-A_IconTip := "Taptapkey`nv1.7.15" ;2025.12.15
+A_IconTip := "Taptapkey`nv1.7.16"
 A_MaxHotkeysPerInterval := 333
 A_MenuMaskKey := "vkE8"
 
