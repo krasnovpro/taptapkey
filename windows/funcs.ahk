@@ -167,6 +167,24 @@ winDropbox(*) {
   }
 }
 
+winIsDpiScaling() {
+  result := false
+  regPath := "HKCU\Control Panel\Desktop"
+  if RegRead(regPath, "Win8DpiScaling", false) {
+    scaling := RegRead(regPath, "LogPixels", 96) / 96
+    result := (scaling > 1) ? true : false
+  } else {
+    loop reg, regPath "\PerMonitorSettings", "K" {
+      regBranch := regPath "\PerMonitorSettings\" A_LoopRegName
+      if RegRead(regBranch, "DpiValue", false) {
+        result := true
+        break
+      }
+    }
+  }
+  return result
+}
+
 ;switch keyboard layout: one or two languages (second with longtap)
 winLayout(firstLayout := "", secondLayout := "") {
   static oldTickCount := 0
