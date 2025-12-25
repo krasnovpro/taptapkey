@@ -20,9 +20,8 @@ Transparency Flattener Presets
 Vectorizing Presets
 *.kys
 
-backup.cmd
-prepare.cmd
-backup.txt
+backup_ai_prefs.cmd
+prepare_ai_symlinks.cmd
 Fonts\
 Plug-ins off\
 Resources\
