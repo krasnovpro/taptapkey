@@ -154,7 +154,6 @@ aiClickCpanel(item) {
     "strokeDown"
   ]
   cpl := ai.app[ai.pid].cpl
-  offset := aiUiScaling(2)
 
   movePopup() {
     if WinWaitActive("Title",, 2) {
@@ -165,16 +164,14 @@ aiClickCpanel(item) {
 
   clickControl() {
     CoordMode("Mouse", "Screen")
-    cx := x + cpl["root"].Location.x + offset
-    cy := y + cpl["root"].Location.y + offset
-    MouseClick(, cx, cy)
-    ; ControlClick("x" x " y" y, cpl["id"],,,, "Pos")
+    offset := aiUiScaling(2)
+    MouseClick(, x + offset, y + offset)
   }
 
   forceClickControl() {
-    popupExist := WinExist("Title ahk_class #32770 ahk_pid " ai.pid)
+    winAlreadyPopped := WinExist("Title ahk_class #32770 ahk_pid " ai.pid)
     clickControl()
-    if popupExist {
+    if winAlreadyPopped {
       Sleep(50)
       clickControl()
     }
@@ -193,28 +190,27 @@ aiClickCpanel(item) {
   switch item, 0 {
     case "transform":
       try {
-        x := cpl["x"].Location.x - cpl["root"].Location.x
-        y := cpl["x"].Location.y - cpl["root"].Location.y
-        forceClickControl()
+        x := cpl["x"].Location.x
+        y := cpl["x"].Location.y
       } catch {
-        x := cpl["transform"].Location.x - cpl["root"].Location.x
-        y := cpl["transform"].Location.y - cpl["root"].Location.y
-        forceClickControl()
+        x := cpl["transform"].Location.x
+        y := cpl["transform"].Location.y
       } finally {
+        forceClickControl()
         movePopup()
       }
 
     case "fillColor", "strokeColor", "strokeWidth":
-      x := cpl[item].Location.x - cpl["root"].Location.x
-      y := cpl[item].Location.y - cpl["root"].Location.y
+      x := cpl[item].Location.x
+      y := cpl[item].Location.y
       forceClickControl()
       movePopup()
 
     case "strokeUp", "strokeDown":
-      yShift := aiUiScaling((item = "strokeDown") ? 15 : 5)
-      xShift := aiUiScaling(15)
-      x := cpl["strokeWidth"].BoundingRectangle.r - cpl["root"].Location.x + xShift
-      y := cpl["strokeWidth"].BoundingRectangle.t - cpl["root"].Location.y + yShift
+      yOffset := aiUiScaling((item = "strokeUp") ? 0 : 10)
+      xOffset := aiUiScaling(15)
+      x := cpl["strokeWidth"].BoundingRectangle.r + xOffset
+      y := cpl["strokeWidth"].BoundingRectangle.t + yOffset
       clickControl()
   }
   mousePos("pop")
