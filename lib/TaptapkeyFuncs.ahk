@@ -41,6 +41,14 @@ ttk.link := "https://github.com/krasnovpro/taptapkey"
       this.wvc := WebView2.CreateControllerAsync(this.gui.hwnd).await2()
       this.wvc.DefaultBackgroundColor := 0
       this.wvc.MoveFocus(0)
+
+      ;ensure WebView renders at device scale factor 1
+      try {
+        this.wvc.ShouldDetectMonitorScaleChanges := 0
+        this.wvc.RasterizationScale := 1.0
+        this.wvc.BoundsMode := WebView2.BOUNDS_MODE.USE_RAW_PIXELS
+      }
+
       this.wv := this.wvc.CoreWebView2
 
       this.wv.SetVirtualHostNameToFolderMapping(
