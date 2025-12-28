@@ -190,6 +190,18 @@ input[type="checkbox"] {
         input[type="checkbox"] {
           margin-right: var(--margin);
         }
+
+        .units {
+          font-size: var(--font-size);
+          margin-right: var(--margin);
+          align-items: center;
+          display: inline-flex;
+
+          span {
+            cursor: pointer;
+            padding: calc(var(--margin)/2) var(--margin);
+          }
+        }
       }
     }
 
