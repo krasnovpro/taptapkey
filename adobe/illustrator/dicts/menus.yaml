@@ -1522,7 +1522,7 @@ substitutes:
 
 
 bugs:
-  # The commands below produces PARM error, when calls in executeMenuCommand
+  # The commands below cause a PARM error if the Illustrator version is below 29.4
 
   - _GenericPluginMenuItem 25
   - ~bullet

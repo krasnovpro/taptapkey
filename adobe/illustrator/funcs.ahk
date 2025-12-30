@@ -1503,7 +1503,8 @@ aiRunMenu(item) {
   if command == false {
     err(item "`nis not supported by your AI version")
   } else {
-    if ai.dict.menus["bugs"].includes(command) {
+    if VerCompare(ai.app[ai.pid].ver, "<29.4")
+    and ai.dict.menus["bugs"].includes(command) {
       err("The '" item "' cannot be runned due to a PARM error.")
     } else {
       code := "try {app.executeMenuCommand('" command "')} catch (e) {throw e}"
