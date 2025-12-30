@@ -1682,8 +1682,10 @@
             - View > Perspective Grid > Snap to Grid
 
         - text: Pixel
-          hint: Disabled
           key: x
+          action:
+            - aiRunMenu
+            - View > Snap to Pixel
 
         - text: Point
           key: f
@@ -1777,18 +1779,25 @@
             - aiRunScript
             - prefs > set > constrain angle 45
 
-    -
-
     - text: Zoom Selection
       key: Space
       action:
         - aiRunScript
         - object > zoom > selected
 
+    -
+
     - text: Outline / Preview
       key: y
       action:
-        - aiOutlinePreview
+        - aiRunMenu
+        - View > Outline-Preview
+
+    - text: Overprint Preview
+      key: v
+      action:
+        - aiRunMenu
+        - View > Overprint Preview
 
     - text: Pixel Preview
       key: x
@@ -1796,11 +1805,11 @@
         - aiRunMenu
         - View > Pixel Preview
 
-    - text: Overprint Preview
-      key: v
+    - text: Trim View
+      key: t
       action:
         - aiRunMenu
-        - View > Overprint Preview
+        - View > Trim View
 
     - column: break
 
