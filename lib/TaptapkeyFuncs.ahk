@@ -4,6 +4,7 @@
 ttk := {} ;taptapkey variables object
 ttk.dir := A_ScriptDir
 ttk.link := "https://github.com/krasnovpro/taptapkey"
+ttk.tags := "https://api.github.com/repos/krasnovpro/taptapkey/tags"
 
 ;;CLASSES
   class WidgetBase {
@@ -508,6 +509,48 @@ cd(file, subPath := "") {
   result := dirName(file) subPath
   SetWorkingDir(result)
   return result
+}
+
+checkForTaptapkeyUpdate() {
+  lastUpdateFile := "last_update.txt"
+
+  if FileExist(lastUpdateFile) {
+    lastUpdate := Trim(FileRead(lastUpdateFile))
+  } else {
+    lastUpdate := false
+  }
+
+  if lastUpdate and (lastUpdate > DateAdd(A_NowUTC, -7, "Days")) {
+    return
+  }
+
+  try {
+    http := ComObject("WinHttp.WinHttpRequest.5.1")
+    http.Open("GET", ttk.tags, true)
+    http.SetRequestHeader("User-Agent", "Taptapkey-Update-Checker")
+    http.Send()
+    http.WaitForResponse()
+
+    if (http.Status != 200) {
+      return
+    }
+
+    if RegExMatch(http.ResponseText, '"name"\s*:\s*"([^"]+)"', &m) {
+      latestTag := m[1]
+
+      if VerCompare(latestTag, ">" ttk.ver) {
+        if MsgBox(
+          "The new version available: " latestTag "`n"
+          . "Open the website to download the latest version?",
+          "Taptapkey Update", "YesNo Icon? T15"
+        ) = "Yes" {
+          Run(ttk.link)
+        }
+      }
+
+      fileWrite(A_NowUTC, lastUpdateFile)
+    }
+  }
 }
 
 ;convert string of chars to hex with separator

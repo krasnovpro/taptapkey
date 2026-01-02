@@ -9,6 +9,7 @@
 *.svg text eol=lf
 *.txt text eol=lf
 *.yaml text eol=lf
+last_update.txt         export-ignore
 .idea                   export-ignore
 .vscode                 export-ignore
 *.code-workspace        export-ignore
