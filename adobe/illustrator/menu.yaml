@@ -3991,6 +3991,14 @@
       action:
         - aiClickHome
 
+    - text: 3D and Materials
+      link: https://helpx.adobe.com/illustrator/desktop/special-effects-styles/create-3d-graphics/3d-materials-panel-options.html
+      icon: '#window/3d_and_materials'
+      key: 3
+      action:
+        - aiRunMenu
+        - Window > 3D and Materials
+
     - text: Actions
       link: https://helpx.adobe.com/illustrator/desktop/automate-visualize-data/automate-actions/actions-panel-overview.html
       icon: '#window/actions'
@@ -4047,6 +4055,14 @@
         - aiRunMenu
         - Window > Color
 
+    - text: Control
+      link: https://helpx.adobe.com/illustrator/desktop/get-started/learn-the-basics/control-panel-overview.html
+      icon: '#window/control'
+      key: q
+      action:
+        - aiRunMenu
+        - Window > Control
+
     - text: Document Info
       link: https://helpx.adobe.com/illustrator/using/file-information-metadata.html
       icon: '#window/document_info'
@@ -4054,6 +4070,8 @@
       action:
         - aiRunMenu
         - Window > Document Info
+
+    - column: break
 
     - text: Gradient
       link: https://helpx.adobe.com/illustrator/desktop/paint-and-fill/create-and-edit-gradients/apply-a-predefined-gradient.html
@@ -4063,24 +4081,6 @@
         - aiRunMenu
         - Window > Gradient
 
-    - column: break
-
-    - text: Control
-      link: https://helpx.adobe.com/illustrator/desktop/get-started/learn-the-basics/control-panel-overview.html
-      icon: '#window/control'
-      key: q
-      action:
-        - aiRunMenu
-        - Window > Control
-
-    - text: 3D and Materials
-      link: https://helpx.adobe.com/illustrator/desktop/special-effects-styles/create-3d-graphics/3d-materials-panel-options.html
-      icon: '#window/3d_and_materials'
-      key: 3
-      action:
-        - aiRunMenu
-        - Window > 3D and Materials
-
     - text: History
       link: https://helpx.adobe.com/illustrator/using/recovery-undo-automation.html
       icon: '#window/history'
@@ -4089,6 +4089,14 @@
         - aiRunMenu
         - Window > History
 
+    - text: Image Trace
+      link: https://helpx.adobe.com/illustrator/desktop/manage-objects/traces-mockups-symbols/image-trace-panel-options.html
+      icon: '#window/image_trace'
+      key: 5
+      action:
+        - aiRunMenu
+        - Window > Image Trace
+
     - text: Layers
       link: https://helpx.adobe.com/illustrator/desktop/manage-layers/create-and-organize-layers/layers-panel-overview.html
       icon: '#window/layers'
@@ -4096,6 +4104,14 @@
       action:
         - aiRunMenu
         - Window > Layers
+
+    - text: Links
+      link: https://helpx.adobe.com/illustrator/using/manage-linked-and-embedded-files.html
+      icon: '#window/links'
+      key: x
+      action:
+        - aiRunMenu
+        - Window > Links
 
     - text: Navigator
       link: https://helpx.adobe.com/illustrator/using/viewing-artwork.html
